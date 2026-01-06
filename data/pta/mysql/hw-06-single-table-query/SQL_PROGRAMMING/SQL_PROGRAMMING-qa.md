@@ -46,7 +46,7 @@ CREATE TABLE student (
 ### Answer ✅
 
 ```sql
- SELECT sname, nation, phone
+SELECT sname, nation, phone
 FROM student
 WHERE sname LIKE '李%';
 ```
@@ -98,7 +98,7 @@ CREATE TABLE course (
 ### Answer ✅
 
 ```sql
- SELECT cno, cname
+SELECT cno, cname
 FROM course
 LIMIT 3;
 ```
@@ -153,7 +153,7 @@ CREATE TABLE students (
 ### Answer ✅
 
 ```sql
- SELECT sname, class
+SELECT sname, class
 FROM students
 WHERE sname LIKE '%明%' AND ssex = '男';
 ```
@@ -209,7 +209,7 @@ CREATE TABLE students (
 ### Answer ✅
 
 ```sql
- SELECT *
+SELECT *
 FROM students
 WHERE CHAR_LENGTH(sname) = 2;
 ```
@@ -259,7 +259,7 @@ CREATE TABLE student (
 ### Answer ✅
 
 ```sql
- SELECT *
+SELECT *
 FROM student
 WHERE sex = '男' 
   AND birth <= '1997-09-01';
@@ -302,7 +302,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT name, category_id, price 
+SELECT name, category_id, price 
 FROM sh_goods 
 ORDER BY category_id, price DESC;
 ```
@@ -344,7 +344,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- select id, category_id, name
+select id, category_id, name
 from sh_goods;
 ```
 
@@ -388,7 +388,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     name, 
     price AS old_price, 
     stock AS old_stock, 
@@ -437,7 +437,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT id, name, price 
+SELECT id, name, price 
 FROM sh_goods 
 WHERE price 
 BETWEEN 2000 AND 6000;
@@ -477,7 +477,7 @@ CREATE TABLE goods
 ### Answer ✅
 
 ```sql
- SELECT id, name, price 
+SELECT id, name, price 
 FROM goods 
 WHERE price IS NULL;
 ```
@@ -519,7 +519,7 @@ CREATE TABLE goods
 ### Answer ✅
 
 ```sql
- SELECT id, name, price FROM goods WHERE name LIKE '%pad%';
+SELECT id, name, price FROM goods WHERE name LIKE '%pad%';
 ```
 
 ## 12.
@@ -562,7 +562,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT id, name, price
+SELECT id, name, price
 FROM sh_goods
 WHERE category_id = 3 AND score = 5.00;
 ```
@@ -606,7 +606,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT name, price, score
+SELECT name, price, score
 FROM sh_goods
 WHERE score = 4.5 OR price < 10.00;
 ```
@@ -651,7 +651,7 @@ DepartmentID char(4)                            --系部编号
 ### Answer ✅
 
 ```sql
- SELECT DISTINCT DepartmentID 
+SELECT DISTINCT DepartmentID 
 FROM Teacher;
 ```
 
@@ -695,7 +695,7 @@ ClassID char(8)
 ### Answer ✅
 
 ```sql
- SELECT StudentName, Birth
+SELECT StudentName, Birth
 FROM Student
 WHERE Birth = (SELECT MAX(Birth) FROM Student);
 ```
@@ -735,7 +735,7 @@ DepartmentID char(4)              -- 系部编号
 ### Answer ✅
 
 ```sql
- SELECT ClassID 
+SELECT ClassID 
 FROM Class 
 WHERE StudentNum > 5;
 ```
@@ -784,7 +784,7 @@ primary key(CourseID,StudentID)
 ### Answer ✅
 
 ```sql
- SELECT MAX(Grade) AS max_grade
+SELECT MAX(Grade) AS max_grade
 FROM Grade
 WHERE CourseID = 'Dp010001';
 ```
@@ -831,7 +831,7 @@ primary key(CourseID,StudentID)
 ### Answer ✅
 
 ```sql
- SELECT StudentID, Grade
+SELECT StudentID, Grade
 FROM Grade
 WHERE CourseID = 'Dp010004'
 ORDER BY Grade DESC, StudentID ASC;
@@ -899,7 +899,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT sc.sno, sc.score
+SELECT sc.sno, sc.score
 FROM sc
 JOIN course ON sc.cno = course.cno
 WHERE course.cname LIKE '%数据库%' 
@@ -961,7 +961,7 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- UPDATE sc
+UPDATE sc
 JOIN cou ON sc.cno = cou.cno
 SET sc.grade = 60
 WHERE cou.cname = '高等数学' AND sc.grade < 60;
@@ -1011,7 +1011,7 @@ CREATE TABLE `warehouse` (
 ### Answer ✅
 
 ```sql
- INSERT INTO warehouse (Wno, City, Size)
+INSERT INTO warehouse (Wno, City, Size)
 VALUES ('D01', '绍兴', 11000);
 ```
 
@@ -1075,7 +1075,7 @@ CREATE TABLE `product` (
 ### Answer ✅
 
 ```sql
- UPDATE orders
+UPDATE orders
 JOIN product ON orders.Pid = product.Pid
 SET orders.QTY = orders.QTY * 1.4
 WHERE product.PName LIKE '%螺母%';
@@ -1116,7 +1116,7 @@ CREATE TABLE Product
 ### Answer ✅
 
 ```sql
- DELETE FROM Product
+DELETE FROM Product
 WHERE sale_price >= 100;
 ```
 
@@ -1205,7 +1205,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT *
+SELECT *
 FROM student
 WHERE birth < (SELECT birth birth FROM student WHERE sname = '伍容华');
 ```
@@ -1252,7 +1252,7 @@ CREATE TABLE `product` (
 ### Answer ✅
 
 ```sql
- SELECT *
+SELECT *
 FROM product
 WHERE Weight BETWEEN 40 AND 65;
 ```
@@ -1295,7 +1295,7 @@ CREATE TABLE `supplier` (
 ### Answer ✅
 
 ```sql
- SELECT *
+SELECT *
 FROM supplier
 WHERE City NOT IN ('上海', '北京', '天津');
 ```
@@ -1344,7 +1344,7 @@ CREATE TABLE `product` (
 ### Answer ✅
 
 ```sql
- SELECT Pid
+SELECT Pid
 FROM product
 WHERE PName LIKE '%M%' AND Weight > 30;
 ```
@@ -1394,7 +1394,7 @@ CREATE TABLE `employee` (
 ### Answer ✅
 
 ```sql
- SELECT Eid, EName
+SELECT Eid, EName
 FROM employee
 WHERE Wno IS NULL;
 ```
@@ -1433,7 +1433,7 @@ CREATE TABLE Product
 ### Answer ✅
 
 ```sql
- SELECT *
+SELECT *
 FROM Product
 WHERE purchase_price BETWEEN 50 AND 150;
 ```
@@ -1488,7 +1488,7 @@ CREATE TABLE `product` (
 ### Answer ✅
 
 ```sql
- SELECT PName, Weight_g / 1000 AS Weight_kg
+SELECT PName, Weight_g / 1000 AS Weight_kg
 FROM product;
 ```
 

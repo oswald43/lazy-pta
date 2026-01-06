@@ -38,7 +38,7 @@ zhang-15
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
 class PersonSortable implements Comparable<PersonSortable> {
@@ -144,7 +144,7 @@ li-17
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 // PersonSortable2 类
 class PersonSortable2 {
@@ -275,7 +275,7 @@ now annoucing result: 2-3
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 abstract class BallMatch {
     protected String result;
@@ -407,7 +407,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 // 抽象车类
 abstract class Car {
@@ -577,7 +577,7 @@ DD 3
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 abstract class Express {  // 去掉 public
     int weight;

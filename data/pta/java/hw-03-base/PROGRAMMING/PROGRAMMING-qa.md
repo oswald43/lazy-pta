@@ -25,7 +25,7 @@
 ### Answer ✅
 
 ```java
- import java.math.BigDecimal;
+import java.math.BigDecimal;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -73,7 +73,7 @@ M P N
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -148,7 +148,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -213,7 +213,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -284,7 +284,7 @@ Input Error!
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -380,7 +380,7 @@ fit
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

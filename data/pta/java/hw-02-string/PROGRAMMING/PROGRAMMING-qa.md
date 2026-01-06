@@ -43,7 +43,7 @@ true
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -156,7 +156,7 @@ other
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -260,7 +260,7 @@ JSP程序设计--20
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -387,7 +387,7 @@ end
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

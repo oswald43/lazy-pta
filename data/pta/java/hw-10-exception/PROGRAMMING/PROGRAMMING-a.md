@@ -3,7 +3,7 @@
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -38,7 +38,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 // 自定义异常类
 class InvalidScoreException extends Exception {
@@ -105,7 +105,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 // 自定义异常类
 class ScoreException extends Exception {
@@ -161,7 +161,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 // 自定义异常类
 class OverLoadException extends Exception {
@@ -226,7 +226,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

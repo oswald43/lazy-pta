@@ -35,7 +35,7 @@ Programming is fun!
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("Hello Java!");
         System.out.println("Programming is fun!");
@@ -92,7 +92,7 @@ Problem Driven
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) throws Exception {
         System.out.println("Programming is fun!");
         System.out.println("Fundamentals First");
@@ -130,7 +130,7 @@ Problem Driven
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -197,7 +197,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -255,7 +255,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("富强（Prosperity）、民主（Democracy）、文明（Civility）、和谐（Harmony）");
         System.out.println("自由（Freedom）、平等（Equality）、公正（Justice）、法治（Rule of Law）");

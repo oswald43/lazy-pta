@@ -3,7 +3,7 @@
 ### Answer ✅
 
 ```sql
- SELECT s.sno, s.sname, sc.grade
+SELECT s.sno, s.sname, sc.grade
 FROM stu s
 JOIN sc ON s.sno = sc.sno
 WHERE sc.cno = 'C002'
@@ -16,7 +16,7 @@ LIMIT 2;
 ### Answer ✅
 
 ```sql
- UPDATE sc
+UPDATE sc
 SET grade = grade * 1.05
 WHERE sno IN (
     SELECT sno 
@@ -31,7 +31,7 @@ AND grade < 75;
 ### Answer ✅
 
 ```sql
- DELETE sc
+DELETE sc
 FROM sc
 JOIN stu ON sc.sno = stu.sno
 JOIN cou ON sc.cno = cou.cno
@@ -44,7 +44,7 @@ WHERE stu.sex = 0  -- 0表示女生（根据表结构定义）
 ### Answer ✅
 
 ```sql
- SELECT ProductID, ProductName
+SELECT ProductID, ProductName
 FROM products
 WHERE UnitsInStock < UnitsOnOrder;
 ```
@@ -54,7 +54,7 @@ WHERE UnitsInStock < UnitsOnOrder;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   ReportsTo AS EmployeeID, 
   COUNT(EmployeeID) AS countSub
 FROM employees
@@ -67,7 +67,7 @@ GROUP BY ReportsTo;  -- 按上级编号分组，统计每个上级的下属数�
 ### Answer ✅
 
 ```sql
- SELECT sname
+SELECT sname
 FROM stu
 WHERE birdate > (
     SELECT MAX(birdate)
@@ -82,7 +82,7 @@ WHERE birdate > (
 ### Answer ✅
 
 ```sql
- SELECT sname
+SELECT sname
 FROM stu
 JOIN major ON stu.mno = major.mno
 WHERE major.mname = '软件工程'
@@ -99,7 +99,7 @@ AND birdate = (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     cou.cno AS 课程号 ,
     cou.cname AS 课程名 ,
     MAX(sc.grade) AS 最高成绩,
@@ -119,7 +119,7 @@ HAVING
 ### Answer ✅
 
 ```sql
- INSERT INTO stu (sno, sname, sex, nation, pnum, birth, phone, dept)
+INSERT INTO stu (sno, sname, sex, nation, pnum, birth, phone, dept)
 SELECT sno, sname, sex, nation, pnum, birth, phone, dept
 FROM student
 WHERE dept = '数计学院';
@@ -130,7 +130,7 @@ WHERE dept = '数计学院';
 ### Answer ✅
 
 ```sql
- SELECT g.gid, g.gname, g.price, g.stock
+SELECT g.gid, g.gname, g.price, g.stock
 FROM good g
 LEFT JOIN recorder r ON g.gid = r.gid
 WHERE r.gid IS NULL;
@@ -141,7 +141,7 @@ WHERE r.gid IS NULL;
 ### Answer ✅
 
 ```sql
- SELECT cno AS 课程号
+SELECT cno AS 课程号
 FROM sc
 WHERE sno = 'S001'
 AND cno NOT IN (
@@ -156,7 +156,7 @@ AND cno NOT IN (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   s.sname AS 姓名,
   m.mname AS 专业名,
   SUM(c.credit) AS 总学分
@@ -175,7 +175,7 @@ HAVING
 ### Answer ✅
 
 ```sql
- SELECT COUNT(DISTINCT cno) AS 门数
+SELECT COUNT(DISTINCT cno) AS 门数
 FROM sc;
 ```
 
@@ -184,7 +184,7 @@ FROM sc;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   cno AS 课程号,
   COUNT(sno) AS 选修人数
 FROM sc
@@ -198,7 +198,7 @@ LIMIT 3;
 ### Answer ✅
 
 ```sql
- SELECT sname
+SELECT sname
 FROM students
 WHERE sdept = (
     SELECT sdept
@@ -213,7 +213,7 @@ AND sname != '陆毅';  -- 排除陆毅本人
 ### Answer ✅
 
 ```sql
- SELECT g.id, g.name
+SELECT g.id, g.name
 FROM sh_goods g
 LEFT JOIN sh_goods_comment c ON g.id = c.goods_id
 WHERE c.goods_id IS NULL;
@@ -224,7 +224,7 @@ WHERE c.goods_id IS NULL;
 ### Answer ✅
 
 ```sql
- SELECT g.name, c.content
+SELECT g.name, c.content
 FROM sh_goods_comment c
 JOIN sh_goods g ON c.goods_id = g.id
 WHERE g.score = 5.00;
@@ -235,7 +235,7 @@ WHERE g.score = 5.00;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   g.id AS gid,
   g.category_id AS cid,
   c.name AS cname,
@@ -250,7 +250,7 @@ WHERE g.score = 5.00;
 ### Answer ✅
 
 ```sql
- SELECT
+SELECT
     name
 FROM
     sh_goods_category
@@ -263,7 +263,7 @@ WHERE
 ### Answer ✅
 
 ```sql
- SELECT
+SELECT
     s.sno,
     s.sname,
     s.dept
@@ -289,7 +289,7 @@ WHERE
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   c.cno,
   c.cname,
   COUNT(sc.sno) AS total
@@ -304,7 +304,7 @@ GROUP BY c.cno, c.cname;
 ### Answer ✅
 
 ```sql
- SELECT s.sname, s.dept
+SELECT s.sname, s.dept
 FROM student s
 JOIN score sc ON s.sno = sc.sno
 JOIN course c ON sc.cno = c.cno
@@ -316,7 +316,7 @@ WHERE c.cname = '大学语文' AND sc.grade > 80;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   e.empno, 
   e.ename, 
   e.sal, 
@@ -330,7 +330,7 @@ JOIN salgrade s ON e.sal BETWEEN s.losal AND s.hisal;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   e.empno AS 员工编号,
   e.ename AS 员工姓名,
   m.empno AS 上司编号,
@@ -344,7 +344,7 @@ LEFT JOIN emp m ON e.mgr = m.empno;
 ### Answer ✅
 
 ```sql
- SELECT d.DepartmentHeader
+SELECT d.DepartmentHeader
 FROM Teacher t
 JOIN Department d ON t.DepartmentID = d.DepartmentID
 WHERE t.TeacherID = 'dep01001';
@@ -355,7 +355,7 @@ WHERE t.TeacherID = 'dep01001';
 ### Answer ✅
 
 ```sql
- SELECT s.StudentID, s.StudentName, s.Sex
+SELECT s.StudentID, s.StudentName, s.Sex
 FROM Student s
 LEFT JOIN Grade g ON s.StudentID = g.StudentID
 WHERE g.StudentID IS NULL;
@@ -366,7 +366,7 @@ WHERE g.StudentID IS NULL;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   s.sno,
   s.sname,
   c.cno,
@@ -383,7 +383,7 @@ JOIN course c ON sc.cno = c.cno;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   s1.sno AS 学号,
   c.cname AS 课程名,
   s1.grade AS 成绩
@@ -401,7 +401,7 @@ WHERE s1.grade > (
 ### Answer ✅
 
 ```sql
- SELECT s.sname
+SELECT s.sname
 FROM stu s
 WHERE NOT EXISTS (
   -- 张老师的课程中，该学生未选修的课程
@@ -423,7 +423,7 @@ WHERE NOT EXISTS (
 ### Answer ✅
 
 ```sql
- SELECT c.cno, c.cname
+SELECT c.cno, c.cname
 FROM course c
 LEFT JOIN score sc ON c.cno = sc.cno
 WHERE sc.cno IS NULL;
@@ -434,7 +434,7 @@ WHERE sc.cno IS NULL;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   sno AS 学号, 
   ROUND(AVG(grade), 1) AS 平均成绩
 FROM score
@@ -447,7 +447,7 @@ HAVING COUNT(cno) >= 2;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   gid AS 商品编号, 
   SUM(quantity) AS 销售总数量
 FROM recorder
@@ -459,7 +459,7 @@ GROUP BY gid;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   AVG(score) AS 平均分,
   MAX(score) AS 最高分,
   MIN(score) AS 最低分
@@ -472,7 +472,7 @@ WHERE cno = '0000001';
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     sno AS 学号,
     COUNT(cno) AS 选课门数,
     SUM(score) AS 考试总成绩
@@ -489,7 +489,7 @@ ORDER BY
 ### Answer ✅
 
 ```sql
- SELECT keyword, COUNT(id) AS goodscount
+SELECT keyword, COUNT(id) AS goodscount
 FROM sh_goods
 GROUP BY keyword;
 ```
@@ -499,7 +499,7 @@ GROUP BY keyword;
 ### Answer ✅
 
 ```sql
- SELECT category_id, MAX(price) AS max_price
+SELECT category_id, MAX(price) AS max_price
 FROM sh_goods
 GROUP BY category_id;
 ```
@@ -509,7 +509,7 @@ GROUP BY category_id;
 ### Answer ✅
 
 ```sql
- SELECT MAX(stock) AS stock1, MIN(stock) AS stock2
+SELECT MAX(stock) AS stock1, MIN(stock) AS stock2
 FROM sh_goods;
 ```
 
@@ -518,7 +518,7 @@ FROM sh_goods;
 ### Answer ✅
 
 ```sql
- SELECT category_id, AVG(price) AS average
+SELECT category_id, AVG(price) AS average
 FROM sh_goods
 GROUP BY category_id
 HAVING COUNT(*) > 2;
@@ -529,7 +529,7 @@ HAVING COUNT(*) > 2;
 ### Answer ✅
 
 ```sql
- SELECT StudentName, Birth
+SELECT StudentName, Birth
 FROM Student
 WHERE Birth = (SELECT MAX(Birth) FROM Student);
 ```
@@ -539,7 +539,7 @@ WHERE Birth = (SELECT MAX(Birth) FROM Student);
 ### Answer ✅
 
 ```sql
- SELECT ClassID
+SELECT ClassID
 FROM Class
 WHERE StudentNum > 5;
 ```

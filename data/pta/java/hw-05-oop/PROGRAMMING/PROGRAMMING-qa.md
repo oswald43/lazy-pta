@@ -49,7 +49,7 @@ Person [name=null, age=0, gender=false, id=3]
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -160,7 +160,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -247,7 +247,7 @@ exit
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {

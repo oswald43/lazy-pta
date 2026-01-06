@@ -36,7 +36,7 @@ DepartmentID char(4)                            --系部编号
 ### Answer ✅
 
 ```sql
- SELECT * FROM Teacher ORDER BY TeacherID ASC;
+SELECT * FROM Teacher ORDER BY TeacherID ASC;
 ```
 
 ## 2.
@@ -76,7 +76,7 @@ CREATE TABLE goods
 ### Answer ✅
 
 ```sql
- SELECT id, name, price FROM goods WHERE name LIKE '%pad%';
+SELECT id, name, price FROM goods WHERE name LIKE '%pad%';
 ```
 
 ## 3.
@@ -116,7 +116,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT id, category_id, name FROM sh_goods;
+SELECT id, category_id, name FROM sh_goods;
 ```
 
 ## 4.
@@ -186,7 +186,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT sno, sname, class FROM students WHERE sno NOT IN (SELECT sno FROM sc);
+SELECT sno, sname, class FROM students WHERE sno NOT IN (SELECT sno FROM sc);
 ```
 
 ## 5.
@@ -238,7 +238,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT ProductID, ProductName FROM products WHERE UnitsInStock < UnitsOnOrder;
+SELECT ProductID, ProductName FROM products WHERE UnitsInStock < UnitsOnOrder;
 ```
 
 ## 6.
@@ -284,7 +284,7 @@ CREATE TABLE  sc  (
 ### Answer ✅
 
 ```sql
- SELECT cno AS '课程号' FROM sc WHERE sno = 'S001' EXCEPT SELECT cno FROM sc WHERE sno = 'S003';
+SELECT cno AS '课程号' FROM sc WHERE sno = 'S001' EXCEPT SELECT cno FROM sc WHERE sno = 'S003';
 ```
 
 ## 7.
@@ -350,7 +350,7 @@ CREATE TABLE `orders` (
 ### Answer ✅
 
 ```sql
- SELECT DISTINCT e.Eid, e.EName FROM employee e WHERE e.Eid <> '0011' AND NOT EXISTS (SELECT p.Pid FROM orders p WHERE p.Eid = '0011' AND NOT EXISTS (SELECT 1 FROM orders o WHERE o.Eid = e.Eid AND o.Pid = p.Pid));
+SELECT DISTINCT e.Eid, e.EName FROM employee e WHERE e.Eid <> '0011' AND NOT EXISTS (SELECT p.Pid FROM orders p WHERE p.Eid = '0011' AND NOT EXISTS (SELECT 1 FROM orders o WHERE o.Eid = e.Eid AND o.Pid = p.Pid));
 ```
 
 ## 8.
@@ -397,7 +397,7 @@ CREATE TABLE `employee` (
 ### Answer ✅
 
 ```sql
- SELECT Eid, EName FROM employee WHERE Wno = 'A01' AND Salary < ANY (SELECT Salary FROM employee WHERE Wno = 'A02');
+SELECT Eid, EName FROM employee WHERE Wno = 'A01' AND Salary < ANY (SELECT Salary FROM employee WHERE Wno = 'A02');
 ```
 
 ## 9.
@@ -456,7 +456,7 @@ CREATE TABLE sh_goods_comment (
 ### Answer ✅
 
 ```sql
- SELECT g.name, c.content
+SELECT g.name, c.content
 FROM sh_goods g
 JOIN sh_goods_comment c ON g.id = c.goods_id
 WHERE g.score = 5.00;
@@ -533,6 +533,6 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- DELETE sc FROM sc JOIN stu ON sc.sno = stu.sno JOIN cou ON sc.cno = cou.cno WHERE cou.cname = 'C语言' AND stu.sex = 0;
+DELETE sc FROM sc JOIN stu ON sc.sno = stu.sno JOIN cou ON sc.cno = cou.cno WHERE cou.cname = 'C语言' AND stu.sex = 0;
 ```
 

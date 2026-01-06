@@ -3,7 +3,7 @@
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,7 +51,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.regex.Pattern;
+import java.util.regex.Pattern;
 import java.util.Scanner;
 
 public class Main {
@@ -69,7 +69,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Main {
@@ -93,7 +93,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.math.BigDecimal;
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
@@ -114,7 +114,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -134,7 +134,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -153,7 +153,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -172,7 +172,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -198,7 +198,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -229,7 +229,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("车牌号码是7744");
     }
@@ -241,7 +241,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -258,7 +258,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -280,7 +280,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -301,7 +301,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -320,7 +320,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -388,7 +388,7 @@ class Person {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -418,7 +418,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -438,7 +438,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
@@ -482,7 +482,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -500,7 +500,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -526,7 +526,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -549,7 +549,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -582,7 +582,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -598,7 +598,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -644,7 +644,7 @@ class PersonSortable implements Comparable<PersonSortable> {
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
@@ -704,7 +704,7 @@ class AgeComparator implements Comparator<PersonSortable2> {
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -733,7 +733,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -747,7 +747,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -771,7 +771,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -801,7 +801,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("杨利伟 1\n" +
                            "费俊龙 1\n" +
@@ -823,7 +823,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 class ScoreException extends Exception {
     private String message;
@@ -870,7 +870,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 class OverLoadException extends Exception {
     String message;
@@ -918,7 +918,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {

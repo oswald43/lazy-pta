@@ -3,7 +3,7 @@
 ### Answer ✅
 
 ```sql
- SELECT pno
+SELECT pno
 FROM spj
 GROUP BY pno
 HAVING MIN(qty) > (SELECT MAX(qty) FROM spj WHERE pno = 'p6');
@@ -14,7 +14,7 @@ HAVING MIN(qty) > (SELECT MAX(qty) FROM spj WHERE pno = 'p6');
 ### Answer ✅
 
 ```sql
- SELECT p.maker
+SELECT p.maker
 FROM product p
 JOIN pc ON p.model = pc.model  -- 关联产品表和PC表，筛选PC类型产品
 GROUP BY p.maker               -- 按厂商分组
@@ -26,7 +26,7 @@ HAVING COUNT(DISTINCT p.model) >= 3;  -- 统计该厂商的PC型号数，筛选�
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     s.sno,
     s.sname,
     sc.cno,
@@ -42,7 +42,7 @@ LEFT JOIN
 ### Answer ✅
 
 ```sql
- SELECT CAST(COUNT(*) AS SIGNED INTEGER) AS `count(*)`
+SELECT CAST(COUNT(*) AS SIGNED INTEGER) AS `count(*)`
 FROM product
 WHERE PName LIKE '%螺母%';
 ```
@@ -52,7 +52,7 @@ WHERE PName LIKE '%螺母%';
 ### Answer ✅
 
 ```sql
- SELECT MAX(Salary) AS max_Salary, MIN(Salary) AS min_Salary
+SELECT MAX(Salary) AS max_Salary, MIN(Salary) AS min_Salary
 FROM employee;
 ```
 
@@ -61,7 +61,7 @@ FROM employee;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     Wno, 
     COUNT(Eid) AS Count_Eid
 FROM 
@@ -77,7 +77,7 @@ GROUP BY
 ### Answer ✅
 
 ```sql
- SELECT Eid, EName
+SELECT Eid, EName
 FROM employee
 WHERE Wno = 'A01' 
   AND Salary > (SELECT MAX(Salary) FROM employee WHERE Wno = 'A02');
@@ -88,7 +88,7 @@ WHERE Wno = 'A01'
 ### Answer ✅
 
 ```sql
- SELECT Sid
+SELECT Sid
 FROM orders
 GROUP BY Sid
 HAVING SUM(QTY) = (SELECT MAX(total_qty) 
@@ -102,7 +102,7 @@ HAVING SUM(QTY) = (SELECT MAX(total_qty)
 ### Answer ✅
 
 ```sql
- SELECT DISTINCT e.Eid, e.EName
+SELECT DISTINCT e.Eid, e.EName
 FROM employee e
 JOIN orders o ON e.Eid = o.Eid
 WHERE o.Pid IN (
@@ -119,7 +119,7 @@ AND e.Eid != '0011'; -- 排除'0011'号员工自身
 ### Answer ✅
 
 ```sql
- SELECT DISTINCT p.maker
+SELECT DISTINCT p.maker
 FROM product p
 JOIN pc ON p.model = pc.model
 WHERE pc.ram = (SELECT MIN(ram) FROM pc)
@@ -133,7 +133,7 @@ WHERE pc.ram = (SELECT MIN(ram) FROM pc)
 ### Answer ✅
 
 ```sql
- SELECT maker
+SELECT maker
 FROM (
     -- 筛选速度≥133的PC制造商及型号
     SELECT p.maker, p.model
@@ -157,7 +157,7 @@ ORDER BY maker ASC;  -- 按制造商升序排列
 ### Answer ✅
 
 ```sql
- SELECT Eid, EName
+SELECT Eid, EName
 FROM employee
 WHERE Wno = 'A01' 
   AND Salary < ANY (SELECT Salary FROM employee WHERE Wno = 'A02');
@@ -168,7 +168,7 @@ WHERE Wno = 'A01'
 ### Answer ✅
 
 ```sql
- SELECT
+SELECT
     dept AS 院部,
     CAST(COUNT(*) AS SIGNED INTEGER) AS 总人数
 FROM
@@ -184,7 +184,7 @@ ORDER BY
 ### Answer ✅
 
 ```sql
- SELECT sno AS 学号, AVG(grade) AS 平均分
+SELECT sno AS 学号, AVG(grade) AS 平均分
 FROM score
 GROUP BY sno
 HAVING COUNT(*) >= 2
@@ -196,7 +196,7 @@ ORDER BY sno;
 ### Answer ✅
 
 ```sql
- DELETE FROM sc
+DELETE FROM sc
 WHERE SCScore3 < 60;
 ```
 

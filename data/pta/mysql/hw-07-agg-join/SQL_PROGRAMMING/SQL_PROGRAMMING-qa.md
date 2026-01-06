@@ -56,7 +56,7 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- SELECT s.sno, s.sname, sc.grade
+SELECT s.sno, s.sname, sc.grade
 FROM stu s
 JOIN sc ON s.sno = sc.sno
 WHERE sc.cno = 'C002'
@@ -122,7 +122,7 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- UPDATE sc
+UPDATE sc
 SET grade = grade * 1.05
 WHERE sno IN (
     SELECT sno 
@@ -203,7 +203,7 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- DELETE sc
+DELETE sc
 FROM sc
 JOIN stu ON sc.sno = stu.sno
 JOIN cou ON sc.cno = cou.cno
@@ -260,7 +260,7 @@ WHERE stu.sex = 0  -- 0表示女生（根据表结构定义）
 ### Answer ✅
 
 ```sql
- SELECT ProductID, ProductName
+SELECT ProductID, ProductName
 FROM products
 WHERE UnitsInStock < UnitsOnOrder;
 ```
@@ -316,7 +316,7 @@ WHERE UnitsInStock < UnitsOnOrder;
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   ReportsTo AS EmployeeID, 
   COUNT(EmployeeID) AS countSub
 FROM employees
@@ -375,7 +375,7 @@ CREATE TABLE `major` (
 ### Answer ✅
 
 ```sql
- SELECT sname
+SELECT sname
 FROM stu
 WHERE birdate > (
     SELECT MAX(birdate)
@@ -440,7 +440,7 @@ CREATE TABLE `stu` (
 ### Answer ✅
 
 ```sql
- SELECT sname
+SELECT sname
 FROM stu
 JOIN major ON stu.mno = major.mno
 WHERE major.mname = '软件工程'
@@ -536,7 +536,7 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     cou.cno AS 课程号 ,
     cou.cname AS 课程名 ,
     MAX(sc.grade) AS 最高成绩,
@@ -601,7 +601,7 @@ CREATE TABLE student (
 ### Answer ✅
 
 ```sql
- INSERT INTO stu (sno, sname, sex, nation, pnum, birth, phone, dept)
+INSERT INTO stu (sno, sname, sex, nation, pnum, birth, phone, dept)
 SELECT sno, sname, sex, nation, pnum, birth, phone, dept
 FROM student
 WHERE dept = '数计学院';
@@ -666,7 +666,7 @@ CONSTRAINT recorder_gid_fk FOREIGN KEY (gid) REFERENCES good(gid)
 ### Answer ✅
 
 ```sql
- SELECT g.gid, g.gname, g.price, g.stock
+SELECT g.gid, g.gname, g.price, g.stock
 FROM good g
 LEFT JOIN recorder r ON g.gid = r.gid
 WHERE r.gid IS NULL;
@@ -715,7 +715,7 @@ CREATE TABLE  sc  (
 ### Answer ✅
 
 ```sql
- SELECT cno AS 课程号
+SELECT cno AS 课程号
 FROM sc
 WHERE sno = 'S001'
 AND cno NOT IN (
@@ -807,7 +807,7 @@ CREATE TABLE  sc  (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   s.sname AS 姓名,
   m.mname AS 专业名,
   SUM(c.credit) AS 总学分
@@ -865,7 +865,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT COUNT(DISTINCT cno) AS 门数
+SELECT COUNT(DISTINCT cno) AS 门数
 FROM sc;
 ```
 
@@ -916,7 +916,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   cno AS 课程号,
   COUNT(sno) AS 选修人数
 FROM sc
@@ -975,7 +975,7 @@ CREATE TABLE students (
 ### Answer ✅
 
 ```sql
- SELECT sname
+SELECT sname
 FROM students
 WHERE sdept = (
     SELECT sdept
@@ -1040,7 +1040,7 @@ CREATE TABLE sh_goods_comment (
 ### Answer ✅
 
 ```sql
- SELECT g.id, g.name
+SELECT g.id, g.name
 FROM sh_goods g
 LEFT JOIN sh_goods_comment c ON g.id = c.goods_id
 WHERE c.goods_id IS NULL;
@@ -1102,7 +1102,7 @@ CREATE TABLE sh_goods_comment (
 ### Answer ✅
 
 ```sql
- SELECT g.name, c.content
+SELECT g.name, c.content
 FROM sh_goods_comment c
 JOIN sh_goods g ON c.goods_id = g.id
 WHERE g.score = 5.00;
@@ -1162,7 +1162,7 @@ name VARCHAR(120) NOT NULL  --分类名称
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   g.id AS gid,
   g.category_id AS cid,
   c.name AS cname,
@@ -1228,7 +1228,7 @@ name VARCHAR(120) NOT NULL  --分类名称
 ### Answer ✅
 
 ```sql
- SELECT
+SELECT
     name
 FROM
     sh_goods_category
@@ -1319,7 +1319,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT
+SELECT
     s.sno,
     s.sname,
     s.dept
@@ -1423,7 +1423,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   c.cno,
   c.cname,
   COUNT(sc.sno) AS total
@@ -1514,7 +1514,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT s.sname, s.dept
+SELECT s.sname, s.dept
 FROM student s
 JOIN score sc ON s.sno = sc.sno
 JOIN course c ON sc.cno = c.cno
@@ -1582,7 +1582,7 @@ PRIMARY KEY (grade)
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   e.empno, 
   e.ename, 
   e.sal, 
@@ -1636,7 +1636,7 @@ PRIMARY KEY(empno)
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   e.empno AS 员工编号,
   e.ename AS 员工姓名,
   m.empno AS 上司编号,
@@ -1700,7 +1700,7 @@ TeacherNum int                              -- 教师数量
 ### Answer ✅
 
 ```sql
- SELECT d.DepartmentHeader
+SELECT d.DepartmentHeader
 FROM Teacher t
 JOIN Department d ON t.DepartmentID = d.DepartmentID
 WHERE t.TeacherID = 'dep01001';
@@ -1764,7 +1764,7 @@ primary key(CourseID,StudentID)
 ### Answer ✅
 
 ```sql
- SELECT s.StudentID, s.StudentName, s.Sex
+SELECT s.StudentID, s.StudentName, s.Sex
 FROM Student s
 LEFT JOIN Grade g ON s.StudentID = g.StudentID
 WHERE g.StudentID IS NULL;
@@ -1853,7 +1853,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   s.sno,
   s.sname,
   c.cno,
@@ -1921,7 +1921,7 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   s1.sno AS 学号,
   c.cname AS 课程名,
   s1.grade AS 成绩
@@ -2000,7 +2000,7 @@ CREATE TABLE `sc` (
 ### Answer ✅
 
 ```sql
- SELECT s.sname
+SELECT s.sname
 FROM stu s
 WHERE NOT EXISTS (
   -- 张老师的课程中，该学生未选修的课程
@@ -2100,7 +2100,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT c.cno, c.cname
+SELECT c.cno, c.cname
 FROM course c
 LEFT JOIN score sc ON c.cno = sc.cno
 WHERE sc.cno IS NULL;
@@ -2146,7 +2146,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   sno AS 学号, 
   ROUND(AVG(grade), 1) AS 平均成绩
 FROM score
@@ -2198,7 +2198,7 @@ CONSTRAINT salrecorder_gid_fk FOREIGN KEY (gid) REFERENCES good(gid)
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   gid AS 商品编号, 
   SUM(quantity) AS 销售总数量
 FROM recorder
@@ -2250,7 +2250,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
   AVG(score) AS 平均分,
   MAX(score) AS 最高分,
   MIN(score) AS 最低分
@@ -2317,7 +2317,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     sno AS 学号,
     COUNT(cno) AS 选课门数,
     SUM(score) AS 考试总成绩
@@ -2368,7 +2368,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT keyword, COUNT(id) AS goodscount
+SELECT keyword, COUNT(id) AS goodscount
 FROM sh_goods
 GROUP BY keyword;
 ```
@@ -2412,7 +2412,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT category_id, MAX(price) AS max_price
+SELECT category_id, MAX(price) AS max_price
 FROM sh_goods
 GROUP BY category_id;
 ```
@@ -2456,7 +2456,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT MAX(stock) AS stock1, MIN(stock) AS stock2
+SELECT MAX(stock) AS stock1, MIN(stock) AS stock2
 FROM sh_goods;
 ```
 
@@ -2501,7 +2501,7 @@ CREATE TABLE sh_goods (
 ### Answer ✅
 
 ```sql
- SELECT category_id, AVG(price) AS average
+SELECT category_id, AVG(price) AS average
 FROM sh_goods
 GROUP BY category_id
 HAVING COUNT(*) > 2;
@@ -2547,7 +2547,7 @@ ClassID char(8)
 ### Answer ✅
 
 ```sql
- SELECT StudentName, Birth
+SELECT StudentName, Birth
 FROM Student
 WHERE Birth = (SELECT MAX(Birth) FROM Student);
 ```
@@ -2587,7 +2587,7 @@ DepartmentID char(4)              -- 系部编号
 ### Answer ✅
 
 ```sql
- SELECT ClassID
+SELECT ClassID
 FROM Class
 WHERE StudentNum > 5;
 ```

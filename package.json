@@ -8,6 +8,7 @@
     "pta:login": "dotenvx run -- playwright test pta-login.spec.ts",
     "que-get": "dotenvx run -- playwright test question-get.spec.ts",
     "ans-get": "dotenvx run -- playwright test answer-get.spec.ts",
+    "data:rb": "find ./data/new -type f \\( -name \"*clean*\" -o -name \"*.md\" \\) -delete",
     "dev": "tsc --noEmit && dotenvx run -- tsx watch src/main.ts",
     "env:gen": "sed 's/=.*/=/' .env > .env.example"
   },

@@ -37,7 +37,7 @@
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args ){
         for (int i = 1000; i < 9999; i++) {
             int a = i / 1000;
@@ -86,7 +86,7 @@ yes
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -144,7 +144,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -193,7 +193,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -252,7 +252,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

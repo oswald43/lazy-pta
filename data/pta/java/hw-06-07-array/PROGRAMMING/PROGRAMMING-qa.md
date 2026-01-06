@@ -29,7 +29,7 @@ suggest
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 // 类名改为 Main，与文件名一致
 public class Main {
@@ -98,7 +98,7 @@ at
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -181,7 +181,7 @@ The Yellow River is the second longest river in China It originates in the north
 ### Answer ✅
 
 ```java
- import java.util.HashSet;
+import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -277,7 +277,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -345,7 +345,7 @@ zs
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -462,7 +462,7 @@ end
 ### Answer ✅
 
 ```java
- import java.util.LinkedHashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 

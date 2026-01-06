@@ -27,7 +27,7 @@
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -94,7 +94,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -163,7 +163,7 @@ true
 ### Answer ✅
 
 ```java
- import java.util.regex.Pattern;
+import java.util.regex.Pattern;
 import java.util.Scanner;
 
 public class Main {
@@ -254,7 +254,7 @@ end
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Main {
@@ -300,7 +300,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.math.BigDecimal;
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
@@ -346,7 +346,7 @@ M P N
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -414,7 +414,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -477,7 +477,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -545,7 +545,7 @@ Input Error!
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -619,7 +619,7 @@ fit
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -684,7 +684,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("车牌号码是7744");
     }
@@ -719,7 +719,7 @@ yes
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -763,7 +763,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -807,7 +807,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -852,7 +852,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -917,7 +917,7 @@ Person [name=null, age=0, gender=false, id=3]
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -1029,7 +1029,7 @@ now annoucing result: 2-3
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -1091,7 +1091,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -1151,7 +1151,7 @@ exit
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
@@ -1221,7 +1221,7 @@ suggest
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -1282,7 +1282,7 @@ at
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -1336,7 +1336,7 @@ The Yellow River is the second longest river in China It originates in the north
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -1408,7 +1408,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -1467,7 +1467,7 @@ zs
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -1518,7 +1518,7 @@ zhang-15
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -1618,7 +1618,7 @@ li-17
 ### Answer ✅
 
 ```java
- import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
@@ -1706,7 +1706,7 @@ java.lang.NumberFormatException: For input string: "b"
 ### Answer ✅
 
 ```java
- import java.util.Arrays;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -1798,7 +1798,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -1852,7 +1852,7 @@ DD 3
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -1921,7 +1921,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -2019,7 +2019,7 @@ end
 ### Answer ✅
 
 ```java
- public class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("杨利伟 1\n" +
                            "费俊龙 1\n" +
@@ -2086,7 +2086,7 @@ end
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 class ScoreException extends Exception {
     private String message;
@@ -2182,7 +2182,7 @@ public class Main {
 ### Answer ✅
 
 ```java
- import java.util.Scanner;
+import java.util.Scanner;
 
 class OverLoadException extends Exception {
     String message;
@@ -2275,7 +2275,7 @@ end
 ### Answer ✅
 
 ```java
- import java.util.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {

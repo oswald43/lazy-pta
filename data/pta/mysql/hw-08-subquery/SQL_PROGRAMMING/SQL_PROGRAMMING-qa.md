@@ -79,7 +79,7 @@ CREATE TABLE `spj` (  -- 零件供应表
 ### Answer ✅
 
 ```sql
- SELECT pno
+SELECT pno
 FROM spj
 GROUP BY pno
 HAVING MIN(qty) > (SELECT MAX(qty) FROM spj WHERE pno = 'p6');
@@ -149,7 +149,7 @@ CREATE TABLE pc
 ### Answer ✅
 
 ```sql
- SELECT p.maker
+SELECT p.maker
 FROM product p
 JOIN pc ON p.model = pc.model  -- 关联产品表和PC表，筛选PC类型产品
 GROUP BY p.maker               -- 按厂商分组
@@ -227,7 +227,7 @@ CREATE TABLE sc (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     s.sno,
     s.sname,
     sc.cno,
@@ -284,7 +284,7 @@ CREATE TABLE `product` (
 ### Answer ✅
 
 ```sql
- SELECT CAST(COUNT(*) AS SIGNED INTEGER) AS `count(*)`
+SELECT CAST(COUNT(*) AS SIGNED INTEGER) AS `count(*)`
 FROM product
 WHERE PName LIKE '%螺母%';
 ```
@@ -334,7 +334,7 @@ CREATE TABLE `employee` (
 ### Answer ✅
 
 ```sql
- SELECT MAX(Salary) AS max_Salary, MIN(Salary) AS min_Salary
+SELECT MAX(Salary) AS max_Salary, MIN(Salary) AS min_Salary
 FROM employee;
 ```
 
@@ -384,7 +384,7 @@ CREATE TABLE `employee` (
 ### Answer ✅
 
 ```sql
- SELECT 
+SELECT 
     Wno, 
     COUNT(Eid) AS Count_Eid
 FROM 
@@ -438,7 +438,7 @@ CREATE TABLE `employee` (
 ### Answer ✅
 
 ```sql
- SELECT Eid, EName
+SELECT Eid, EName
 FROM employee
 WHERE Wno = 'A01' 
   AND Salary > (SELECT MAX(Salary) FROM employee WHERE Wno = 'A02');
@@ -485,7 +485,7 @@ CREATE TABLE `orders` (
 ### Answer ✅
 
 ```sql
- SELECT Sid
+SELECT Sid
 FROM orders
 GROUP BY Sid
 HAVING SUM(QTY) = (SELECT MAX(total_qty) 
@@ -557,7 +557,7 @@ CREATE TABLE `orders` (
 ### Answer ✅
 
 ```sql
- SELECT DISTINCT e.Eid, e.EName
+SELECT DISTINCT e.Eid, e.EName
 FROM employee e
 JOIN orders o ON e.Eid = o.Eid
 WHERE o.Pid IN (
@@ -634,7 +634,7 @@ CREATE TABLE pc
 ### Answer ✅
 
 ```sql
- SELECT DISTINCT p.maker
+SELECT DISTINCT p.maker
 FROM product p
 JOIN pc ON p.model = pc.model
 WHERE pc.ram = (SELECT MIN(ram) FROM pc)
@@ -735,7 +735,7 @@ CREATE TABLE laptop
 ### Answer ✅
 
 ```sql
- SELECT maker
+SELECT maker
 FROM (
     -- 筛选速度≥133的PC制造商及型号
     SELECT p.maker, p.model
@@ -798,7 +798,7 @@ CREATE TABLE `employee` (
 ### Answer ✅
 
 ```sql
- SELECT Eid, EName
+SELECT Eid, EName
 FROM employee
 WHERE Wno = 'A01' 
   AND Salary < ANY (SELECT Salary FROM employee WHERE Wno = 'A02');
@@ -887,7 +887,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT
+SELECT
     dept AS 院部,
     CAST(COUNT(*) AS SIGNED INTEGER) AS 总人数
 FROM
@@ -982,7 +982,7 @@ CREATE TABLE score (
 ### Answer ✅
 
 ```sql
- SELECT sno AS 学号, AVG(grade) AS 平均分
+SELECT sno AS 学号, AVG(grade) AS 平均分
 FROM score
 GROUP BY sno
 HAVING COUNT(*) >= 2
@@ -1007,7 +1007,7 @@ ORDER BY sno;
 ### Answer ✅
 
 ```sql
- DELETE FROM sc
+DELETE FROM sc
 WHERE SCScore3 < 60;
 ```
 

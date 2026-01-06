@@ -110,7 +110,7 @@ export async function ansProgrammingMd(
 ) {
   const ans = ansGetCleanData.map((a) => {
     const status = statusMap[a.status];
-    const code = `\`\`\`${a.lang}\n ${a.program}\n\`\`\``;
+    const code = `\`\`\`${a.lang}\n${a.program}\n\`\`\``;
     return `### Answer ${status}\n\n${code}\n\n`;
   });
   const ansMdaData = ans.map((a, index) => `## ${index + 1}.\n\n${a}`);
