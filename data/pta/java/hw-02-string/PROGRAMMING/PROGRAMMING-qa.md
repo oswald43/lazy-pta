@@ -1,0 +1,425 @@
+## 1.
+
+输入若干行字符串，判断每行字符串是否可以作为JAVA语法的合法标识符。 
+
+判断合法标识符的规则：由字母（含汉字）、数字、下划线“\_”、美元符号“\$”组成，并且首字母不能是数字。
+
+### 输入格式:
+
+ 输入有多行。
+
+ 每行一个字符串，字符串长度不超过10个字符。
+
+### 输出格式:
+
+若该行字符串可以作为JAVA标识符，则输出“true”;否则，输出“false”。
+
+### 输入样例:
+
+```in
+abc
+_test
+$test
+a 1
+a+b+c
+a’b
+123
+变量
+```
+
+### 输出样例:
+
+```out
+true
+true
+true
+false
+false
+false
+false
+true
+```
+
+### Answer ✅
+
+```java
+ import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // 读取所有输入行
+        while (scanner.hasNextLine()) {
+            String line = scanner.nextLine();
+            System.out.println(isValidIdentifier(line));
+        }
+        
+        scanner.close();
+    }
+    
+    // 判断字符串是否为合法的Java标识符
+    private static boolean isValidIdentifier(String s) {
+        // 空字符串不是合法标识符
+        if (s.isEmpty()) {
+            return false;
+        }
+        
+        // 检查首字符
+        char firstChar = s.charAt(0);
+        if (!isValidFirstCharacter(firstChar)) {
+            return false;
+        }
+        
+        // 检查剩余字符
+        for (int i = 1; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (!isValidCharacter(c)) {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+    
+    // 检查是否为合法的首字符
+    private static boolean isValidFirstCharacter(char c) {
+        // 首字符可以是字母、下划线或美元符号，但不能是数字
+        return Character.isLetter(c) || c == '_' || c == '$';
+    }
+    
+    // 检查是否为合法的非首字符
+    private static boolean isValidCharacter(char c) {
+        // 其他字符可以是字母、数字、下划线或美元符号
+        return Character.isLetterOrDigit(c) || c == '_' || c == '$';
+    }
+}
+    
+```
+
+## 2.
+
+### 本题主要考察
+- 使用`Scanner`处理输入
+- 使用`System.out.printf`进行格式化输出
+- `String`常用方法与字符串常用操作
+
+###  main
+### 输入说明：
+- 输入`double`，然后输入3个浮点数。**输出：**从左到右依次输出3个double(均保留2位小数输出，宽度为5)，**格式依次为：**右侧填充空格，左侧填充空格，直接输出
+- 输入`int`，然后输入3个整数(以1个或多个空格分隔)。**输出：**将3个整数相加后输出。
+- 输入`str`，然后输入3个字符串。**输出：**去除空格，然后倒序输出3个字符。
+- 输入`line`，然后输入一行字符串。**输出：**转换成大写后输出。
+- 如果输入不是上面几个关键词，**输出:**输出**other**。
+
+### 输出说明
+**choice=你输入选项**  
+该选项对应的输出内容
+
+### 提示
+1. 可使用`line.split("\\s+");`将以1个或多个空格分隔开的字符串分割并放入字符串数组。
+2. `Scanner.nextLine`与Scanner的其他next函数混用有可能出错。
+
+
+### 输入样例:
+```in
+double
+1.578 3.0 3.14259
+line
+aaaaaaaaaa
+int
+1      2    3
+str
+321 654 987
+line
+dddddddddd
+end
+
+```
+
+### 输出样例:
+```out
+choice=double
+1.58 , 3.00,3.14
+choice=line
+AAAAAAAAAA
+choice=int
+6
+choice=str
+987654321
+choice=line
+DDDDDDDDDD
+choice=end
+other
+```
+
+### Answer ✅
+
+```java
+ import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        while (scanner.hasNextLine()) {
+            String choice = scanner.nextLine().trim();
+            System.out.println("choice=" + choice);
+            
+            if (choice.equals("double")) {
+                // 处理double类型输入
+                String[] doubles = scanner.nextLine().split("\\s+");
+                double d1 = Double.parseDouble(doubles[0]);
+                double d2 = Double.parseDouble(doubles[1]);
+                double d3 = Double.parseDouble(doubles[2]);
+                
+                // 右侧填充空格，左侧填充空格，直接输出，均保留2位小数，宽度5
+                System.out.printf("%.2f ,%5.2f,%.2f%n", d1, d2, d3);
+            } 
+            else if (choice.equals("int")) {
+                // 处理int类型输入
+                String[] integers = scanner.nextLine().split("\\s+");
+                int sum = 0;
+                for (String num : integers) {
+                    sum += Integer.parseInt(num);
+                }
+                System.out.println(sum);
+            } 
+            else if (choice.equals("str")) {
+                // 处理字符串类型输入
+                String[] strings = scanner.nextLine().split("\\s+");
+                // 去除空格并倒序输出
+                StringBuilder sb = new StringBuilder();
+                for (int i = strings.length - 1; i >= 0; i--) {
+                    sb.append(strings[i].replaceAll("\\s+", ""));
+                }
+                System.out.println(sb.toString());
+            } 
+            else if (choice.equals("line")) {
+                // 处理一行字符串
+                String line = scanner.nextLine();
+                System.out.println(line.toUpperCase());
+            } 
+            else {
+                // 其他情况
+                System.out.println("other");
+                // 如果输入是end，退出循环
+                if (choice.equals("end")) {
+                    break;
+                }
+            }
+        }
+        
+        scanner.close();
+    }
+}
+
+```
+
+## 3.
+
+假设图书馆中图书信息的格式为：
+
+Java程序设计: 34; Web程序设计: 56; JSP程序设计:20
+
+按要求输出每本图书的名称及价格，计算所有图书的总价格并输出。
+
+### 输入格式:
+
+读入一行图书信息。如：
+
+Java程序设计: 34; Web程序设计: 56 ;JSP程序设计:20
+
+提示：
+
+(1)每本书的价格是整数，价格与下一本书的名字之间有一个字符：分号`；`价格前可能有空格，可能没有。
+
+(2)题目中给定的字符串中的分号 `;`  和冒号 **`:`** 均为半角字符。
+
+### 输出格式:
+
+ 分别输出每本图书的名称及价格，一本书占一行，形式为：书名--*价格*；
+
+ 最后，输出计算的所有图书的总价格，形式为：总价格--*总价格*
+
+### 输入样例:
+
+```in
+Java程序设计:34 ; Web程序设计: 56; JSP程序设计:20 
+```
+
+### 输出样例:
+
+```out
+Java程序设计--34
+Web程序设计--56
+JSP程序设计--20
+总价格--110
+```
+
+### Answer ✅
+
+```java
+ import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // 读取输入的图书信息
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        scanner.close();
+        
+        // 按分号分割字符串，得到每本图书的信息
+        String[] bookEntries = input.split(";");
+        
+        int totalPrice = 0;
+        
+        // 处理每本图书的信息
+        for (String entry : bookEntries) {
+            // 去除前后空格
+            entry = entry.trim();
+            if (entry.isEmpty()) {
+                continue; // 跳过可能的空字符串
+            }
+            
+            // 按冒号分割得到书名和价格部分
+            String[] parts = entry.split(":", 2);
+            if (parts.length < 2) {
+                continue; // 格式不正确，跳过
+            }
+            
+            // 提取书名并去除可能的空格
+            String bookName = parts[0].trim();
+            
+            // 提取价格并去除可能的空格，转换为整数
+            String priceStr = parts[1].trim();
+            int price = Integer.parseInt(priceStr);
+            
+            // 累加总价格
+            totalPrice += price;
+            
+            // 输出当前图书信息
+            System.out.println(bookName + "--" + price);
+        }
+        
+        // 输出总价格
+        System.out.println("总价格--" + totalPrice);
+    }
+}
+    
+```
+
+## 4.
+
+背景简介：
+
+“蛟龙号”载人深潜器是我国**首台自主设计**、**自主集成研制**的作业型深海载人潜水器，设计最大下潜深度为7000米级，也是**目前世界上下潜能力最强的作业型载人潜水器。**“蛟龙号”**可在占世界海洋面积99.8%的广阔海域中**使用，对于我国开发利用深海的资源有着重要的意义。
+
+中国是继美、法、俄、日之后**世界上第五个掌握大深度载人深潜技术**的国家。在全球载人潜水器中，**“蛟龙号”属于第一梯队**。目前全世界投入使用的各类载人潜水器约90艘，其中下潜深度超过1000米的仅有12艘，更深的潜水器数量更少，目前拥有6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯。除中国外，其他4国的作业型载人潜水器最大工作深度为日本深潜器的6527米，因此“蛟龙号”载人潜水器在西太平洋的马里亚纳海沟海试成功到达**7020米**海底，创造了**作业类载人潜水器新的世界纪录**。
+ 
+  从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功。**下潜至7000米**，**说明蛟龙号载人潜水器集成技术的成熟**，**标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一**。
+
+2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米。6月3日，“蛟龙”出征以来，已经连续书写了5个“中国深度”新纪录：6月15日，6671米；6月19日，6965米；6月22日，6963米；6月24日，7020米；6月27日，7062米。**下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力，标志着“蛟龙”载人潜水器集成技术的成熟，标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一，标志着中国海底载人科学研究和资源勘探能力达到国际领先水平**。
+
+‘蛟龙’号是我国载人深潜发展历程中的一个重要里程碑。它不只是一个深海装备，更代表了一种精神，一种不畏艰险、赶超世界的精神，它是中华民族进军深海的号角。
+
+了解蛟龙号”载人深潜器“的骄人业绩，为我国海底载人科学研究和资源勘探能力达到国际领先水平而自豪，小伙伴们与祖国同呼吸、共命运，一定要学好科学文化知识、提高个人能力，增强创新意识，做事精益求精，立科技报国之志！
+
+请编写程序，实现如下功能：读入关于蛟龙号载人潜水器探测数据的多行字符串，从给定的信息找出数字字符，输出每行的数字之和。
+
+**提示**  若输入为“2012年2月”，则该行的输出为：7。每个数字字符单独相加。
+
+### 输入格式:
+
+读入关于蛟龙号载人潜水器探测数据的多行字符串，**每行字符不超过100个字符。**
+
+以"end"结束。
+
+### 输出格式:
+
+与输入行相对应的各个数字之和。
+
+### 输入样例1:
+
+```in
+2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米
+6月15日，6671米
+6月19日，6965米
+6月22日，6963米
+6月24日，7020米
+6月27日，7062米
+下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力
+end
+```
+
+### 输出样例1:
+
+```out
+48
+32
+42
+34
+21
+30
+25
+```
+### 输入样例2:
+
+```in
+全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少
+6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯
+日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录
+从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功
+下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟
+end
+```
+
+### 输出样例2:
+
+```out
+13
+6
+29
+32
+7
+```
+
+### Answer ✅
+
+```java
+ import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // 循环读取每行输入
+        while (true) {
+            String line = scanner.nextLine();
+            
+            // 如果输入"end"，则结束程序
+            if (line.equals("end")) {
+                break;
+            }
+            
+            int sum = 0;
+            // 遍历字符串中的每个字符
+            for (int i = 0; i < line.length(); i++) {
+                char c = line.charAt(i);
+                // 检查是否为数字字符
+                if (Character.isDigit(c)) {
+                    // 将字符转换为对应的数字并累加
+                    sum += Character.getNumericValue(c);
+                }
+            }
+            
+            // 输出当前行的数字之和
+            System.out.println(sum);
+        }
+        
+        scanner.close();
+    }
+}
+
+```
+

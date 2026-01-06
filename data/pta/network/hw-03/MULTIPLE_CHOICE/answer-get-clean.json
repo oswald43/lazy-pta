@@ -1,0 +1,502 @@
+[
+  {
+    "problemSetProblemId": "1985874299238195200",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389504",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389505",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389506",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389507",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389508",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389509",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389510",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389511",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389512",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389513",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389514",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389515",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389516",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299242389517",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583808",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583809",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583810",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583811",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583812",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583813",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583814",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583815",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583816",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583817",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583818",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583819",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299246583820",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778112",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778113",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778114",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778115",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778116",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778117",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778118",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778119",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778120",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778121",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299250778122",
+    "answer": "A",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299250778123",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299254972416",
+    "answer": "C",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972417",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299254972418",
+    "answer": "C",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972419",
+    "answer": "A",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972420",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299254972421",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299254972422",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299254972423",
+    "answer": "A",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972424",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299254972425",
+    "answer": "D",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972426",
+    "answer": "B",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972427",
+    "answer": "C",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972428",
+    "answer": "A",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972429",
+    "answer": "B",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299254972430",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166720",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166721",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166722",
+    "answer": "B",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299259166723",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166724",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166725",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166726",
+    "answer": "C",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299259166727",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166728",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299259166729",
+    "answer": "C",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299259166730",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299263361024",
+    "answer": "C",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299263361025",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299263361026",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299263361027",
+    "answer": "A",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299263361028",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299263361029",
+    "answer": "A",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299267555328",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299267555329",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299267555330",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299267555331",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299267555332",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299267555333",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299267555334",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749632",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749633",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749634",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749635",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749636",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749637",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749638",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749639",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749640",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749641",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749642",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749643",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749644",
+    "answer": "A",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749645",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749646",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299271749647",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299275943936",
+    "answer": "C",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299275943937",
+    "answer": "B",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299275943938",
+    "answer": "D",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1985874299275943939",
+    "answer": "B",
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1985874299275943940",
+    "answer": "A",
+    "status": "ACCEPTED"
+  }
+]

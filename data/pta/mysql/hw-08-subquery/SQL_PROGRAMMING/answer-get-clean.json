@@ -1,0 +1,92 @@
+[
+  {
+    "problemSetProblemId": "1991745600767283200",
+    "lang": "sql",
+    "program": "SELECT pno\nFROM spj\nGROUP BY pno\nHAVING MIN(qty) > (SELECT MAX(qty) FROM spj WHERE pno = 'p6');",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283201",
+    "lang": "sql",
+    "program": "SELECT p.maker\nFROM product p\nJOIN pc ON p.model = pc.model  -- 关联产品表和PC表，筛选PC类型产品\nGROUP BY p.maker               -- 按厂商分组\nHAVING COUNT(DISTINCT p.model) >= 3;  -- 统计该厂商的PC型号数，筛选至少3种的",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283202",
+    "lang": "sql",
+    "program": "SELECT \n    s.sno,\n    s.sname,\n    sc.cno,\n    sc.score\nFROM \n    students s\nLEFT JOIN \n    sc ON s.sno = sc.sno;  -- 关联条件：学生学号 = 选课记录学号",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283203",
+    "lang": "sql",
+    "program": "SELECT CAST(COUNT(*) AS SIGNED INTEGER) AS `count(*)`\nFROM product\nWHERE PName LIKE '%螺母%';",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283204",
+    "lang": "sql",
+    "program": "SELECT MAX(Salary) AS max_Salary, MIN(Salary) AS min_Salary\nFROM employee;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283205",
+    "lang": "sql",
+    "program": "SELECT \n    Wno, \n    COUNT(Eid) AS Count_Eid\nFROM \n    employee\nWHERE \n    Wno IS NOT NULL  -- 过滤掉仓库编号为 NULL 的记录\nGROUP BY \n    Wno;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283206",
+    "lang": "sql",
+    "program": "SELECT Eid, EName\nFROM employee\nWHERE Wno = 'A01' \n  AND Salary > (SELECT MAX(Salary) FROM employee WHERE Wno = 'A02');",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283207",
+    "lang": "sql",
+    "program": "SELECT Sid\nFROM orders\nGROUP BY Sid\nHAVING SUM(QTY) = (SELECT MAX(total_qty) \n                   FROM (SELECT SUM(QTY) AS total_qty \n                         FROM orders \n                         GROUP BY Sid) AS temp);",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283208",
+    "lang": "sql",
+    "program": "SELECT DISTINCT e.Eid, e.EName\nFROM employee e\nJOIN orders o ON e.Eid = o.Eid\nWHERE o.Pid IN (\n    -- 子查询：获取'0011'号员工销售过的所有产品编号\n    SELECT DISTINCT Pid \n    FROM orders \n    WHERE Eid = '0011'\n)\nAND e.Eid != '0011'; -- 排除'0011'号员工自身",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283209",
+    "lang": "sql",
+    "program": "SELECT DISTINCT p.maker\nFROM product p\nJOIN pc ON p.model = pc.model\nWHERE pc.ram = (SELECT MIN(ram) FROM pc)\n  AND pc.speed = (SELECT MAX(speed) \n                  FROM pc \n                  WHERE ram = (SELECT MIN(ram) FROM pc));",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283210",
+    "lang": "sql",
+    "program": "SELECT maker\nFROM (\n    -- 筛选速度≥133的PC制造商及型号\n    SELECT p.maker, p.model\n    FROM product p\n    JOIN pc ON p.model = pc.model\n    WHERE pc.speed >= 133\n    UNION ALL\n    -- 筛选速度≥133的便携式电脑制造商及型号\n    SELECT p.maker, p.model\n    FROM product p\n    JOIN laptop ON p.model = laptop.model\n    WHERE laptop.speed >= 133\n) AS temp\nGROUP BY maker\nHAVING COUNT(DISTINCT model) >= 2  -- 至少两种不同型号\nORDER BY maker ASC;  -- 按制造商升序排列",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283211",
+    "lang": "sql",
+    "program": "SELECT Eid, EName\nFROM employee\nWHERE Wno = 'A01' \n  AND Salary < ANY (SELECT Salary FROM employee WHERE Wno = 'A02');",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283212",
+    "lang": "sql",
+    "program": "SELECT\n    dept AS 院部,\n    CAST(COUNT(*) AS SIGNED INTEGER) AS 总人数\nFROM\n    student\nGROUP BY\n    dept\nORDER BY\n    总人数 DESC;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283213",
+    "lang": "sql",
+    "program": "SELECT sno AS 学号, AVG(grade) AS 平均分\nFROM score\nGROUP BY sno\nHAVING COUNT(*) >= 2\nORDER BY sno;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1991745600767283214",
+    "lang": "sql",
+    "program": "DELETE FROM sc\nWHERE SCScore3 < 60;",
+    "status": "ACCEPTED"
+  }
+]

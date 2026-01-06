@@ -1,0 +1,304 @@
+[
+  {
+    "id": "1972112083688677376",
+    "description": "Given the following code:\n```\npublic class TestClass {\n    public static void main(String args[]) {\n        String str = new String(\"World\");\n        char[] ch = { 'H', 'e', 'l', 'l', 'o' };\n        change(str, ch);\n        System.out.println(str + \" and \" + new String(ch));\n    }\n\n    public static void change(String str, char ch[])\n    {\n\t\t    str=\"Changed\"; ch[0]='C';\n    }\n}\n```\nWhat is the result after execution?",
+    "choices": [
+      "World and Hello",
+      "World and Cello",
+      "Changed and Hello",
+      "Changed and Cello"
+    ]
+  },
+  {
+    "id": "1972112083688677377",
+    "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"sdut@sdut.edu.cn\"; \nSystem.out.println(fileName.lastIndexOf(\".\"));\n```",
+    "choices": [
+      "9",
+      "10",
+      "13",
+      "12"
+    ]
+  },
+  {
+    "id": "1972112083688677378",
+    "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"中国China\"; \nSystem.out.println(fileName.indexOf(\"国\"));\n```",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "1972112083692871680",
+    "description": "关于字符串的构造方法，如下代码执行结果是（     ）。\n```\nString str=\"ABCDEFG\";\nchar[] chars=str.toCharArray(); \nSystem.out.println(new String(chars,1,3));\n```",
+    "choices": [
+      "ABC",
+      "BCD",
+      "AB",
+      "BC"
+    ]
+  },
+  {
+    "id": "1972112083692871681",
+    "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString str2 = str1.toLowerCase();\nSystem.out.println(str2);\nSystem.out.println(str1);\nSystem.out.println(str1 == str2);\n```",
+    "choices": [
+      "```\nsdut@sdut.edu.cn\nsdut@sdut.edu.cn\ntrue\n```",
+      "```\nsdut@sdut.edu.cn\nsdut@sdut.edu.cn\nfalse\n```",
+      "```\nsdut@sdut.edu.cn\nSDUT@SDUT.EDU.CN\ntrue\n```",
+      "```\nsdut@sdut.edu.cn\nSDUT@SDUT.EDU.CN\nfalse\n```"
+    ]
+  },
+  {
+    "id": "1972112083692871682",
+    "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"abcd\"; \nString str2=\"sdut\";\nSystem.out.println(str1.compareTo(str2)>0);\n```",
+    "choices": [
+      "true",
+      "false",
+      "1",
+      "-1"
+    ]
+  },
+  {
+    "id": "1972112083692871683",
+    "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut12\"; \nString str2=\"sDut12\";\nSystem.out.println(str1.equalsIgnoreCase(str2));\n```",
+    "choices": [
+      "true",
+      "false",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "id": "1972112083692871684",
+    "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str = \"    abcd123\";\n  str.toUpperCase();\n  str.trim();\n  System.out.println(str);\n```",
+    "choices": [
+      "abcd123",
+      "abcd123",
+      "ABCD123",
+      "`ABCD123`"
+    ]
+  },
+  {
+    "id": "1972112083692871685",
+    "description": "关于字符串的相关操作，如下代码执行后输出的结果是：（     ）。\n```\nString str1=\"abc\";\nString str2=str1.toUpperCase();\nString str3=str1.toLowerCase();\nSystem.out.println(str1==str2);\n System.out.println(str1==str3);\n```",
+    "choices": [
+      "```\nfalse\ntrue\n```",
+      "```\nfalse\nfalse\n```",
+      "```\ntrue\ntrue\n```",
+      "```\ntrue\nfalse\n```"
+    ]
+  },
+  {
+    "id": "1972112083692871686",
+    "description": "关于字符串对象的比较，==用于比较字符串对象的（      ）是否相同；equals()方法用于比较字符串对象的（      ）是否相同。",
+    "choices": [
+      "存储地址    字符序列",
+      "存储地址   存储地址",
+      "字符序列  存储地址",
+      "字符序列   字符序列"
+    ]
+  },
+  {
+    "id": "1972112083692871687",
+    "description": "执行如下两行代码之后，则内存中存在几个字符串对象?（    ）\n```\nString str=\"abc\"; \nstr+=\"def\";\n```",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "1972112083692871688",
+    "description": "Given code below:\n```\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct?",
+    "choices": [
+      "`s1 == s2` is true, `s1 == s3` is true",
+      "`s1 == s2` is true, `s1 == s3` is false",
+      "`s1 == s2` is false, `s1 == s3` is false",
+      "`s1 == s2` is false, `s1 == s3` is true"
+    ]
+  },
+  {
+    "id": "1972112083692871689",
+    "description": "阅读下面的程序段，以下表达式的值为true的是哪个?（     ）\n```\n\t\tString str1=new String(\"java\");\n\t\tString str2=new String(\"java\");\n\t\tStringBuffer str3=new StringBuffer(\"java\");\n\t\tStringBuffer str4=new StringBuffer(\"java\");\n```",
+    "choices": [
+      "str1==str2",
+      "str1.equals(str2)",
+      "str3==str4",
+      "str3.equals(str4)",
+      "str1==str3",
+      "str1.equals(str4)"
+    ]
+  },
+  {
+    "id": "1972112083692871690",
+    "description": "对String类型的字符串  `String str=\"abcdefg\";`   调用str对象的(       )方法，得到byte类型的数组`[97, 98, 99, 100, 101, 102, 103]`?",
+    "choices": [
+      "getBytes()",
+      "getChars()",
+      "toBytes()",
+      "toChars()"
+    ]
+  },
+  {
+    "id": "1972112083692871691",
+    "description": "对String类型的字符串`String str=\"abcd\"`，调用str对象的(      )方法，得到char类型的数组`['a','b','c','d'] `?",
+    "choices": [
+      "toCharArray()",
+      "toChars()",
+      "getChars()",
+      "getBytes()"
+    ]
+  },
+  {
+    "id": "1972112083692871692",
+    "description": "执行以下语句后，str2的值是（  ）。\n```\nString str1 = \"abc\";\nString str2 = str1.concat(\"cde\");\n\n```",
+    "choices": [
+      "abcde",
+      "abccde",
+      "cdeabc",
+      "edccba"
+    ]
+  },
+  {
+    "id": "1972112083692871693",
+    "description": "下列选项中，可以正确实现String初始化的是（    ）2分。",
+    "choices": [
+      "String str=abcd;",
+      "String str=\"hello\";",
+      "String str=1234;",
+      "String str='good';"
+    ]
+  },
+  {
+    "id": "1972112083697065984",
+    "description": "有如下程序代码， 程序运行的结果是（ ）。\nString s1 = \"中国\";\nString s2 = \"我爱 \" + s1;\nString s3 = \"我爱 \" + s1;\nSystem.out.print(s2 == s3);\nSystem.out.println(\" \"+s2.equals(s3));",
+    "choices": [
+      "true false",
+      "true true",
+      "false false",
+      "false true"
+    ]
+  },
+  {
+    "id": "1972112083697065985",
+    "description": "如下代码输出（ ）。\n```\npublic class TestStringBuilder {\n\tpublic static void main(String[] args) {\n\t\tString s = \"Hello\";\n\t    StringBuilder buffer = new StringBuilder(s);\n\t    buffer.append(\" World!\");\n\t    System.out.println(buffer);\t    \n\t  }\n}\n```",
+    "choices": [
+      "Hello",
+      "World!",
+      "Hello World!",
+      "无输出"
+    ]
+  },
+  {
+    "id": "1972112083697065986",
+    "description": "以下代码段将创建几个对象?\n<pre>\nString s1=\"bc\";\nString s2=\"bc\";\n</pre>",
+    "choices": [
+      "2",
+      "3",
+      "0",
+      "1"
+    ]
+  },
+  {
+    "id": "1972112083697065987",
+    "description": "Given code below:\n```Java\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct?",
+    "choices": [
+      "s1 == s2 is true, s1 == s3 is true",
+      "s1 == s2 is true, s1 == s3 is false",
+      "s1 == s2 is false, s1 == s3 is false",
+      "s1 == s2 is false, s1 == s3 is true"
+    ]
+  },
+  {
+    "id": "1972112083697065988",
+    "description": "请选择下面程序正确的输出结果（\t）   \n```\npublic class Main{\n\t\tpublic static void main(String args[ ]){\n\t\t\tString a = new String(\"A\");\n\t\t\tString b = new String(\"B\");\n\t\t\tmb_operate(a,b);\n\t\t\tSystem.out.println(a + \".\" + b);\n}\nstatic void mb_operate(String x,String y){\n\tx.concat(y);\n\ty=x;\n}\n}\n```",
+    "choices": [
+      "A.B",
+      "A.A",
+      "AB.AB",
+      "AB.B"
+    ]
+  },
+  {
+    "id": "1972112083697065989",
+    "description": "如下程序输出（   ）   \n```\npublic class Test {  \n  public static void main(String[] args) {\n    String s = \"Java\";\n    StringBuilder buffer = new StringBuilder(s);\n    change(s);\n    System.out.println(s);\n  }\n  \n  private static void change(String s) {\n    s = s + \" and HTML\";\n  }\n}\n```",
+    "choices": [
+      "Java",
+      "Java and HTML",
+      "and HTML",
+      "什么都不显示"
+    ]
+  },
+  {
+    "id": "1972112083697065990",
+    "description": "关于以下程序段，正确的说法是（   ）。\n```\n1. String s1 = \"abc\"+\"def\";\n2. String s2 = new String(s1);\n3. if (s1==s2) {\n4.    System.out.println(\"==succeeded\");\n5. }\n6. if (s1.equals(s2)) {\n7.    System.out.println(\".equals() succeeded\");\n8. }\n```",
+    "choices": [
+      "行4与行7都将执行",
+      "行4执行，行7不执行",
+      "行7执行，行4不执行",
+      "行4、行7都不执行"
+    ]
+  },
+  {
+    "id": "1972112083697065991",
+    "description": "有如下程序代码， 程序运行的结果是（     ）。\n```\nString s1 = \"sdut\";\nString s2 = \"I love \" + s1;\nString s3 = \"I love \" + s1;\nSystem.out.print(s2 == s3);\nSytem.out.println(\" \"+s2.equals(s3));\n```",
+    "choices": [
+      "true false",
+      "true true",
+      "false false",
+      "false true"
+    ]
+  },
+  {
+    "id": "1972112083697065992",
+    "description": "有如下代码，程序执行的结果是（      ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString[] strings = str1.split(\"u\");\nSystem.out.println(Arrays.toString(strings));\n```",
+    "choices": [
+      "`sd, t@sd, t.ed, .cn`",
+      "`[sd, t@sd, t.ed, .cn]`",
+      "`[sdu, t@sdu, t.edu, .cn]`",
+      "`sdu, t@sdu, t.edu, .cn`"
+    ]
+  },
+  {
+    "id": "1972112083697065993",
+    "description": "有如下程序代码，程序执行的结果是（     ）。\n```\nString str1 = \"\\t sdut@sdut.edu.cn \\t \";\nSystem.out.println(str1.trim());\n```",
+    "choices": [
+      "sdut@sdut.edu.cn",
+      "\\tsdut@sdut.edu.cn",
+      "替换为正确项",
+      "替换为错误项"
+    ]
+  },
+  {
+    "id": "1972112083697065994",
+    "description": "有如下程序代码，程序执行的结果是（ ）。\n```\nint i= 110; \nString str2=i+2+\"lucky\";\nSystem.out.println(str2);\n```",
+    "choices": [
+      "1102lucky",
+      "112lucky",
+      "lucky1102",
+      "lucky112"
+    ]
+  },
+  {
+    "id": "1972112083697065995",
+    "description": "有如下代码，程序执行的结果是（      ）。\n```\nint i= 110;\t\nString str2=\"lucky\"+i+2;\t\nSystem.out.println(str2);\t\n```",
+    "choices": [
+      "lucky1102",
+      "lucky112",
+      "1102lucky",
+      "112lucky"
+    ]
+  },
+  {
+    "id": "1972112083697065996",
+    "description": "在下面的代码中，程序执行的结果将是：（     ）。\n```\npublic class Test {\n  public static void main(String[] args) {\n         String str = \"123\";\n         System.out.println(str);\n         change(str);\n         System.out.println(str);\n     }\n    public static void change(String str){\n      str = \"456\";\n    }\n}\n```",
+    "choices": [
+      "```\n456\n123\n```",
+      "```\n456\n456\n```",
+      "```\n123\n456\n```",
+      "```\n123\n123\n```"
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1970095484400439324",
+    "description": "一个Java源文件中可以有（     ）个公共类？",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "不受限制"
+    ]
+  },
+  {
+    "id": "1970095484400439325",
+    "description": "在Java中，关于数据的标准输出System.out，哪些说法是正确的?",
+    "choices": [
+      "调用print、println都可以输出各种数据类型的数据，二者没有什么差别",
+      "兼容C语言中的printf方法，可以按指定格式的字符串形式输出数据",
+      "如果不进行输出重定向，标准输出意味着输出到屏幕上",
+      "System.out.println();    可以输出一个空行"
+    ]
+  },
+  {
+    "id": "1970095484400439326",
+    "description": "关于Java中的注释，哪些说法是正确的？",
+    "choices": [
+      "单行注释形式为：//****",
+      "多行注释形式为：\n```\n/*\n*****\n*/\n```",
+      "文档注释形式为：\n```\n/**\n*****\n*/\n```",
+      "注释的作用是增加程序的可读性。"
+    ]
+  },
+  {
+    "id": "1970095484400439327",
+    "description": "以下选项中，哪些属于JDK工具？",
+    "choices": [
+      "Java编译器",
+      "Java运行工具",
+      "Java文档生成工具",
+      "Java打包工具"
+    ]
+  },
+  {
+    "id": "1970095484400439328",
+    "description": "JAVA中的注释有几种？",
+    "choices": [
+      "`//单行注释`",
+      "```\n/* \n多行注释 \n*/\n```",
+      "```\n/** \n文档注释 \n*/\n```",
+      "```\n/** \n多行注释 \n**/\n```"
+    ]
+  },
+  {
+    "id": "1970095484400439329",
+    "description": "关于JDK、JRE、JVM的含义及其关系，下列哪种说法是正确的？",
+    "choices": [
+      "JDK就是Java Development Kit，Java开发工具，它包含JRE。",
+      "JRE就是Java runtime environment，即：Java运行环境，包括：JVM、类库以及其他环境",
+      "JVM 就是Java virtual machine，即：Java虚拟机，是由软代码组成的一个模拟的计算机，负责程序的执行",
+      "Java是编译型语言"
+    ]
+  },
+  {
+    "id": "1970095484400439330",
+    "description": "下面Java语句错误的有？",
+    "choices": [
+      "Float a=1.0;",
+      "double a=1.0;",
+      "out.println(\"hello\");",
+      "DatagramSocket a = new DatagramSocket()；"
+    ]
+  }
+]

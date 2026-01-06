@@ -1,0 +1,65 @@
+[
+  {
+    "problemSetProblemId": "1970095484400439324",
+    "answers": [
+      "A",
+      "B"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439325",
+    "answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439326",
+    "answers": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439327",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439328",
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439329",
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439330",
+    "answers": [
+      "A",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  }
+]

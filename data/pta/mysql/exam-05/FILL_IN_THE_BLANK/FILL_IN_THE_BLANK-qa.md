@@ -1,0 +1,160 @@
+## 1.
+
+请分析以下E-R图（超市销售）将其转换为相应的关系模式完成逻辑模型设计。
+
+![PTA-ER模型-超市-答案.jpg](https://images.ptausercontent.com/3ac2a63e-52e2-4eaf-9eb1-5f2a123b3422.jpg)
+
+部门（\_\_(1)\_\_，部门名称）
+
+员工（员工编号，员工姓名，性别，职务，\_\_(2)\_\_）
+
+供应商（供应商编号，\_\_(3)\_\_，地址，电话，联系人）
+
+商品（商品编号，商品名称，类别，数量，单价）
+
+\_\_(4)\_\_（入库编号，\_\_(5)\_\_，\_\_(6)\_\_，入库时间，计量单位，入库价格）
+
+\_\_(7)\_\_（\_\_(8)\_\_，\_\_(9)\_\_，数量，销售价格，业务员编号）
+
+员工关系的外键为：\_\_(10)\_\_（若没有外键请填写无）
+
+### Answer ✅
+
+部门编号
+部门编号
+供应商名称
+入库
+员工编号
+商品编号
+销售
+供应商编号
+商品编号
+部门编号
+
+## 2.
+
+题目要求填写SQL语句，题目将用到以下表结构。
+
+![image.png](https://images.ptausercontent.com/5e7daf6a-8979-467e-ab66-e5e4e9cd2986.png "image.png")\
+![image.png](https://images.ptausercontent.com/fafd0374-2b2d-4d91-a41d-3af09f0bd622.png "image.png")
+
+题目：**创建表并设置相应的约束2**
+
+注意：填写时要么都小写，要么都大写，使用英文符号，单词之间一个空格分隔不要多加。
+
+**代码如下：**
+**CREATE TABLE sc (   /\*创建sc表\*/**
+
+  **cno CHAR(7) NOT NULL,**
+
+  **sno CHAR(7) NOT NULL,**
+
+  **score decimal(4,1) NULL,**
+
+  **point decimal(2,1) NULL,**
+
+\_\_(1)\_\_ /\*主键\*/
+
+**);**
+
+### Answer ❌
+
+PRIMARY KEY (sno, cno)
+
+## 3.
+
+题目要求填写SQL语句，
+
+使用create index语句为`students`表（学生表）的sname、class和sdept字段（学生姓名、班级、系名）上创建名为ix_scs的组合索引。
+
+注意：填写时要么都小写，要么都大写，使用英文符号，不要有多余空格。
+
+**代码如下：**
+
+**CREATE INDEX ix_scs** \_\_(1)\_\_**;**
+
+### Answer ❌
+
+ON students (sname, class, sdept)
+
+## 4.
+
+数据插入和删除以\_\_(1)\_\_作为基本单位，数据修改以\_\_(2)\_\_作为基本单位。
+
+提示：空格中填A或B，其中A为数据项，B为数据行
+
+### Answer ✅
+
+B
+A
+
+## 5.
+
+在employees表的phone列上建立一个非聚集索引的SQL语句是：
+```
+ CREATE \_\_(1)\_\_ IDX1 \_\_(2)\_\_ employees(phone)
+
+```
+
+### Answer 🍋
+
+NONCLUSTERED
+ON
+
+## 6.
+
+为student表添加一个"resume”字段，字段类型为变长字符串，大小为200，请用小写\_\_(1)\_\_
+
+### Answer ❌
+
+ALTER TABLE student ADD resume VARCHAR(200)
+
+## 7.
+
+本题目要求填写SQL语句，\
+要求：将视图v_sc_39删除。
+
+
+注意：填写时要么都小写，要么都大写。
+
+**代码如下：**
+\_\_(1)\_\_ ;
+
+### Answer ❌
+
+DROP VIEW v_sc_39
+
+## 8.
+
+假设成绩表只有一列，为Grade列。 Grade 列中有三行，其值分别为：78、90和NULL，则 AVG(Grade) 得到的结果是\_\_(1)\_\_，COUNT(*) 得到的结果是\_\_(2)\_\_，MIN(Grade) 得到的结果是\_\_(3)\_\_，SUM(Grade) 得到的结果是\_\_(4)\_\_。
+
+### Answer ✅
+
+84
+3
+78
+168
+
+## 9.
+
+设教学数据库中有3个关系：
+
+学生关系： S(SNO,SNAME,AGE,SEX)
+
+学习关系： SC(SNO,CNO,GRADE)
+
+课程关系： C(CNO,CNAME,TEACHER)
+
+下面用关系代数表达式表达每个查询语句。关系代数表达式使用的符号：σπ×∞÷∪∩－∧∨≠（复制粘贴使用）
+
+查询选修了DB这门课程的学生姓名、成绩。
+
+\_\_(1)\_\_SNAME,\_\_(2)\_\_(S∞SC\_\_(3)\_\_σCNAME='DB'(\_\_(4)\_\_))
+
+### Answer 🍋
+
+π
+SNO
+σ
+CNAME='DB'
+

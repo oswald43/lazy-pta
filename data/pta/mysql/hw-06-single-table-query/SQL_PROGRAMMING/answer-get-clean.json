@@ -1,0 +1,182 @@
+[
+  {
+    "problemSetProblemId": "1984133794331234304",
+    "lang": "sql",
+    "program": "SELECT sname, nation, phone\nFROM student\nWHERE sname LIKE '李%';",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234305",
+    "lang": "sql",
+    "program": "SELECT cno, cname\nFROM course\nLIMIT 3;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234306",
+    "lang": "sql",
+    "program": "SELECT sname, class\nFROM students\nWHERE sname LIKE '%明%' AND ssex = '男';",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234307",
+    "lang": "sql",
+    "program": "SELECT *\nFROM students\nWHERE CHAR_LENGTH(sname) = 2;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234308",
+    "lang": "sql",
+    "program": "SELECT *\nFROM student\nWHERE sex = '男' \n  AND birth <= '1997-09-01';",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234309",
+    "lang": "sql",
+    "program": "SELECT name, category_id, price \nFROM sh_goods \nORDER BY category_id, price DESC;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234310",
+    "lang": "sql",
+    "program": "select id, category_id, name\nfrom sh_goods;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234311",
+    "lang": "sql",
+    "program": "SELECT \n    name, \n    price AS old_price, \n    stock AS old_stock, \n    price * 0.75 AS new_price, \n    stock + 850 AS new_stock \nFROM sh_goods \nWHERE score = 5.00;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234312",
+    "lang": "sql",
+    "program": "SELECT id, name, price \nFROM sh_goods \nWHERE price \nBETWEEN 2000 AND 6000;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234313",
+    "lang": "sql",
+    "program": "SELECT id, name, price \nFROM goods \nWHERE price IS NULL;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234314",
+    "lang": "sql",
+    "program": "SELECT id, name, price FROM goods WHERE name LIKE '%pad%';",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234315",
+    "lang": "sql",
+    "program": "SELECT id, name, price\nFROM sh_goods\nWHERE category_id = 3 AND score = 5.00;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234316",
+    "lang": "sql",
+    "program": "SELECT name, price, score\nFROM sh_goods\nWHERE score = 4.5 OR price < 10.00;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234317",
+    "lang": "sql",
+    "program": "SELECT DISTINCT DepartmentID \nFROM Teacher;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234318",
+    "lang": "sql",
+    "program": "SELECT StudentName, Birth\nFROM Student\nWHERE Birth = (SELECT MAX(Birth) FROM Student);",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234319",
+    "lang": "sql",
+    "program": "SELECT ClassID \nFROM Class \nWHERE StudentNum > 5;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234320",
+    "lang": "sql",
+    "program": "SELECT MAX(Grade) AS max_grade\nFROM Grade\nWHERE CourseID = 'Dp010001';",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234321",
+    "lang": "sql",
+    "program": "SELECT StudentID, Grade\nFROM Grade\nWHERE CourseID = 'Dp010004'\nORDER BY Grade DESC, StudentID ASC;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234322",
+    "lang": "sql",
+    "program": "SELECT sc.sno, sc.score\nFROM sc\nJOIN course ON sc.cno = course.cno\nWHERE course.cname LIKE '%数据库%' \n  AND sc.score BETWEEN 80 AND 90;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794331234323",
+    "lang": "sql",
+    "program": "UPDATE sc\nJOIN cou ON sc.cno = cou.cno\nSET sc.grade = 60\nWHERE cou.cname = '高等数学' AND sc.grade < 60;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428608",
+    "lang": "sql",
+    "program": "INSERT INTO warehouse (Wno, City, Size)\nVALUES ('D01', '绍兴', 11000);",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428609",
+    "lang": "sql",
+    "program": "UPDATE orders\nJOIN product ON orders.Pid = product.Pid\nSET orders.QTY = orders.QTY * 1.4\nWHERE product.PName LIKE '%螺母%';",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428610",
+    "lang": "sql",
+    "program": "DELETE FROM Product\nWHERE sale_price >= 100;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428611",
+    "lang": "sql",
+    "program": "SELECT *\nFROM student\nWHERE birth < (SELECT birth birth FROM student WHERE sname = '伍容华');",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428612",
+    "lang": "sql",
+    "program": "SELECT *\nFROM product\nWHERE Weight BETWEEN 40 AND 65;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428613",
+    "lang": "sql",
+    "program": "SELECT *\nFROM supplier\nWHERE City NOT IN ('上海', '北京', '天津');",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428614",
+    "lang": "sql",
+    "program": "SELECT Pid\nFROM product\nWHERE PName LIKE '%M%' AND Weight > 30;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428615",
+    "lang": "sql",
+    "program": "SELECT Eid, EName\nFROM employee\nWHERE Wno IS NULL;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428616",
+    "lang": "sql",
+    "program": "SELECT *\nFROM Product\nWHERE purchase_price BETWEEN 50 AND 150;",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1984133794335428617",
+    "lang": "sql",
+    "program": "SELECT PName, Weight_g / 1000 AS Weight_kg\nFROM product;",
+    "status": "ACCEPTED"
+  }
+]

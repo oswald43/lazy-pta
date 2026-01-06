@@ -1,0 +1,282 @@
+[
+  {
+    "id": "1970095484400439296",
+    "description": "一个计算机上安装JDK后，该计算机不包含的是（）。",
+    "choices": [
+      "JRE",
+      "JVM",
+      "Eclipse",
+      "javac.exe"
+    ]
+  },
+  {
+    "id": "1970095484400439297",
+    "description": "关于Java语言的描述，错误的是（）。",
+    "choices": [
+      "每一个.java文件编译后对应一个.class文件。",
+      ".java文件编译后，每一个class对应一个.class文件",
+      "Java源代码编译后产生的.class是字节码文件",
+      ".class文件在JVM上运行"
+    ]
+  },
+  {
+    "id": "1970095484400439298",
+    "description": "下面哪个标识符不符合Java定义要求？",
+    "choices": [
+      "String",
+      "_Name",
+      "Name123",
+      "100Book"
+    ]
+  },
+  {
+    "id": "1970095484400439299",
+    "description": "下列哪个叙述是正确的？",
+    "choices": [
+      "Java应用程序由若干个类所构成，这些类必须在一个源文件中",
+      "Java源文件必须含有主类",
+      "Java源文件的文件名必须与public类名完全相同",
+      "Java应用程序由若干个类所构成，这些类可以在一个源文件中，也可以分布在若干个源文件中，其中每个源文件必须含有主类。"
+    ]
+  },
+  {
+    "id": "1970095484400439300",
+    "description": "以下哪个标识符不合法？",
+    "choices": [
+      "_sys1_lll",
+      "2mail",
+      "$change",
+      "Class"
+    ]
+  },
+  {
+    "id": "1970095484400439301",
+    "description": "Java应用程序源文件的扩展名为(  )。",
+    "choices": [
+      "java",
+      "class",
+      "exe",
+      "html"
+    ]
+  },
+  {
+    "id": "1970095484400439302",
+    "description": "Java应用程序经过编译后会产生一个以（   ）为扩展名的字节码文件",
+    "choices": [
+      "java",
+      "class",
+      "exe",
+      "html"
+    ]
+  },
+  {
+    "id": "1970095484400439303",
+    "description": "哪一种类型的代码被JVM解释成本地代码？",
+    "choices": [
+      "源代码",
+      "处理器代码",
+      "字节码",
+      ".exe可执行代码"
+    ]
+  },
+  {
+    "id": "1970095484400439304",
+    "description": "编译Java源文件和解释执行Java字节码文件的指令分别是什么？",
+    "choices": [
+      "javac.exe和javadoc.exe",
+      "java.exe和jdb.exe",
+      "jad.exe和java.exe",
+      "javac.exe和java.exe"
+    ]
+  },
+  {
+    "id": "1970095484400439305",
+    "description": "在Java类的定义中，程序执行入口声明如下，哪一个是错误的程序代码？",
+    "choices": [
+      "public static void main(String args){ }",
+      "public static void main(String[ ] args){ }",
+      "public static void main(String args[ ]){ }",
+      "public static void main(String message[ ]){ }"
+    ]
+  },
+  {
+    "id": "1970095484400439306",
+    "description": "一个Java源文件中最多可以包含（       ）个主类？",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "不受限制"
+    ]
+  },
+  {
+    "id": "1970095484400439307",
+    "description": "下列说法中，不正确的是(         )。",
+    "choices": [
+      "一个java源程序经过编译后，得到的文件的扩展名一定是.class。",
+      "一个java源程序编译通过后，得到的结果文件数也只有一个。",
+      "一个java源程序只能有一个public class类定义，且源文件的名字与public class的类名相同，扩展名必须是.java。",
+      "一个java源程序可以编译成多个class文件。"
+    ]
+  },
+  {
+    "id": "1970095484400439308",
+    "description": "某Java源文件代码如下，该源文件应如何命名？\n```{Java}\npublic class A {\n int a;\n}\nclass B {\n int b;\n}\nclass C {\n public static void main(String[] args) {\n  System.out.print(\"HELLO!\");\n }\n}\n```",
+    "choices": [
+      "一定是A.java",
+      "一定是B.java",
+      "一定是C.java",
+      "不确定"
+    ]
+  },
+  {
+    "id": "1970095484400439309",
+    "description": "某Java源文件代码如下，该源文件应如何命名？\n```\nclass A {\n  int a;\n}\nclass B {\n  int b;\n}\nclass C {\n   public static void main(String[] args) {\n       System.out.print(\"HELLO!\");\n   } \n}\n```",
+    "choices": [
+      "一定是A.java",
+      "一定是B.java",
+      "一定是C.java",
+      "后缀是.java，文件名可以任意取，符合标识符规范即可。"
+    ]
+  },
+  {
+    "id": "1970095484400439310",
+    "description": "（       ）方法是Java程序执行的入口，含有该方法的类叫做（      ）。",
+    "choices": [
+      "main  主类",
+      "Main  主类",
+      "main  公共类",
+      "Main  公共类"
+    ]
+  },
+  {
+    "id": "1970095484400439311",
+    "description": "下面哪种类型的文件可以在Java虚拟机中运行？",
+    "choices": [
+      ".java",
+      ".jre",
+      ".exe",
+      ".class"
+    ]
+  },
+  {
+    "id": "1970095484400439312",
+    "description": "Java属于以下哪种语言？",
+    "choices": [
+      "机器语言",
+      "汇编语言",
+      "高级语言",
+      "以上都不对"
+    ]
+  },
+  {
+    "id": "1970095484400439313",
+    "description": "对JDK描述错误的是（     ）。",
+    "choices": [
+      "运行Java程序只要有JRE环境就可以，不一定需要全部JDK的功能",
+      "JDK中包括JVM、核心类库、Java开发工具（java，javac）等",
+      "JDK本身也是平台无关的，不同的操作系统安装的JDK是一样的",
+      "JDK的全称是 Java Development Kit"
+    ]
+  },
+  {
+    "id": "1970095484400439314",
+    "description": "正确配置path环境变量的方式是：（    ）。",
+    "choices": [
+      "在系统环境变量path原有的字符串基础上，加上分号“;”，然后再加上JDK安装路径下的bin目录",
+      "新建系统环境变量path，其值为：分号“;”，然后再连上JDK安装路径下的bin目录",
+      "在系统环境变量path原有的字符串基础上，加上分号“;”，然后再加上JDK安装路径下的lib目录",
+      "新建系统环境变量path，其值为：分号“;”，然后再连上JDK安装路径下的lib目录"
+    ]
+  },
+  {
+    "id": "1970095484400439315",
+    "description": "下面关于main方法声明正确的是（    ）。",
+    "choices": [
+      "public main(String args[ ])",
+      "public static void main(String args[ ])",
+      "private static void main(String args[ ])",
+      "void main()"
+    ]
+  },
+  {
+    "id": "1970095484400439316",
+    "description": "下列选项中，哪一个是多行注释符号（）",
+    "choices": [
+      "//**//",
+      "/*/*",
+      "//",
+      "/**/"
+    ]
+  },
+  {
+    "id": "1970095484400439317",
+    "description": "以下（  ）字符串是 Java 中合法的标识符。",
+    "choices": [
+      "super",
+      "3number",
+      "#number",
+      "$number"
+    ]
+  },
+  {
+    "id": "1970095484400439318",
+    "description": "属于 main() 方法的返回类型是（）。",
+    "choices": [
+      "public",
+      "static",
+      "void",
+      "main"
+    ]
+  },
+  {
+    "id": "1970095484400439319",
+    "description": "请问，为了使一个名为MyClass的public类成功编译，需要满足以下哪些条件？",
+    "choices": [
+      "MyClass必须定义一个正确的main()方法",
+      "MyClass必须定义在MyClass.java源文件中",
+      "MyClass必须定义在MyClass包中",
+      "MyClass类必须被导入"
+    ]
+  },
+  {
+    "id": "1970095484400439320",
+    "description": "以下哪个标识符不是Java语言的合法用户标识符（   ）。",
+    "choices": [
+      "_double",
+      "$123",
+      "Main",
+      "class"
+    ]
+  },
+  {
+    "id": "1970095484400439321",
+    "description": "编译Java Application源程序文件将产生相应的字节码文件，这些字节码文件的扩展名是（）。",
+    "choices": [
+      ".java",
+      ".class",
+      ".html",
+      ".exe"
+    ]
+  },
+  {
+    "id": "1970095484400439322",
+    "description": "下面（ ）是 main()方法的合法参数。",
+    "choices": [
+      "char args[]",
+      "char args[][]",
+      "String args[]",
+      "String args"
+    ]
+  },
+  {
+    "id": "1970095484400439323",
+    "description": "下面概念中，不属于面向对象编程范畴的是（ ）。",
+    "choices": [
+      "对象",
+      "继承",
+      "类",
+      "过程调用"
+    ]
+  }
+]

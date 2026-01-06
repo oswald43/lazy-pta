@@ -1,0 +1,96 @@
+[
+  {
+    "problemSetProblemId": "1990595265452265482",
+    "answers": [
+      "B",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265452265483",
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265452265484",
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265452265485",
+    "answers": [
+      "A",
+      "D"
+    ],
+    "status": "PARTIAL_ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265452265486",
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265456459776",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "status": "PARTIAL_ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265456459777",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265456459778",
+    "answers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265456459779",
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1990595265456459780",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  }
+]

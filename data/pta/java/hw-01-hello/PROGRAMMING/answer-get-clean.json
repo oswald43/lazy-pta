@@ -1,0 +1,32 @@
+[
+  {
+    "problemSetProblemId": "1970095484400439331",
+    "lang": "java",
+    "program": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello Java!\");\n        System.out.println(\"Programming is fun!\");\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439332",
+    "lang": "java",
+    "program": "public class Main {\n    public static void main(String[] args) throws Exception {\n        System.out.println(\"Programming is fun!\");\n        System.out.println(\"Fundamentals First\");\n        System.out.println(\"Problem Driven\");\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439333",
+    "lang": "java",
+    "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        while (sc.hasNext()) {\n            int a = sc.nextInt();\n            int b = sc.nextInt();\n            System.out.println(Math.abs(a) > 1000 ? \"|a|>1000\" : a+b);\n        }\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439334",
+    "lang": "java",
+    "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        String a = \"    *\\n\"\n            + \"   ***\\n\"\n            + \"  *****\\n\"\n            + \" *******\\n\"\n            + \"*********\";\n        String b = \"       *\\n\"\n            + \"      ***\\n\"\n            + \"     *****\\n\"\n            + \"    *******\\n\"\n            + \"   *********\\n\"\n            + \"  ***********\\n\"\n            + \" *************\\n\"\n            + \"***************\\n\";\n        System.out.println(sc.hasNextLine() ? a : b);\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1970095484400439335",
+    "lang": "java",
+    "program": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"富强（Prosperity）、民主（Democracy）、文明（Civility）、和谐（Harmony）\");\n        System.out.println(\"自由（Freedom）、平等（Equality）、公正（Justice）、法治（Rule of Law）\");\n        System.out.println(\"爱国（Patriotism）、敬业（Dedication）、诚信（Integrity）、友善（Friendship）\");\n    }\n}",
+    "status": "ACCEPTED"
+  }
+]

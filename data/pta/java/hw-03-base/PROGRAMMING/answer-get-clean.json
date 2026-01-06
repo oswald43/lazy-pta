@@ -1,0 +1,38 @@
+[
+  {
+    "problemSetProblemId": "1977900031309058060",
+    "lang": "java",
+    "program": "import java.math.BigDecimal;\nimport java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        while(scanner.hasNext()){\n            String str1=scanner.next();\n            String str2=scanner.next();\n            BigDecimal num1 = new BigDecimal(str1);\n            BigDecimal num2 = new BigDecimal(str2);\n            System.out.println(num1.add(num2));\n            System.out.println(num1.multiply(num2));\n        }\n\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058061",
+    "lang": "java",
+    "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int M = sc.nextInt();\n        double P = sc.nextDouble();\n        int N = sc.nextInt();\n        \n        double compound = M * Math.pow(1 + P, N);\n        double simple = M * (1 + N * P);\n        double diff = compound - simple;\n        \n        long compRound = Math.round(compound);\n        long simpRound = Math.round(simple);\n        long diffRound = Math.round(diff);\n        \n        System.out.println(compRound + \" \" + simpRound + \" \" + diffRound);\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058062",
+    "lang": "java",
+    "program": "import java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        while(scanner.hasNext()) {\n            double a = scanner.nextDouble();\n            double b = scanner.nextDouble();\n            double c;\n            c=Math.pow(a*a+b*b,0.5);\n            System.out.printf(\"%.2f\",c);\n            System.out.println();\n        }\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058063",
+    "lang": "java",
+    "program": "import java.util.Scanner;\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        while(scanner.hasNext()) {\n            double high = scanner.nextDouble();\n            double c = scanner.nextDouble();\n            double distance;\n            distance=high/Math.tan(c);\n            System.out.printf(\"%.2f\",distance);\n            System.out.println();\n\n        }\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058064",
+    "lang": "java",
+    "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        while (scanner.hasNextLine()) {\n            String line = scanner.nextLine().trim();\n            if (line.isEmpty()) {\n                continue;\n            }\n            \n            String[] parts = line.split(\"\\\\s+\");\n            if (parts.length < 3) {\n                System.out.println(\"Input Error!\");\n                continue;\n            }\n            \n            try {\n                double a = Double.parseDouble(parts[0]);\n                double b = Double.parseDouble(parts[1]);\n                double c = Double.parseDouble(parts[2]);\n                \n                // 检查边长是否为正数且能构成三角形\n                if (a <= 0 || b <= 0 || c <= 0) {\n                    System.out.println(\"Input Error!\");\n                } else if (a + b > c && a + c > b && b + c > a) {\n                    double p = (a + b + c) / 2;\n                    double area = Math.sqrt(p * (p - a) * (p - b) * (p - c));\n                    System.out.printf(\"%.2f\\n\", area);\n                } else {\n                    System.out.println(\"Input Error!\");\n                }\n            } catch (NumberFormatException e) {\n                System.out.println(\"Input Error!\");\n            }\n        }\n        \n        scanner.close();\n    }\n}",
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058065",
+    "lang": "java",
+    "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        double weight = scanner.nextDouble();//体重\n        double height = scanner.nextDouble();//身高\n        \n        if (weight <= 0 || weight > 727 || height <= 0 || height > 2.72) {\n            System.out.println(\"input out of range\");\n            return;\n        }\n        double bmi = weight / (height * height);\n        \n        if (bmi < 18.5) {\n            System.out.println(\"thin\");\n        } else if (bmi < 24) {\n            System.out.println(\"fit\");\n        } else if (bmi < 28) {\n            System.out.println(\"overweight\");\n        } else {\n            System.out.println(\"fat\");\n        }\n    }\n}",
+    "status": "ACCEPTED"
+  }
+]

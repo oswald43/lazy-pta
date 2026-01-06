@@ -1,0 +1,28 @@
+[
+  {
+    "problemSetProblemId": "1972112083697065997",
+    "answers": [
+      "C",
+      "D"
+    ],
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "1972112083697065998",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "status": "PARTIAL_ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1972112083697065999",
+    "answers": [
+      "B",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  }
+]

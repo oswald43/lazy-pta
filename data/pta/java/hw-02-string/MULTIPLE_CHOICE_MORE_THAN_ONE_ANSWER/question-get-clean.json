@@ -1,0 +1,33 @@
+[
+  {
+    "id": "1972112083697065997",
+    "description": "Java语言中，下列有关使用String类的语句中哪几项是正确的？",
+    "choices": [
+      "String s[]={\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+      "String s[5]=new String[]{\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+      "String s[]=new String[]{\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+      "String s[]=new String(){\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};"
+    ]
+  },
+  {
+    "id": "1972112083697065998",
+    "description": "String类对象的创建方式包括：（        ）。",
+    "choices": [
+      "String str1=\"imooc\";",
+      "String str2=new String();",
+      "String str3=new String(\"imooc\");",
+      "String str4=\"abc\"+\"123\";",
+      "String str5=str1.toUpperCase();"
+    ]
+  },
+  {
+    "id": "1972112083697065999",
+    "description": "下面的哪些Java程序片断可能导致错误。",
+    "choices": [
+      "```java\nString s = \"Gone with the wind\";\nString t = \" good \";\nString k = s + t;\n```",
+      "```java\nString s = \"Gone with the wind\";\nString t;\nt = s[3] + \"one\"; \n```",
+      "```java\nString s = \"Gone with the wind\";\nString standard = s.toUpperCase();\n```",
+      "```java\nString s = \"home directory\";\nString t = s - \"directory\";\n```"
+    ]
+  }
+]

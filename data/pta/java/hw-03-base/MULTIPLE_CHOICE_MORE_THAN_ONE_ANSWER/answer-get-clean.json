@@ -1,0 +1,42 @@
+[
+  {
+    "problemSetProblemId": "1977900031309058055",
+    "answers": [
+      "A",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058056",
+    "answers": [
+      "C",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058057",
+    "answers": [
+      "A",
+      "C"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058058",
+    "answers": [
+      "C",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "1977900031309058059",
+    "answers": [
+      "B",
+      "D"
+    ],
+    "status": "ACCEPTED"
+  }
+]

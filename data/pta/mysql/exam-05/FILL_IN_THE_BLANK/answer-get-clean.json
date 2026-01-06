@@ -1,0 +1,82 @@
+[
+  {
+    "problemSetProblemId": "2004418985246494892",
+    "answers": [
+      "部门编号",
+      "部门编号",
+      "供应商名称",
+      "入库",
+      "员工编号",
+      "商品编号",
+      "销售",
+      "供应商编号",
+      "商品编号",
+      "部门编号"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "2004418985246494893",
+    "answers": [
+      "PRIMARY KEY (sno, cno)"
+    ],
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "2004418985246494894",
+    "answers": [
+      "ON students (sname, class, sdept)"
+    ],
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "2004418985246494895",
+    "answers": [
+      "B",
+      "A"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "2004418985246494896",
+    "answers": [
+      "NONCLUSTERED",
+      "ON"
+    ],
+    "status": "PARTIAL_ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "2004418985246494897",
+    "answers": [
+      "ALTER TABLE student ADD resume VARCHAR(200)"
+    ],
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "2004418985246494898",
+    "answers": [
+      "DROP VIEW v_sc_39"
+    ],
+    "status": "WRONG_ANSWER"
+  },
+  {
+    "problemSetProblemId": "2004418985246494899",
+    "answers": [
+      "84",
+      "3",
+      "78",
+      "168"
+    ],
+    "status": "ACCEPTED"
+  },
+  {
+    "problemSetProblemId": "2004418985246494900",
+    "answers": [
+      "π",
+      "SNO",
+      "σ",
+      "CNAME='DB'"
+    ],
+    "status": "PARTIAL_ACCEPTED"
+  }
+]

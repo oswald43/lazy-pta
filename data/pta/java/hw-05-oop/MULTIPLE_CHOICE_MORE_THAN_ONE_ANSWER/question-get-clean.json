@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1983003941989945354",
+    "description": "有如下TestA类的定义：\n```\npublic class TestA {\n    static int a=10;\n}\n```\n用该类创建2个对象：testA1和testA2，现将类变量（静态变量）a的数值变为100，则正确的方式是：（    ）。",
+    "choices": [
+      "TestA.a=100;",
+      "testA1.a=100;",
+      "testA2.a=100;",
+      "以上都不对"
+    ]
+  },
+  {
+    "id": "1983003941989945355",
+    "description": "下面关于构造方法的描述，正确的有哪些？（    ）   (2.0分)",
+    "choices": [
+      "方法名必须和类名相同",
+      "在方法中不能return语句返回一个值",
+      "方法名的前面有返回值类型的声明",
+      "当定义了带参数的构造方法，系统默认的不带参数的构造方法依然存在"
+    ]
+  },
+  {
+    "id": "1983003941989945356",
+    "description": "下面关于变量及其作用域范围的陈述哪些是正确的（    ）。",
+    "choices": [
+      "实例变量是类的成员变量",
+      "实例变量用关键字static声明",
+      "在方法中定义的局部变量，在该方法被执行时创建",
+      "局部变量在使用前必须被初始化"
+    ]
+  },
+  {
+    "id": "1983003941989945357",
+    "description": "若在cn.sdut包中有A、B类，在cn.sdut.cs包中有C、D类，在default package中如果要使用到A、B、C、D 4个类时，引入方式为：(    )。",
+    "choices": [
+      "```\nimport cn.sdut.A;\nimport cn.sdut.B;\nimport cn.sdut.cs.C;\nimport cn.sdut.cs.D;\n```",
+      "```\nimport cn.sdut.*;\n\n```",
+      "```\nimport cn.sdut.*;\nimport cn.sdut.cs.*;\n```",
+      "```\nimport cn.sdut.cs.*;\n```"
+    ]
+  },
+  {
+    "id": "1983003941989945358",
+    "description": "类中哪些访问权限修饰的成员，在子类访问时不受限制?（     ）",
+    "choices": [
+      "private",
+      "默认",
+      "protected",
+      "public"
+    ]
+  }
+]
