@@ -57,8 +57,8 @@ export async function ansMd(dirPath: string, problemType: ProblemType) {
 
   const { ansMdaPath, ansMdqaPath } = ansMdPath;
   const { ansMdaData, ansMdqaData } = ansMdData;
-  await writeMd(ansMdaPath, ansMdaData.join(""));
-  await writeMd(ansMdqaPath, ansMdqaData.join(""));
+  await writeMd(ansMdaData.join(""), ansMdaPath);
+  await writeMd(ansMdqaData.join(""), ansMdaPath);
 }
 
 async function getMeta(dirPath: string, problemType: ProblemType) {

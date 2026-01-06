@@ -21,3 +21,10 @@ export async function getDirPath(page: Page, problemType: ProblemType) {
 
   return dirPath;
 }
+
+export function isDataEmpty(data: any, path: string) {
+  if (!data || Object.keys(data).length === 0) {
+    console.log(`isDataEmpty: ${path}`);
+    return true;
+  } else false;
+}

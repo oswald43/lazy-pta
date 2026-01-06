@@ -28,7 +28,7 @@ export async function questionGetClean(qtPaths: string[]) {
 }
 
 // without get, only clean
-// It exists answer-get.json, then generate answer-get-clean.json and answer-get-clean-ai.json
+// It exists answer-get.json, then generate answer-get-clean.json and answer-get-clean-ai.json (offline status)
 export async function answerGetClean(qtPaths: string[]) {
   for (const qtPath of qtPaths) {
     const problemType = path.basename(qtPath) as ProblemType;

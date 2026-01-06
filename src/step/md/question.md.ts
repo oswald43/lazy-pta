@@ -29,7 +29,7 @@ export async function queMd(dirPath: string, problemType: ProblemType) {
       break;
   }
 
-  await writeMd(queMdPath!, queMdData.join(""));
+  await writeMd(queMdData.join(""), queMdPath!);
 }
 
 export async function getMeta(dirPath: string, problemType: ProblemType) {

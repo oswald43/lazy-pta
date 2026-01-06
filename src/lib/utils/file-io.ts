@@ -6,7 +6,7 @@ export async function readJson(filePath: string) {
   return JSON.parse(data);
 }
 
-export async function writeJson(filePath: string, data: any) {
+export async function writeJson(data: any, filePath: string) {
   const dirPath = path.dirname(filePath);
   await fs.mkdir(dirPath, { recursive: true });
   await fs.writeFile(filePath, JSON.stringify(data, null, 2));
@@ -14,7 +14,7 @@ export async function writeJson(filePath: string, data: any) {
   console.log(`writeJson: ${filePath}`);
 }
 
-export async function writeMd(filePath: string, data: string) {
+export async function writeMd(data: string, filePath: string) {
   await fs.writeFile(filePath, data, "utf-8");
 
   console.log(`writeMd: ${filePath}`);

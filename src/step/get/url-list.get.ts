@@ -4,5 +4,5 @@ import path from "path";
 
 export async function urlListGet(dirPath: string, urlGetData: any) {
   const urlGetPath = path.join(dirPath, urlListFile);
-  await writeJson(urlGetPath, urlGetData);
+  await writeJson(urlGetData, urlGetPath);
 }

@@ -34,7 +34,7 @@ async function urlListQueClean(dirPath: string, url: string) {
     urlListQueBuilder({ problemSetId, problemSetProblemId: item.id })
   );
 
-  await writeJson(urlsClPath, urlsClData);
+  await writeJson(urlsClData, urlsClPath);
 }
 
 async function urlListAnsClean(dirPath: string, url: string) {
@@ -45,5 +45,5 @@ async function urlListAnsClean(dirPath: string, url: string) {
     urlListAnsBuilder({ examId, problemSetId, problemSetProblemId: item.id })
   );
 
-  await writeJson(urlsClPath, urlsClData);
+  await writeJson(urlsClData, urlsClPath);
 }

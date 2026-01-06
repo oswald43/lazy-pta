@@ -5,10 +5,13 @@ import { readJson, writeJson } from "@/lib/utils/file-io";
 import { sleep } from "@/lib/utils/sleep";
 import { Page } from "@playwright/test";
 import path from "path";
+import { isDataEmpty } from "./util";
 
 export async function ansGet(dirPath: string, ansGetData: any) {
   const ansGetPath = path.join(dirPath, ansGetFile);
-  await writeJson(ansGetPath, ansGetData);
+
+  if (isDataEmpty(ansGetData, ansGetPath)) return;
+  await writeJson(ansGetData, ansGetPath);
 }
 
 export async function ansListGet(dirPath: string, page: Page) {
@@ -24,5 +27,6 @@ export async function ansListGet(dirPath: string, page: Page) {
     ansGetCleanData.push(data);
   }
 
-  await writeJson(ansGetCleanFile, ansGetCleanData);
+  if (isDataEmpty(ansGetCleanData, ansGetCleanFile)) return;
+  await writeJson(ansGetCleanData, ansGetCleanFile);
 }

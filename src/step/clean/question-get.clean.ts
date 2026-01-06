@@ -49,7 +49,7 @@ export async function queClean(dirPath: string, problemType: ProblemType) {
       break;
   }
 
-  await writeJson(queGetCleanPath, queGetCleanData);
+  await writeJson(queGetCleanData, queGetCleanPath);
 }
 
 async function getMeta(dirPath: string) {

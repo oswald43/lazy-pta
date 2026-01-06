@@ -8,7 +8,7 @@ import path from "path";
 
 export async function queGet(dirPath: string, queGetData: any) {
   const queGetPath = path.join(dirPath, queGetFile);
-  await writeJson(queGetPath, queGetData);
+  await writeJson(queGetData, queGetPath);
 }
 
 export async function queListGet(dirPath: string, page: Page) {
@@ -24,5 +24,5 @@ export async function queListGet(dirPath: string, page: Page) {
     queGetCleanData.push(data);
   }
 
-  await writeJson(queGetCleanPath, queGetCleanData);
+  await writeJson(queGetCleanData, queGetCleanPath);
 }

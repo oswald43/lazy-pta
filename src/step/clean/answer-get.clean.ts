@@ -52,7 +52,7 @@ export async function ansClean(dirPath: string, problemType: ProblemType) {
       break;
   }
 
-  await writeJson(ansGetCleanPath, ansGetCleanData);
+  await writeJson(ansGetCleanData, ansGetCleanPath);
 }
 
 async function getMeta(dirPath: string) {
