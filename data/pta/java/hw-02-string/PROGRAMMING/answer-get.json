@@ -1,0 +1,362 @@
+[
+  {
+    "submission": {
+      "id": "1978464790234296320",
+      "userId": "1970285532932608000",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1972112083701260288",
+      "submitAt": "2025-10-15T14:15:38Z",
+      "status": "ACCEPTED",
+      "score": 10,
+      "compiler": "JAVAC",
+      "time": 0.114,
+      "memory": 18731008,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1972112083701260288",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        // 读取所有输入行\n        while (scanner.hasNextLine()) {\n            String line = scanner.nextLine();\n            System.out.println(isValidIdentifier(line));\n        }\n        \n        scanner.close();\n    }\n    \n    // 判断字符串是否为合法的Java标识符\n    private static boolean isValidIdentifier(String s) {\n        // 空字符串不是合法标识符\n        if (s.isEmpty()) {\n            return false;\n        }\n        \n        // 检查首字符\n        char firstChar = s.charAt(0);\n        if (!isValidFirstCharacter(firstChar)) {\n            return false;\n        }\n        \n        // 检查剩余字符\n        for (int i = 1; i < s.length(); i++) {\n            char c = s.charAt(i);\n            if (!isValidCharacter(c)) {\n                return false;\n            }\n        }\n        \n        return true;\n    }\n    \n    // 检查是否为合法的首字符\n    private static boolean isValidFirstCharacter(char c) {\n        // 首字符可以是字母、下划线或美元符号，但不能是数字\n        return Character.isLetter(c) || c == '_' || c == '$';\n    }\n    \n    // 检查是否为合法的非首字符\n    private static boolean isValidCharacter(char c) {\n        // 其他字符可以是字母、数字、下划线或美元符号\n        return Character.isLetterOrDigit(c) || c == '_' || c == '$';\n    }\n}\n    "
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 10,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.112,
+                "memory": 18731008,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 5,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.114,
+                "memory": 18546688,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 5,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1972112083701260288"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1972112083655122944",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-15T14:15:39Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1978464852221919232",
+      "userId": "1970285532932608000",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1972112083701260289",
+      "submitAt": "2025-10-15T14:15:53Z",
+      "status": "ACCEPTED",
+      "score": 12,
+      "compiler": "JAVAC",
+      "time": 0.122,
+      "memory": 19062784,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1972112083701260289",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        while (scanner.hasNextLine()) {\n            String choice = scanner.nextLine().trim();\n            System.out.println(\"choice=\" + choice);\n            \n            if (choice.equals(\"double\")) {\n                // 处理double类型输入\n                String[] doubles = scanner.nextLine().split(\"\\\\s+\");\n                double d1 = Double.parseDouble(doubles[0]);\n                double d2 = Double.parseDouble(doubles[1]);\n                double d3 = Double.parseDouble(doubles[2]);\n                \n                // 右侧填充空格，左侧填充空格，直接输出，均保留2位小数，宽度5\n                System.out.printf(\"%.2f ,%5.2f,%.2f%n\", d1, d2, d3);\n            } \n            else if (choice.equals(\"int\")) {\n                // 处理int类型输入\n                String[] integers = scanner.nextLine().split(\"\\\\s+\");\n                int sum = 0;\n                for (String num : integers) {\n                    sum += Integer.parseInt(num);\n                }\n                System.out.println(sum);\n            } \n            else if (choice.equals(\"str\")) {\n                // 处理字符串类型输入\n                String[] strings = scanner.nextLine().split(\"\\\\s+\");\n                // 去除空格并倒序输出\n                StringBuilder sb = new StringBuilder();\n                for (int i = strings.length - 1; i >= 0; i--) {\n                    sb.append(strings[i].replaceAll(\"\\\\s+\", \"\"));\n                }\n                System.out.println(sb.toString());\n            } \n            else if (choice.equals(\"line\")) {\n                // 处理一行字符串\n                String line = scanner.nextLine();\n                System.out.println(line.toUpperCase());\n            } \n            else {\n                // 其他情况\n                System.out.println(\"other\");\n                // 如果输入是end，退出循环\n                if (choice.equals(\"end\")) {\n                    break;\n                }\n            }\n        }\n        \n        scanner.close();\n    }\n}\n"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 12,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "0": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.122,
+                "memory": 18538496,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 4,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.118,
+                "memory": 19062784,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 4,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.121,
+                "memory": 19062784,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 4,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1972112083701260289"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1972112083655122944",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-15T14:15:54Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1978464933956317184",
+      "userId": "1970285532932608000",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1972112083701260290",
+      "submitAt": "2025-10-15T14:16:13Z",
+      "status": "ACCEPTED",
+      "score": 16,
+      "compiler": "JAVAC",
+      "time": 0.156,
+      "memory": 20586496,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1972112083701260290",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        // 读取输入的图书信息\n        Scanner scanner = new Scanner(System.in);\n        String input = scanner.nextLine();\n        scanner.close();\n        \n        // 按分号分割字符串，得到每本图书的信息\n        String[] bookEntries = input.split(\";\");\n        \n        int totalPrice = 0;\n        \n        // 处理每本图书的信息\n        for (String entry : bookEntries) {\n            // 去除前后空格\n            entry = entry.trim();\n            if (entry.isEmpty()) {\n                continue; // 跳过可能的空字符串\n            }\n            \n            // 按冒号分割得到书名和价格部分\n            String[] parts = entry.split(\":\", 2);\n            if (parts.length < 2) {\n                continue; // 格式不正确，跳过\n            }\n            \n            // 提取书名并去除可能的空格\n            String bookName = parts[0].trim();\n            \n            // 提取价格并去除可能的空格，转换为整数\n            String priceStr = parts[1].trim();\n            int price = Integer.parseInt(priceStr);\n            \n            // 累加总价格\n            totalPrice += price;\n            \n            // 输出当前图书信息\n            System.out.println(bookName + \"--\" + price);\n        }\n        \n        // 输出总价格\n        System.out.println(\"总价格--\" + totalPrice);\n    }\n}\n    "
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 16,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.156,
+                "memory": 20586496,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 8,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.156,
+                "memory": 20492288,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 8,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1972112083701260290"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1972112083655122944",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-15T14:16:13Z"
+    }
+  },
+  {
+    "submission": {
+      "id": "1978465005364342784",
+      "userId": "1970285532932608000",
+      "problemType": "PROGRAMMING",
+      "problemSetProblemId": "1972112083701260291",
+      "submitAt": "2025-10-15T14:16:30Z",
+      "status": "ACCEPTED",
+      "score": 20,
+      "compiler": "JAVAC",
+      "time": 0.123,
+      "memory": 18862080,
+      "submissionDetails": [
+        {
+          "problemSetProblemId": "1972112083701260291",
+          "programmingSubmissionDetail": {
+            "compiler": "JAVAC",
+            "program": "import java.util.Scanner;\n\npublic class Main {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        // 循环读取每行输入\n        while (true) {\n            String line = scanner.nextLine();\n            \n            // 如果输入\"end\"，则结束程序\n            if (line.equals(\"end\")) {\n                break;\n            }\n            \n            int sum = 0;\n            // 遍历字符串中的每个字符\n            for (int i = 0; i < line.length(); i++) {\n                char c = line.charAt(i);\n                // 检查是否为数字字符\n                if (Character.isDigit(c)) {\n                    // 将字符转换为对应的数字并累加\n                    sum += Character.getNumericValue(c);\n                }\n            }\n            \n            // 输出当前行的数字之和\n            System.out.println(sum);\n        }\n        \n        scanner.close();\n    }\n}\n"
+          },
+          "problemId": "0"
+        }
+      ],
+      "judgeResponseContents": [
+        {
+          "status": "ACCEPTED",
+          "score": 20,
+          "programmingJudgeResponseContent": {
+            "compilationResult": {
+              "log": "",
+              "success": true,
+              "error": ""
+            },
+            "checkerCompilationResult": {
+              "log": "",
+              "success": false,
+              "error": ""
+            },
+            "testcaseJudgeResults": {
+              "1": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.114,
+                "memory": 18739200,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 6,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "2": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.123,
+                "memory": 18788352,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 6,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              },
+              "3": {
+                "result": "ACCEPTED",
+                "exceed": "UNKNOWN_TESTCASE_EXCEED",
+                "time": 0.122,
+                "memory": 18862080,
+                "exitcode": 0,
+                "termsig": 0,
+                "error": "",
+                "stdout": "",
+                "stderr": "",
+                "checkerOutput": "",
+                "testcaseScore": 8,
+                "stdoutTruncated": false,
+                "stderrTruncated": false,
+                "showOutput": false
+              }
+            }
+          },
+          "problemSetProblemId": "1972112083701260291"
+        }
+      ],
+      "hints": {},
+      "problemSetId": "1972112083655122944",
+      "previewSubmission": false,
+      "cause": "",
+      "judgeAt": "2025-10-15T14:16:30Z"
+    }
+  }
+]

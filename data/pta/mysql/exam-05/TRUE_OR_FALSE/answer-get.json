@@ -1,0 +1,143 @@
+{
+  "submission": {
+    "id": "2004443286817112064",
+    "userId": "1970285532932608000",
+    "problemType": "TRUE_OR_FALSE",
+    "problemSetProblemId": "0",
+    "submitAt": "2025-12-26T06:44:54Z",
+    "status": "ACCEPTED",
+    "score": 10,
+    "compiler": "NO_COMPILER",
+    "time": 0,
+    "memory": 0,
+    "submissionDetails": [
+      {
+        "problemSetProblemId": "2004418985217134597",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985221328909",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985221328915",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985221328922",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985221328946",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985221328956",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985242300424",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985242300431",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985242300443",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2004418985242300455",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      }
+    ],
+    "judgeResponseContents": [
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985217134597"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985221328909"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985221328915"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985221328922"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985221328946"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985221328956"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985242300424"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985242300431"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985242300443"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "2004418985242300455"
+      }
+    ],
+    "hints": {},
+    "problemSetId": "2004418984684158976",
+    "previewSubmission": false,
+    "cause": "",
+    "judgeAt": "2025-12-26T07:48:43Z"
+  }
+}

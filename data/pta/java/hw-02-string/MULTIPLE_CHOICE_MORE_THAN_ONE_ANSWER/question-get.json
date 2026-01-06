@@ -1,0 +1,138 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "205": {
+      "id": "205",
+      "name": "兰州大学",
+      "code": "lzu",
+      "type": "SCHOOL",
+      "logo": "ab16eeb2-105d-498b-aa50-8dd591540d99.png"
+    },
+    "262": {
+      "id": "262",
+      "name": "天津仁爱学院",
+      "code": "tjrac",
+      "type": "SCHOOL",
+      "logo": ""
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1972112083697065997",
+      "label": "",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "String s[]={\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+            "String s[5]=new String[]{\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+            "String s[]=new String[]{\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};",
+            "String s[]=new String(){\"Zero\",\"One\",\"Two\",\"Three\",\"Four\"};"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java语言中，下列有关使用String类的语句中哪几项是正确的？",
+      "content": "Java语言中，下列有关使用String类的语句中哪几项是正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1403190284989124608",
+      "description": "Java语言中，下列有关使用String类的语句中哪几项是正确的？",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    },
+    {
+      "id": "1972112083697065998",
+      "label": "",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 5,
+          "choices": [
+            "String str1=\"imooc\";\n",
+            "String str2=new String();\n",
+            "String str3=new String(\"imooc\");\n",
+            "String str4=\"abc\"+\"123\";\n",
+            "String str5=str1.toUpperCase();\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串构造方法--String类对象的创建方式包括：（        ）。",
+      "content": "String类对象的创建方式包括：（        ）。",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424547902356975616",
+      "description": "String类对象的创建方式包括：（        ）。",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083697065999",
+      "label": "",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "```java\nString s = \"Gone with the wind\";\nString t = \" good \";\nString k = s + t;\n```\n",
+            "```java\nString s = \"Gone with the wind\";\nString t;\nt = s[3] + \"one\"; \n```\n",
+            "```java\nString s = \"Gone with the wind\";\nString standard = s.toUpperCase();\n```",
+            "```java\nString s = \"home directory\";\nString t = s - \"directory\";\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面的哪些Java程序片断可能导致错误。",
+      "content": "下面的哪些Java程序片断可能导致错误。 ",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1504812088726589440",
+      "description": "下面的哪些Java程序片断可能导致错误。 ",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1972112083697065997": "3-1",
+    "1972112083697065998": "3-2",
+    "1972112083697065999": "3-3"
+  }
+}

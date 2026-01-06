@@ -1,0 +1,1037 @@
+{
+  "organizationById": {
+    "17": {
+      "id": "17",
+      "name": "浙江传媒学院",
+      "code": "zumc",
+      "type": "SCHOOL",
+      "logo": "1adfb2e4-2999-43e0-a4e3-e0b71fce6ec0.png"
+    },
+    "75": {
+      "id": "75",
+      "name": "河北农业大学",
+      "code": "hebau",
+      "type": "SCHOOL",
+      "logo": "ad5787ec-3e39-4d08-bd68-1dd0e1ac1bae.png"
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "153": {
+      "id": "153",
+      "name": "山东科技大学",
+      "code": "sdust",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/sdust.png"
+    },
+    "262": {
+      "id": "262",
+      "name": "天津仁爱学院",
+      "code": "tjrac",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "263": {
+      "id": "263",
+      "name": "沈阳师范大学",
+      "code": "synu",
+      "type": "SCHOOL",
+      "logo": ""
+    },
+    "1353694861766860800": {
+      "id": "1353694861766860800",
+      "name": "新疆科技学院",
+      "code": "xjust",
+      "type": "SCHOOL",
+      "logo": ""
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1970095484400439296",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "JRE",
+            "JVM",
+            "Eclipse",
+            "javac.exe"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "一个计算机上安装JDK后，该计算机不包含的是（）。   ",
+      "content": "一个计算机上安装JDK后，该计算机不包含的是（）。   @[](2)\n\nA. JRE\nB. JVM\nC. Eclipse\nD. javac.exe\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "张峰",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1078266766531624960",
+      "description": "一个计算机上安装JDK后，该计算机不包含的是（）。",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "153"
+    },
+    {
+      "id": "1970095484400439297",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "每一个.java文件编译后对应一个.class文件。",
+            ".java文件编译后，每一个class对应一个.class文件",
+            "Java源代码编译后产生的.class是字节码文件",
+            ".class文件在JVM上运行"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于Java语言的描述，错误的是（）。   ",
+      "content": "关于Java语言的描述，错误的是（）。   @[](1)\n\nA. 每一个.java文件编译后对应一个.class文件。\nB. .java文件编译后，每一个class对应一个.class文件\nC. Java源代码编译后产生的.class是字节码文件\nD. .class文件在JVM上运行\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘永福",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1142443693710204928",
+      "description": "关于Java语言的描述，错误的是（）。",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "75"
+    },
+    {
+      "id": "1970095484400439298",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "String",
+            "_Name",
+            "Name123",
+            "100Book"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面哪个标识符不符合Java定义要求？",
+      "content": "下面哪个标识符不符合Java定义要求？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1227221991421005824",
+      "description": "下面哪个标识符不符合Java定义要求？",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1970095484400439299",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "Java应用程序由若干个类所构成，这些类必须在一个源文件中",
+            "Java源文件必须含有主类",
+            "Java源文件的文件名必须与public类名完全相同",
+            "Java应用程序由若干个类所构成，这些类可以在一个源文件中，也可以分布在若干个源文件中，其中每个源文件必须含有主类。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列哪个叙述是正确的？  ",
+      "content": "下列哪个叙述是正确的？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1227421572243017728",
+      "description": "下列哪个叙述是正确的？",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1970095484400439300",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "_sys1_lll",
+            "2mail",
+            "$change",
+            "Class"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下哪个标识符不合法？",
+      "content": "以下哪个标识符不合法？@[](2)\n\nA. _sys1_lll\nB. 2mail\nC. $change\nD. Class\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1227439926227914752",
+      "description": "以下哪个标识符不合法？",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1970095484400439301",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "java",
+            "class",
+            "exe",
+            "html"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java应用程序源文件的扩展名为(  )。 ",
+      "content": " Java应用程序源文件的扩展名为(  )。 @[](2)\n\nA. java\nB. class\nC. exe\nD. html\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1231803239078449152",
+      "description": " Java应用程序源文件的扩展名为(  )。",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1970095484400439302",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "java",
+            "class",
+            "exe",
+            "html"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java应用程序经过编译后会产生一个以（   ）为扩展名的字节码文件 ",
+      "content": " Java应用程序经过编译后会产生一个以（   ）为扩展名的字节码文件 @[](2)\n\nA. java\nB. class\nC. exe\nD. html\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1231803955696259072",
+      "description": " Java应用程序经过编译后会产生一个以（   ）为扩展名的字节码文件",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1970095484400439303",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "源代码",
+            "处理器代码",
+            "字节码",
+            ".exe可执行代码"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "哪一种类型的代码被JVM解释成本地代码？",
+      "content": "哪一种类型的代码被JVM解释成本地代码？\n@[](2)\n\nA. 源代码\nB. 处理器代码\nC. 字节码\nD. .exe可执行代码",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1308259016284504064",
+      "description": "哪一种类型的代码被JVM解释成本地代码？",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1970095484400439304",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "javac.exe和javadoc.exe",
+            "java.exe和jdb.exe",
+            "jad.exe和java.exe",
+            "javac.exe和java.exe"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "编译Java源文件和解释执行Java字节码文件的指令分别是什么？",
+      "content": "编译Java源文件和解释执行Java字节码文件的指令分别是什么？\n@[](2)\n\nA. javac.exe和javadoc.exe\nB. java.exe和jdb.exe\nC. jad.exe和java.exe\nD. javac.exe和java.exe",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1308259467025383424",
+      "description": "编译Java源文件和解释执行Java字节码文件的指令分别是什么？",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1970095484400439305",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "public static void main(String args){ }",
+            "public static void main(String[ ] args){ }",
+            "public static void main(String args[ ]){ }",
+            "public static void main(String message[ ]){ }"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java类的定义中，程序执行入口声明如下，哪一个是错误的程序代码？",
+      "content": "在Java类的定义中，程序执行入口声明如下，哪一个是错误的程序代码？\n@[](2)\n\nA. public static void main(String args){ }\nB. public static void main(String[ ] args){ }\nC. public static void main(String args[ ]){ }\nD. public static void main(String message[ ]){ }",
+      "type": "MULTIPLE_CHOICE",
+      "author": "李妙妍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1308260633822035968",
+      "description": "在Java类的定义中，程序执行入口声明如下，哪一个是错误的程序代码？",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "263"
+    },
+    {
+      "id": "1970095484400439306",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "不受限制"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "一个Java源文件中最多可以包含（       ）个主类？",
+      "content": "一个Java源文件中最多可以包含（       ）个主类？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367346786842447872",
+      "description": "一个Java源文件中最多可以包含（       ）个主类？",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439307",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "一个java源程序经过编译后，得到的文件的扩展名一定是.class。",
+            "一个java源程序编译通过后，得到的结果文件数也只有一个。",
+            "一个java源程序只能有一个public class类定义，且源文件的名字与public class的类名相同，扩展名必须是.java。",
+            "一个java源程序可以编译成多个class文件。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列说法中，不正确的是(         )。",
+      "content": "下列说法中，不正确的是(         )。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367346898327048192",
+      "description": "下列说法中，不正确的是(         )。",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439308",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "一定是A.java",
+            "一定是B.java",
+            "一定是C.java",
+            "不确定"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "某Java源文件代码如下，该源文件应如何命名？",
+      "content": "某Java源文件代码如下，该源文件应如何命名？\n```{Java}\npublic class A {\n int a;\n}\nclass B {\n int b;\n}\nclass C {\n public static void main(String[] args) {\n  System.out.print(\"HELLO!\");\n }\n}\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367347021073354752",
+      "description": "某Java源文件代码如下，该源文件应如何命名？\n```{Java}\npublic class A {\n int a;\n}\nclass B {\n int b;\n}\nclass C {\n public static void main(String[] args) {\n  System.out.print(\"HELLO!\");\n }\n}\n```",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439309",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "一定是A.java",
+            "一定是B.java",
+            "一定是C.java",
+            "后缀是.java，文件名可以任意取，符合标识符规范即可。"
+          ],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "某Java源文件代码如下，该源文件应如何命名？",
+      "content": "某Java源文件代码如下，该源文件应如何命名？\n```\nclass A {\n  int a;\n}\nclass B {\n  int b;\n}\nclass C {\n   public static void main(String[] args) {\n       System.out.print(\"HELLO!\");\n   } \n}\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367347099074826240",
+      "description": "某Java源文件代码如下，该源文件应如何命名？\n```\nclass A {\n  int a;\n}\nclass B {\n  int b;\n}\nclass C {\n   public static void main(String[] args) {\n       System.out.print(\"HELLO!\");\n   } \n}\n```",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439310",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "main  主类\n",
+            "Main  主类",
+            "main  公共类",
+            "Main  公共类"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "（       ）方法是Java程序执行的入口，含有该方法的类叫做（      ）。",
+      "content": "（       ）方法是Java程序执行的入口，含有该方法的类叫做（      ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1406566571564969984",
+      "description": "（       ）方法是Java程序执行的入口，含有该方法的类叫做（      ）。",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439311",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            ".java\n",
+            ".jre",
+            ".exe",
+            ".class"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面哪种类型的文件可以在Java虚拟机中运行？",
+      "content": "下面哪种类型的文件可以在Java虚拟机中运行？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1406567303482621952",
+      "description": "下面哪种类型的文件可以在Java虚拟机中运行？",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439312",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "机器语言\n",
+            "汇编语言",
+            "高级语言",
+            "以上都不对"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Java属于以下哪种语言？",
+      "content": "Java属于以下哪种语言？\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1406595698731958272",
+      "description": "Java属于以下哪种语言？\n",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439313",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "运行Java程序只要有JRE环境就可以，不一定需要全部JDK的功能\n",
+            "JDK中包括JVM、核心类库、Java开发工具（java，javac）等",
+            "JDK本身也是平台无关的，不同的操作系统安装的JDK是一样的\t",
+            "JDK的全称是 Java Development Kit"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "对JDK描述错误的是（     ）。",
+      "content": "对JDK描述错误的是（     ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1406597096513445888",
+      "description": "对JDK描述错误的是（     ）。",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439314",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "在系统环境变量path原有的字符串基础上，加上分号“;”，然后再加上JDK安装路径下的bin目录\n",
+            "新建系统环境变量path，其值为：分号“;”，然后再连上JDK安装路径下的bin目录\n",
+            "在系统环境变量path原有的字符串基础上，加上分号“;”，然后再加上JDK安装路径下的lib目录\n",
+            "新建系统环境变量path，其值为：分号“;”，然后再连上JDK安装路径下的lib目录"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "正确配置path环境变量的方式是：（    ）。",
+      "content": "正确配置path环境变量的方式是：（    ）。\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1406613318198734848",
+      "description": "正确配置path环境变量的方式是：（    ）。\n\n",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439315",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "public main(String args[ ])\t",
+            "public static void main(String args[ ])\t",
+            "private static void main(String args[ ])\t\n",
+            "void main()"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面关于main方法声明正确的是（    ）。",
+      "content": "下面关于main方法声明正确的是（    ）。\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1406613912312848384",
+      "description": "下面关于main方法声明正确的是（    ）。\n\n",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439316",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "//**//",
+            "/*/*",
+            "//",
+            "/**/"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中，哪一个是多行注释符号（）",
+      "content": "下列选项中，哪一个是多行注释符号（）",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘生智",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1457699956310802432",
+      "description": "下列选项中，哪一个是多行注释符号（）",
+      "problemPoolIndex": 21,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1353694861766860800"
+    },
+    {
+      "id": "1970095484400439317",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "super",
+            "3number",
+            "#number",
+            "$number"
+          ],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "tjrac-java-s-02-03 Java用户标识符",
+      "content": "以下（  ）字符串是 Java 中合法的标识符。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1477492220018438144",
+      "description": "以下（  ）字符串是 Java 中合法的标识符。",
+      "problemPoolIndex": 22,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1970095484400439318",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "public",
+            "static",
+            "void",
+            "main"
+          ],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "属于 main() 方法的返回类型是 ____ 。",
+      "content": "属于 main() 方法的返回类型是（）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1477562329256833024",
+      "description": "属于 main() 方法的返回类型是（）。",
+      "problemPoolIndex": 23,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1970095484400439319",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "MyClass必须定义一个正确的main()方法",
+            "MyClass必须定义在MyClass.java源文件中",
+            "MyClass必须定义在MyClass包中",
+            "MyClass类必须被导入"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "tjrac-java-s-01-05 Java源程序文件编译",
+      "content": "请问，为了使一个名为MyClass的public类成功编译，需要满足以下哪些条件？",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘凤良",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1477813538962157568",
+      "description": "请问，为了使一个名为MyClass的public类成功编译，需要满足以下哪些条件？",
+      "problemPoolIndex": 24,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1970095484400439320",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "_double",
+            "$123",
+            "Main",
+            "class"
+          ],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "tjrac-java-s-02-01 用户标识符",
+      "content": "以下哪个标识符不是Java语言的合法用户标识符（   ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1477839304764567552",
+      "description": "以下哪个标识符不是Java语言的合法用户标识符（   ）。",
+      "problemPoolIndex": 25,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1970095484400439321",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            ".java",
+            ".class",
+            ".html",
+            ".exe"
+          ],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "tjrac-java-s-01-04 Java字节码文件",
+      "content": "编译Java Application源程序文件将产生相应的字节码文件，这些字节码文件的扩展名是（）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1477841018082672640",
+      "description": "编译Java Application源程序文件将产生相应的字节码文件，这些字节码文件的扩展名是（）。",
+      "problemPoolIndex": 26,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1970095484400439322",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "char args[]",
+            "char args[][]",
+            "String args[]",
+            "String args"
+          ],
+          "maxDisplayChoicesPerLine": 2
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面 ____ 是 main()方法的合法参数。",
+      "content": "下面（ ）是 main()方法的合法参数。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1477866953610690560",
+      "description": "下面（ ）是 main()方法的合法参数。",
+      "problemPoolIndex": 27,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1970095484400439323",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "对象",
+            "继承",
+            "类",
+            "过程调用"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面概念中，不属于面向对象编程范畴的是（ ）。",
+      "content": "下面概念中，不属于面向对象编程范畴的是（ ）。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "刘",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1544842083327262720",
+      "description": "下面概念中，不属于面向对象编程范畴的是（ ）。",
+      "problemPoolIndex": 28,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "153"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1970095484400439296": "2-1",
+    "1970095484400439297": "2-2",
+    "1970095484400439298": "2-3",
+    "1970095484400439299": "2-4",
+    "1970095484400439300": "2-5",
+    "1970095484400439301": "2-6",
+    "1970095484400439302": "2-7",
+    "1970095484400439303": "2-8",
+    "1970095484400439304": "2-9",
+    "1970095484400439305": "2-10",
+    "1970095484400439306": "2-11",
+    "1970095484400439307": "2-12",
+    "1970095484400439308": "2-13",
+    "1970095484400439309": "2-14",
+    "1970095484400439310": "2-15",
+    "1970095484400439311": "2-16",
+    "1970095484400439312": "2-17",
+    "1970095484400439313": "2-18",
+    "1970095484400439314": "2-19",
+    "1970095484400439315": "2-20",
+    "1970095484400439316": "2-21",
+    "1970095484400439317": "2-22",
+    "1970095484400439318": "2-23",
+    "1970095484400439319": "2-24",
+    "1970095484400439320": "2-25",
+    "1970095484400439321": "2-26",
+    "1970095484400439322": "2-27",
+    "1970095484400439323": "2-28"
+  }
+}

@@ -1,0 +1,316 @@
+[
+  {
+    "problemSetProblem": {
+      "id": "1972112083701260288",
+      "label": "",
+      "score": 10,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 5,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "abc\n_test\n$test\na 1\na+b+c\na’b\n123\n变量",
+              "output": "true\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue"
+            },
+            {
+              "name": "",
+              "input": "abc\n_test\n$test\na 1\na+b+c\na’b\n123\n变量",
+              "output": "true\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "sdut-JAVA判断合法标识符",
+      "content": "输入若干行字符串，判断每行字符串是否可以作为JAVA语法的合法标识符。 \n\n判断合法标识符的规则：由字母、数字、下划线“_”、美元符号“$”组成，并且首字母不能是数字。\n\n### 输入格式:\n\n 输入有多行。\n \n 每行一个字符串，字符串长度不超过10个字符。\n\n### 输出格式:\n\n若该行字符串可以作为JAVA标识符，则输出“true”;否则，输出“false”。\n\n### 输入样例:\n\n```in\nabc\n_test\n$test\na 1\na+b+c\na’b\n123\n变量\n```\n\n### 输出样例:\n\n\n```out\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue\n```\n",
+      "type": "PROGRAMMING",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1428297584205021184",
+      "description": "输入若干行字符串，判断每行字符串是否可以作为JAVA语法的合法标识符。 \n\n判断合法标识符的规则：由字母（含汉字）、数字、下划线“\\_”、美元符号“\\$”组成，并且首字母不能是数字。\n\n### 输入格式:\n\n 输入有多行。\n\n 每行一个字符串，字符串长度不超过10个字符。\n\n### 输出格式:\n\n若该行字符串可以作为JAVA标识符，则输出“true”;否则，输出“false”。\n\n### 输入样例:\n\n```in\nabc\n_test\n$test\na 1\na+b+c\na’b\n123\n变量\n```\n\n### 输出样例:\n\n```out\ntrue\ntrue\ntrue\nfalse\nfalse\nfalse\nfalse\ntrue\n```",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    "organization": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "examLabel": "7-1"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1972112083701260289",
+      "label": "",
+      "score": 12,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "0": {
+              "hint": "",
+              "showHint": false,
+              "score": 4,
+              "isPublic": false
+            },
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 4,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 4,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "double\n1.578 3.0 3.14259\nline\naaaaaaaaaa\nint\n1      2    3\nstr\n321 654 987\nline\ndddddddddd\nend\n",
+              "output": "choice=double\n1.58 , 3.00,3.14\nchoice=line\nAAAAAAAAAA\nchoice=int\n6\nchoice=str\n987654321\nchoice=line\nDDDDDDDDDD\nchoice=end\nother"
+            },
+            {
+              "name": "",
+              "input": "double\n1.578 3.0 3.14259\nline\naaaaaaaaaa\nint\n1      2    3\nstr\n321 654 987\nline\ndddddddddd\nend\n",
+              "output": "choice=double\n1.58 , 3.00,3.14\nchoice=line\nAAAAAAAAAA\nchoice=int\n6\nchoice=str\n987654321\nchoice=line\nDDDDDDDDDD\nchoice=end\nother"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "jmu-Java-01入门-格式化输入输出与字符串",
+      "content": "###本题主要考察\n- 使用`Scanner`处理输入\n- 使用`System.out.printf`进行格式化输出\n- `String`常用方法与字符串常用操作\n\n### main\n###输入说明：\n- 输入`double`，然后输入3个浮点数。**输出：**从左到右依次输出3个double(均保留2位小数输出，宽度为5)，**格式依次为：**右侧填充空格，左侧填充空格，直接输出\n- 输入`int`，然后输入3个整数(以1个或多个空格分隔)。**输出：**将3个整数相加后输出。\n- 输入`str`，然后输入3个字符串。**输出：**去除空格，然后倒序输出3个字符。\n- 输入`line`，然后输入一行字符串。**输出：**转换成大写后输出。\n- 如果输入不是上面几个关键词，**输出:**输出**other**。\n\n###输出说明\n**choice=你输入选项**  \n该选项对应的输出内容\n\n###提示\n1. 可使用`line.split(\"\\\\s+\");`将以1个或多个空格分隔开的字符串分割并放入字符串数组。\n2. `Scanner.nextLine`与Scanner的其他next函数混用有可能出错。\n\n\n### 输入样例:\n```in\ndouble\n1.578 3.0 3.14259\nline\naaaaaaaaaa\nint\n1      2    3\nstr\n321 654 987\nline\ndddddddddd\nend\n\n```\n\n### 输出样例:\n```out\nchoice=double\n1.58 , 3.00,3.14\nchoice=line\nAAAAAAAAAA\nchoice=int\n6\nchoice=str\n987654321\nchoice=line\nDDDDDDDDDD\nchoice=end\nother\n```\n",
+      "type": "PROGRAMMING",
+      "author": "郑如滨",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "914283490704814080",
+      "description": "### 本题主要考察\n- 使用`Scanner`处理输入\n- 使用`System.out.printf`进行格式化输出\n- `String`常用方法与字符串常用操作\n\n###  main\n### 输入说明：\n- 输入`double`，然后输入3个浮点数。**输出：**从左到右依次输出3个double(均保留2位小数输出，宽度为5)，**格式依次为：**右侧填充空格，左侧填充空格，直接输出\n- 输入`int`，然后输入3个整数(以1个或多个空格分隔)。**输出：**将3个整数相加后输出。\n- 输入`str`，然后输入3个字符串。**输出：**去除空格，然后倒序输出3个字符。\n- 输入`line`，然后输入一行字符串。**输出：**转换成大写后输出。\n- 如果输入不是上面几个关键词，**输出:**输出**other**。\n\n### 输出说明\n**choice=你输入选项**  \n该选项对应的输出内容\n\n### 提示\n1. 可使用`line.split(\"\\\\s+\");`将以1个或多个空格分隔开的字符串分割并放入字符串数组。\n2. `Scanner.nextLine`与Scanner的其他next函数混用有可能出错。\n\n\n### 输入样例:\n```in\ndouble\n1.578 3.0 3.14259\nline\naaaaaaaaaa\nint\n1      2    3\nstr\n321 654 987\nline\ndddddddddd\nend\n\n```\n\n### 输出样例:\n```out\nchoice=double\n1.58 , 3.00,3.14\nchoice=line\nAAAAAAAAAA\nchoice=int\n6\nchoice=str\n987654321\nchoice=line\nDDDDDDDDDD\nchoice=end\nother\n```\n",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "46"
+    },
+    "organization": {
+      "id": "46",
+      "name": "集美大学",
+      "code": "jmu",
+      "type": "SCHOOL",
+      "logo": "4cbc6c72-2f34-45d6-b75c-1c0408a52da4.png"
+    },
+    "examLabel": "7-2"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1972112083701260290",
+      "label": "",
+      "score": 16,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 8,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 8,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "Java程序设计:34 ; Web程序设计: 56; JSP程序设计:20 \n",
+              "output": "Java程序设计--34\nWeb程序设计--56\nJSP程序设计--20\n总价格--110"
+            },
+            {
+              "name": "",
+              "input": "Java程序设计:34 ; Web程序设计: 56; JSP程序设计:20 \n",
+              "output": "Java程序设计--34\nWeb程序设计--56\nJSP程序设计--20\n总价格--110"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "sdut-String-5 图书价格汇总（II）",
+      "content": "假设图书馆中图书信息的格式为：\n\nJava程序设计: 34; Web程序设计: 56; JSP程序设计:20\n\n按要求输出每本图书的名称及价格，计算所有图书的总价格并输出。\n\n### 输入格式:\n\n读入一行图书信息。如：\n\nJava程序设计: 34; Web程序设计: 56 ;JSP程序设计:20\n\n提示：\n\n(1)每本书的价格是整数，价格与下一本书的名字之间有一个字符：分号`；`价格前可能有空格，可能没有。\n\n(2)题目中给定的字符串中的分号 `;`  和冒号 **`:`** 均为半角字符。\n\n### 输出格式:\n\n 分别输出每本图书的名称及价格，一本书占一行，形式为：书名--*价格*；\n\n 最后，输出计算的所有图书的总价格，形式为：总价格--*总价格*\n\n### 输入样例:\n\n```in\nJava程序设计:34 ; Web程序设计: 56; JSP程序设计:20 \n```\n\n### 输出样例:\n\n```out\nJava程序设计--34\nWeb程序设计--56\nJSP程序设计--20\n总价格--110\n```",
+      "type": "PROGRAMMING",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1390302024256860160",
+      "description": "假设图书馆中图书信息的格式为：\n\nJava程序设计: 34; Web程序设计: 56; JSP程序设计:20\n\n按要求输出每本图书的名称及价格，计算所有图书的总价格并输出。\n\n### 输入格式:\n\n读入一行图书信息。如：\n\nJava程序设计: 34; Web程序设计: 56 ;JSP程序设计:20\n\n提示：\n\n(1)每本书的价格是整数，价格与下一本书的名字之间有一个字符：分号`；`价格前可能有空格，可能没有。\n\n(2)题目中给定的字符串中的分号 `;`  和冒号 **`:`** 均为半角字符。\n\n### 输出格式:\n\n 分别输出每本图书的名称及价格，一本书占一行，形式为：书名--*价格*；\n\n 最后，输出计算的所有图书的总价格，形式为：总价格--*总价格*\n\n### 输入样例:\n\n```in\nJava程序设计:34 ; Web程序设计: 56; JSP程序设计:20 \n```\n\n### 输出样例:\n\n```out\nJava程序设计--34\nWeb程序设计--56\nJSP程序设计--20\n总价格--110\n```",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    "organization": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "examLabel": "7-3"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1972112083701260291",
+      "label": "",
+      "score": 20,
+      "problemConfig": {
+        "programmingProblemConfig": {
+          "timeLimit": 400,
+          "memoryLimit": 65536,
+          "codeSizeLimit": 16,
+          "cases": {
+            "1": {
+              "hint": "",
+              "showHint": false,
+              "score": 6,
+              "isPublic": false
+            },
+            "2": {
+              "hint": "",
+              "showHint": false,
+              "score": 6,
+              "isPublic": false
+            },
+            "3": {
+              "hint": "",
+              "showHint": false,
+              "score": 8,
+              "isPublic": false
+            }
+          },
+          "exampleTestDatas": [
+            {
+              "name": "",
+              "input": "2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米\n6月15日，6671米\n6月19日，6965米\n6月22日，6963米\n6月24日，7020米\n6月27日，7062米\n下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力\nend",
+              "output": "48\n32\n42\n34\n21\n30\n25"
+            },
+            {
+              "name": "",
+              "input": "全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少\n6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯\n日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录\n从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功\n下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟\nend",
+              "output": "13\n6\n29\n32\n7"
+            },
+            {
+              "name": "",
+              "input": "2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米\n6月15日，6671米\n6月19日，6965米\n6月22日，6963米\n6月24日，7020米\n6月27日，7062米\n下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力\nend",
+              "output": "48\n32\n42\n34\n21\n30\n25"
+            },
+            {
+              "name": "",
+              "input": "全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少\n6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯\n日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录\n从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功\n下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟\nend",
+              "output": "13\n6\n29\n32\n7"
+            }
+          ],
+          "testdataDescriptionCode": "",
+          "customizeLimits": [],
+          "stackSizeLimit": 8192,
+          "tools": [],
+          "ignorePresentationError": false,
+          "pathAsStdin": "",
+          "pathAsStdout": ""
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "sdut-String-1  识蛟龙号载人深潜，立科技报国志（1）",
+      "content": "背景简介：\n\n“蛟龙号”载人深潜器是我国**首台自主设计**、**自主集成研制**的作业型深海载人潜水器，设计最大下潜深度为7000米级，也是**目前世界上下潜能力最强的作业型载人潜水器。**“蛟龙号”**可在占世界海洋面积99.8%的广阔海域中**使用，对于我国开发利用深海的资源有着重要的意义。\n\n中国是继美、法、俄、日之后**世界上第五个掌握大深度载人深潜技术**的国家。在全球载人潜水器中，**“蛟龙号”属于第一梯队**。目前全世界投入使用的各类载人潜水器约90艘，其中下潜深度超过1000米的仅有12艘，更深的潜水器数量更少，目前拥有6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯。除中国外，其他4国的作业型载人潜水器最大工作深度为日本深潜器的6527米，因此“蛟龙号”载人潜水器在西太平洋的马里亚纳海沟海试成功到达**7020米**海底，创造了**作业类载人潜水器新的世界纪录**。\n \n  从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功。**下潜至7000米**，**说明蛟龙号载人潜水器集成技术的成熟**，**标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一**。\n\n2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米。6月3日，“蛟龙”出征以来，已经连续书写了5个“中国深度”新纪录：6月15日，6671米；6月19日，6965米；6月22日，6963米；6月24日，7020米；6月27日，7062米。**下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力，标志着“蛟龙”载人潜水器集成技术的成熟，标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一，标志着中国海底载人科学研究和资源勘探能力达到国际领先水平**。\n\n‘蛟龙’号是我国载人深潜发展历程中的一个重要里程碑。它不只是一个深海装备，更代表了一种精神，一种不畏艰险、赶超世界的精神，它是中华民族进军深海的号角。\n\n了解蛟龙号”载人深潜器“的骄人业绩，为我国海底载人科学研究和资源勘探能力达到国际领先水平而自豪，小伙伴们与祖国同呼吸、共命运，一定要学好科学文化知识、提高个人能力，增强创新意识，做事精益求精，立科技报国之志！\n\n请编写程序，实现如下功能：读入关于蛟龙号载人潜水器探测数据的多行字符串，从给定的信息找出数字字符，输出每行的数字之和。\n\n**提示**  若输入为“2012年2月”，则该行的输出为：7。每个数字字符单独相加。\n\n### 输入格式:\n\n读入关于蛟龙号载人潜水器探测数据的多行字符串，**每行字符不超过100个字符。**\n\n以\"end\"结束。\n\n### 输出格式:\n\n与输入行相对应的各个数字之和。\n\n### 输入样例1:\n\n```in\n2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米\n6月15日，6671米\n6月19日，6965米\n6月22日，6963米\n6月24日，7020米\n6月27日，7062米\n下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力\nend\n```\n\n### 输出样例1:\n\n```out\n48\n32\n42\n34\n21\n30\n25\n```\n### 输入样例2:\n\n```in\n全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少\n6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯\n日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录\n从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功\n下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟\nend\n```\n\n### 输出样例2:\n\n```out\n13\n6\n29\n32\n7\n```",
+      "type": "PROGRAMMING",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1389934102401396736",
+      "description": "背景简介：\n\n“蛟龙号”载人深潜器是我国**首台自主设计**、**自主集成研制**的作业型深海载人潜水器，设计最大下潜深度为7000米级，也是**目前世界上下潜能力最强的作业型载人潜水器。**“蛟龙号”**可在占世界海洋面积99.8%的广阔海域中**使用，对于我国开发利用深海的资源有着重要的意义。\n\n中国是继美、法、俄、日之后**世界上第五个掌握大深度载人深潜技术**的国家。在全球载人潜水器中，**“蛟龙号”属于第一梯队**。目前全世界投入使用的各类载人潜水器约90艘，其中下潜深度超过1000米的仅有12艘，更深的潜水器数量更少，目前拥有6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯。除中国外，其他4国的作业型载人潜水器最大工作深度为日本深潜器的6527米，因此“蛟龙号”载人潜水器在西太平洋的马里亚纳海沟海试成功到达**7020米**海底，创造了**作业类载人潜水器新的世界纪录**。\n \n  从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功。**下潜至7000米**，**说明蛟龙号载人潜水器集成技术的成熟**，**标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一**。\n\n2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米。6月3日，“蛟龙”出征以来，已经连续书写了5个“中国深度”新纪录：6月15日，6671米；6月19日，6965米；6月22日，6963米；6月24日，7020米；6月27日，7062米。**下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力，标志着“蛟龙”载人潜水器集成技术的成熟，标志着我国深海潜水器成为海洋科学考察的前沿与制高点之一，标志着中国海底载人科学研究和资源勘探能力达到国际领先水平**。\n\n‘蛟龙’号是我国载人深潜发展历程中的一个重要里程碑。它不只是一个深海装备，更代表了一种精神，一种不畏艰险、赶超世界的精神，它是中华民族进军深海的号角。\n\n了解蛟龙号”载人深潜器“的骄人业绩，为我国海底载人科学研究和资源勘探能力达到国际领先水平而自豪，小伙伴们与祖国同呼吸、共命运，一定要学好科学文化知识、提高个人能力，增强创新意识，做事精益求精，立科技报国之志！\n\n请编写程序，实现如下功能：读入关于蛟龙号载人潜水器探测数据的多行字符串，从给定的信息找出数字字符，输出每行的数字之和。\n\n**提示**  若输入为“2012年2月”，则该行的输出为：7。每个数字字符单独相加。\n\n### 输入格式:\n\n读入关于蛟龙号载人潜水器探测数据的多行字符串，**每行字符不超过100个字符。**\n\n以\"end\"结束。\n\n### 输出格式:\n\n与输入行相对应的各个数字之和。\n\n### 输入样例1:\n\n```in\n2012年6月27日11时47分，中国“蛟龙”再次刷新“中国深度”——下潜7062米\n6月15日，6671米\n6月19日，6965米\n6月22日，6963米\n6月24日，7020米\n6月27日，7062米\n下潜至7000米，标志着我国具备了载人到达全球99%以上海洋深处进行作业的能力\nend\n```\n\n### 输出样例1:\n\n```out\n48\n32\n42\n34\n21\n30\n25\n```\n### 输入样例2:\n\n```in\n全世界投入使用的各类载人潜水器约90艘，下潜深度超过1000米的仅有12艘，更深的潜水器数量更少\n6000米以上深度载人潜水器的国家包括中国、美国、日本、法国和俄罗斯\n日本深潜器下潜6527米，蛟龙号在马里亚纳海沟海试成功到达7020米海底，创造了新的世界纪录\n从2009年至2012年，蛟龙号接连取得1000米级、3000米级、5000米级和7000米级海试成功\n下潜至7000米，说明蛟龙号载人潜水器集成技术的成熟\nend\n```\n\n### 输出样例2:\n\n```out\n13\n6\n29\n32\n7\n```",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    "organization": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "examLabel": "7-4"
+  }
+]

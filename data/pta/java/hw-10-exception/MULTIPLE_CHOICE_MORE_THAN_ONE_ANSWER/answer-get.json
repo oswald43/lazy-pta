@@ -1,0 +1,102 @@
+{
+  "submission": {
+    "id": "1998250371408334848",
+    "userId": "1970285532932608000",
+    "problemType": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+    "problemSetProblemId": "0",
+    "submitAt": "2025-12-09T04:36:28Z",
+    "status": "PARTIAL_ACCEPTED",
+    "score": 5,
+    "compiler": "NO_COMPILER",
+    "time": 0,
+    "memory": 0,
+    "submissionDetails": [
+      {
+        "problemSetProblemId": "1993122880337539082",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1993122880341733376",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "A",
+            "C"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1993122880341733377",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1993122880341733378",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1993122880341733379",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "problemId": "0"
+      }
+    ],
+    "judgeResponseContents": [
+      {
+        "status": "PARTIAL_ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "1993122880337539082"
+      },
+      {
+        "status": "PARTIAL_ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "1993122880341733376"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 2,
+        "problemSetProblemId": "1993122880341733377"
+      },
+      {
+        "status": "PARTIAL_ACCEPTED",
+        "score": 1,
+        "problemSetProblemId": "1993122880341733378"
+      },
+      {
+        "status": "WRONG_ANSWER",
+        "score": 0,
+        "problemSetProblemId": "1993122880341733379"
+      }
+    ],
+    "hints": {},
+    "problemSetId": "1993122880295596032",
+    "previewSubmission": false,
+    "cause": "",
+    "judgeAt": "2026-01-04T16:01:10Z"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "organizationById": {
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "205": {
+      "id": "205",
+      "name": "兰州大学",
+      "code": "lzu",
+      "type": "SCHOOL",
+      "logo": "ab16eeb2-105d-498b-aa50-8dd591540d99.png"
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1970095484400439324",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "不受限制"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "一个Java源文件中可以有（     ）个公共类？",
+      "content": "一个Java源文件中可以有（     ）个公共类？\n*@[](2)\n\nA. 0\nB. 1\nC. 2\nD. 不受限制",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1366701816367382528",
+      "description": "一个Java源文件中可以有（     ）个公共类？",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439325",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "调用print、println都可以输出各种数据类型的数据，二者没有什么差别",
+            "兼容C语言中的printf方法，可以按指定格式的字符串形式输出数据",
+            "如果不进行输出重定向，标准输出意味着输出到屏幕上",
+            "System.out.println();    可以输出一个空行"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "在Java中，关于数据的标准输出System.out，哪些说法是正确的?",
+      "content": "在Java中，关于数据的标准输出System.out，哪些说法是正确的?",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367338226578362368",
+      "description": "在Java中，关于数据的标准输出System.out，哪些说法是正确的?",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439326",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "单行注释形式为：//****",
+            "多行注释形式为：\n```\n/*\n*****\n*/\n```",
+            "文档注释形式为：\n```\n/**\n*****\n*/\n```",
+            "注释的作用是增加程序的可读性。"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于Java中的注释，哪些说法是正确的？",
+      "content": "关于Java中的注释，哪些说法是正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367338537418231808",
+      "description": "关于Java中的注释，哪些说法是正确的？",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439327",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "Java编译器",
+            "Java运行工具",
+            "Java文档生成工具",
+            "Java打包工具"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下选项中，哪些属于JDK工具？",
+      "content": "以下选项中，哪些属于JDK工具？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367338941208072192",
+      "description": "以下选项中，哪些属于JDK工具？",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439328",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "`//单行注释`",
+            "```\n/* \n多行注释 \n*/\n```",
+            "```\n/** \n文档注释 \n*/\n```",
+            "```\n/** \n多行注释 \n**/\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "JAVA中的注释有几种？",
+      "content": "JAVA中的注释有几种？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1367339070308749312",
+      "description": "JAVA中的注释有几种？",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439329",
+      "label": "",
+      "score": 3,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "JDK就是Java Development Kit，Java开发工具，它包含JRE。",
+            "JRE就是Java runtime environment，即：Java运行环境，包括：JVM、类库以及其他环境",
+            "JVM 就是Java virtual machine，即：Java虚拟机，是由软代码组成的一个模拟的计算机，负责程序的执行",
+            "Java是编译型语言\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于JDK、JRE、JVM的含义及其关系，下列哪种说法是正确的？",
+      "content": "关于JDK、JRE、JVM的含义及其关系，下列哪种说法是正确的？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1406598066752110592",
+      "description": "关于JDK、JRE、JVM的含义及其关系，下列哪种说法是正确的？",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1970095484400439330",
+      "label": "",
+      "score": 4,
+      "problemConfig": {
+        "multipleChoiceMoreThanOneAnswerProblemConfig": {
+          "optionsCount": 4,
+          "choices": [
+            "Float a=1.0;",
+            "double a=1.0;",
+            "out.println(\"hello\");",
+            "DatagramSocket a = new DatagramSocket()；"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下面Java语句错误的有？",
+      "content": "下面Java语句错误的有？",
+      "type": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+      "author": "马俊",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1970095484354301952",
+      "problemId": "1475293586962628608",
+      "description": "下面Java语句错误的有？",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "205"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1970095484400439324": "3-1",
+    "1970095484400439325": "3-2",
+    "1970095484400439326": "3-3",
+    "1970095484400439327": "3-4",
+    "1970095484400439328": "3-5",
+    "1970095484400439329": "3-6",
+    "1970095484400439330": "3-7"
+  }
+}

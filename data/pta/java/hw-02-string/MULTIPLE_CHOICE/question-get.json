@@ -1,0 +1,1102 @@
+{
+  "organizationById": {
+    "1": {
+      "id": "1",
+      "name": "浙江大学",
+      "code": "zju",
+      "type": "SCHOOL",
+      "logo": "ffecf2a6-4935-4344-b640-35360f3c1f88.png"
+    },
+    "17": {
+      "id": "17",
+      "name": "浙江传媒学院",
+      "code": "zumc",
+      "type": "SCHOOL",
+      "logo": "1adfb2e4-2999-43e0-a4e3-e0b71fce6ec0.png"
+    },
+    "36": {
+      "id": "36",
+      "name": "吉首大学",
+      "code": "jsu",
+      "type": "SCHOOL",
+      "logo": "16c8421d-56ff-48b1-93f7-59dd804f8c64.png"
+    },
+    "77": {
+      "id": "77",
+      "name": "山东理工大学",
+      "code": "sdut",
+      "type": "SCHOOL",
+      "logo": "94916621-d348-47ec-beca-020628fa886c.png"
+    },
+    "229": {
+      "id": "229",
+      "name": "绍兴理工学院",
+      "code": "ypc",
+      "type": "SCHOOL",
+      "logo": "school-icons-manual/2/ypc.png"
+    },
+    "262": {
+      "id": "262",
+      "name": "天津仁爱学院",
+      "code": "tjrac",
+      "type": "SCHOOL",
+      "logo": ""
+    }
+  },
+  "problemSetProblems": [
+    {
+      "id": "1972112083688677376",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "World and Hello",
+            "World and Cello",
+            "Changed and Hello",
+            "Changed and Cello"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Given the following code:",
+      "content": "Given the following code:\n```\npublic class TestClass {\n    public static void main(String args[]) {\n        String str = new String(\"World\");\n        char[] ch = { 'H', 'e', 'l', 'l', 'o' };\n        change(str, ch);\n        System.out.println(str + \" and \" + new String(ch));\n    }\n\n    public static void change(String str, char ch[])\n    {\n\t\t    str=\"Changed\"; ch[0]='C';\n    }\n}\n```\nWhat is the result after execution?  @[](2)\nA. World and Hello\nB. World and Cello\nC. Changed and Hello\nD. Changed and Cello",
+      "type": "MULTIPLE_CHOICE",
+      "author": "楼学庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1215330500095721472",
+      "description": "Given the following code:\n```\npublic class TestClass {\n    public static void main(String args[]) {\n        String str = new String(\"World\");\n        char[] ch = { 'H', 'e', 'l', 'l', 'o' };\n        change(str, ch);\n        System.out.println(str + \" and \" + new String(ch));\n    }\n\n    public static void change(String str, char ch[])\n    {\n\t\t    str=\"Changed\"; ch[0]='C';\n    }\n}\n```\nWhat is the result after execution?",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1972112083688677377",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "9\n",
+            "10\n",
+            "13",
+            "12"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串方法lastIndexOf--关于字符串的方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"sdut@sdut.edu.cn\"; \nSystem.out.println(fileName.lastIndexOf(\".\"));\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424530098601848832",
+      "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"sdut@sdut.edu.cn\"; \nSystem.out.println(fileName.lastIndexOf(\".\"));\n```",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083688677378",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串方法indexOf--关于字符串的方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"中国China\"; \nSystem.out.println(fileName.indexOf(\"国\"));\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424531234603970560",
+      "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString fileName = \"中国China\"; \nSystem.out.println(fileName.indexOf(\"国\"));\n```",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871680",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "ABC\n",
+            "BCD\n",
+            "AB\n",
+            "BC\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串构造方法--关于字符串的构造方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的构造方法，如下代码执行结果是（     ）。\n```\nString str=\"ABCDEFG\";\nchar[] chars=str.toCharArray(); \nSystem.out.println(new String(chars,1,3));\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424532887902089216",
+      "description": "关于字符串的构造方法，如下代码执行结果是（     ）。\n```\nString str=\"ABCDEFG\";\nchar[] chars=str.toCharArray(); \nSystem.out.println(new String(chars,1,3));\n```",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871681",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "```\nsdut@sdut.edu.cn\nsdut@sdut.edu.cn\ntrue\n```",
+            "```\nsdut@sdut.edu.cn\nsdut@sdut.edu.cn\nfalse\n```",
+            "```\nsdut@sdut.edu.cn\nSDUT@SDUT.EDU.CN\ntrue\n```",
+            "```\nsdut@sdut.edu.cn\nSDUT@SDUT.EDU.CN\nfalse\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串方法toLowerCase--关于字符串的方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString str2 = str1.toLowerCase();\nSystem.out.println(str2);\nSystem.out.println(str1);\nSystem.out.println(str1 == str2);\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424536491379650560",
+      "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString str2 = str1.toLowerCase();\nSystem.out.println(str2);\nSystem.out.println(str1);\nSystem.out.println(str1 == str2);\n```",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871682",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "true\n",
+            "false",
+            "1",
+            "-1"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串方法compareTo--关于字符串的方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"abcd\"; \nString str2=\"sdut\";\nSystem.out.println(str1.compareTo(str2)>0);\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424539492555157504",
+      "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"abcd\"; \nString str2=\"sdut\";\nSystem.out.println(str1.compareTo(str2)>0);\n```",
+      "problemPoolIndex": 6,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871683",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "true\n",
+            "false",
+            "0",
+            "1"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串方法equalsIgnoreCase--关于字符串的方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut12\"; \nString str2=\"sDut12\";\nSystem.out.println(str1.equalsIgnoreCase(str2));\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424547141833240576",
+      "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str1 = \"sdut12\"; \nString str2=\"sDut12\";\nSystem.out.println(str1.equalsIgnoreCase(str2));\n```",
+      "problemPoolIndex": 7,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871684",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "\t\tabcd123\n\n",
+            "abcd123\n",
+            "  \t ABCD123\n\n",
+            "`ABCD123`\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串方法trim--关于字符串的方法，如下代码执行结果是（     ）。",
+      "content": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str = \"    abcd123\";\n  str.toUpperCase();\n  str.trim();\n  System.out.println(str);\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424549335194136576",
+      "description": "关于字符串的方法，如下代码执行结果是（     ）。\n```\nString str = \"    abcd123\";\n  str.toUpperCase();\n  str.trim();\n  System.out.println(str);\n```",
+      "problemPoolIndex": 8,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871685",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "```\nfalse\ntrue\n```",
+            "```\nfalse\nfalse\n```",
+            "```\ntrue\ntrue\n```",
+            "```\ntrue\nfalse\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串==--关于字符串的相关操作，如下代码执行后输出的结果是：（     ）。",
+      "content": "关于字符串的相关操作，如下代码执行后输出的结果是：（     ）。\n```\nString str1=\"abc\";\nString str2=str1.toUpperCase();\nString str3=str1.toLowerCase();\nSystem.out.println(str1==str2);\n System.out.println(str1==str3);\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424552393789665280",
+      "description": "关于字符串的相关操作，如下代码执行后输出的结果是：（     ）。\n```\nString str1=\"abc\";\nString str2=str1.toUpperCase();\nString str3=str1.toLowerCase();\nSystem.out.println(str1==str2);\n System.out.println(str1==str3);\n```",
+      "problemPoolIndex": 9,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871686",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "存储地址    字符序列",
+            "存储地址   存储地址",
+            "字符序列  存储地址",
+            "字符序列   字符序列"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串==与equals--关于字符串对象的比较，哪种说法正确?",
+      "content": "关于字符串对象的比较，==用于比较字符串对象的（      ）是否相同；equals()方法用于比较字符串对象的（      ）是否相同。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424555708749443072",
+      "description": "关于字符串对象的比较，==用于比较字符串对象的（      ）是否相同；equals()方法用于比较字符串对象的（      ）是否相同。",
+      "problemPoolIndex": 10,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871687",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串对象不变性--执行如下两行代码之后，则内存中存在几个字符串对象?（    ） String str=\"abc\"; str+=\"def\";",
+      "content": "执行如下两行代码之后，则内存中存在几个字符串对象?（    ）\n```\nString str=\"abc\"; \nstr+=\"def\";\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424563603809546240",
+      "description": "执行如下两行代码之后，则内存中存在几个字符串对象?（    ）\n```\nString str=\"abc\"; \nstr+=\"def\";\n```",
+      "problemPoolIndex": 11,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871688",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "`s1 == s2` is true, `s1 == s3` is true",
+            "`s1 == s2` is true, `s1 == s3` is false",
+            "`s1 == s2` is false, `s1 == s3` is false",
+            "`s1 == s2` is false, `s1 == s3` is true"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Given code below:",
+      "content": "Given code below:\n```\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct? @[](2)\nA. `s1 == s2` is true, `s1 == s3` is true\nB. `s1 == s2` is true, `s1 == s3` is false\nC. `s1 == s2` is false, `s1 == s3` is false\nD. `s1 == s2` is false, `s1 == s3` is true",
+      "type": "MULTIPLE_CHOICE",
+      "author": "楼学庆",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1215331774497234944",
+      "description": "Given code below:\n```\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct?",
+      "problemPoolIndex": 12,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1972112083692871689",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "str1==str2\n",
+            "str1.equals(str2)\n",
+            "str3==str4",
+            "str3.equals(str4)",
+            "str1==str3",
+            "str1.equals(str4)"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串==--阅读下面的程序段，以下表达式的值为true的是哪个?（     ）",
+      "content": "阅读下面的程序段，以下表达式的值为true的是哪个?（     ）\n```\n\t\tString str1=new String(\"java\");\n\t\tString str2=new String(\"java\");\n\t\tStringBuffer str3=new StringBuffer(\"java\");\n\t\tStringBuffer str4=new StringBuffer(\"java\");\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424571695280467968",
+      "description": "阅读下面的程序段，以下表达式的值为true的是哪个?（     ）\n```\n\t\tString str1=new String(\"java\");\n\t\tString str2=new String(\"java\");\n\t\tStringBuffer str3=new StringBuffer(\"java\");\n\t\tStringBuffer str4=new StringBuffer(\"java\");\n```",
+      "problemPoolIndex": 13,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871690",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "getBytes()",
+            "getChars()",
+            "toBytes()",
+            "toChars()"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串对象转字节数组--对String类型的字符串调用其(      )方法，得到byte类型的数组?",
+      "content": "对String类型的字符串  `String str=\"abcdefg\";`   调用str对象的(       )方法，得到byte类型的数组`[97, 98, 99, 100, 101, 102, 103]`?\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424928707193434112",
+      "description": "对String类型的字符串  `String str=\"abcdefg\";`   调用str对象的(       )方法，得到byte类型的数组`[97, 98, 99, 100, 101, 102, 103]`?\n",
+      "problemPoolIndex": 14,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871691",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "toCharArray()",
+            "toChars()",
+            "getChars()",
+            "getBytes()"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串对象转字符数组--对String类型的字符串调用其( )方法，得到char类型的数组?",
+      "content": "对String类型的字符串`String str=\"abcd\"`，调用str对象的(      )方法，得到char类型的数组`['a','b','c','d'] `?",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424929801671983104",
+      "description": "对String类型的字符串`String str=\"abcd\"`，调用str对象的(      )方法，得到char类型的数组`['a','b','c','d'] `?",
+      "problemPoolIndex": 15,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083692871692",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "abcde",
+            "abccde",
+            "cdeabc",
+            "edccba"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "执行以下语句后，str2的值是 ____ 。",
+      "content": "执行以下语句后，str2的值是（  ）。\n```\nString str1 = \"abc\";\nString str2 = str1.concat(\"cde\");\n\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "LFL",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1477868498210926592",
+      "description": "执行以下语句后，str2的值是（  ）。\n```\nString str1 = \"abc\";\nString str2 = str1.concat(\"cde\");\n\n```",
+      "problemPoolIndex": 16,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1972112083692871693",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "String str=abcd;",
+            "String str=\"hello\";",
+            "String str=1234;",
+            "String str='good';"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "下列选项中，可以正确实现String初始化的是（    ）2分。",
+      "content": "下列选项中，可以正确实现String初始化的是（    ）2分。",
+      "type": "MULTIPLE_CHOICE",
+      "author": "蒋辉",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1521288861030903808",
+      "description": "下列选项中，可以正确实现String初始化的是（    ）2分。",
+      "problemPoolIndex": 17,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "262"
+    },
+    {
+      "id": "1972112083697065984",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "true false",
+            "true true",
+            "false false",
+            "false true"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有如下程序代码， 程序运行的结果是（ ）。",
+      "content": "有如下程序代码， 程序运行的结果是（ ）。\nString s1 = \"中国\";\nString s2 = \"我爱 \" + s1;\nString s3 = \"我爱 \" + s1;\nSystem.out.print(s2 == s3);\nSystem.out.println(\" \"+s2.equals(s3));\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "董卫萍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1521315947175051264",
+      "description": "有如下程序代码， 程序运行的结果是（ ）。\nString s1 = \"中国\";\nString s2 = \"我爱 \" + s1;\nString s3 = \"我爱 \" + s1;\nSystem.out.print(s2 == s3);\nSystem.out.println(\" \"+s2.equals(s3));\n",
+      "problemPoolIndex": 18,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "229"
+    },
+    {
+      "id": "1972112083697065985",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "Hello",
+            "World!",
+            "Hello World!",
+            "无输出"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "如下代码输出（ ）。",
+      "content": "如下代码输出（ ）。\n```\npublic class TestStringBuilder {\n\tpublic static void main(String[] args) {\n\t\tString s = \"Hello\";\n\t    StringBuilder buffer = new StringBuilder(s);\n\t    buffer.append(\" World!\");\n\t    System.out.println(buffer);\t    \n\t  }\n}\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "董卫萍",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1521337269347246080",
+      "description": "如下代码输出（ ）。\n```\npublic class TestStringBuilder {\n\tpublic static void main(String[] args) {\n\t\tString s = \"Hello\";\n\t    StringBuilder buffer = new StringBuilder(s);\n\t    buffer.append(\" World!\");\n\t    System.out.println(buffer);\t    \n\t  }\n}\n```",
+      "problemPoolIndex": 19,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "229"
+    },
+    {
+      "id": "1972112083697065986",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "2",
+            "3",
+            "0",
+            "1"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "以下代码段将创建几个对象?",
+      "content": "以下代码段将创建几个对象?@[](2)\n<pre>\nString s1=\"bc\";\nString s2=\"bc\";   \n</pre>\nA. 2\nB. 3\nC. 0\nD. 1",
+      "type": "MULTIPLE_CHOICE",
+      "author": "王从银",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "2782",
+      "description": "以下代码段将创建几个对象?\n<pre>\nString s1=\"bc\";\nString s2=\"bc\";\n</pre>",
+      "problemPoolIndex": 20,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "36"
+    },
+    {
+      "id": "1972112083697065987",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "s1 == s2 is true, s1 == s3 is true",
+            "s1 == s2 is true, s1 == s3 is false",
+            "s1 == s2 is false, s1 == s3 is false",
+            "s1 == s2 is false, s1 == s3 is true"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "Given code below:",
+      "content": "Given code below:\n```Java\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct?  @[](2)\n\nA. s1 == s2 is true, s1 == s3 is true \nB. s1 == s2 is true, s1 == s3 is false \nC. s1 == s2 is false, s1 == s3 is false \nD. s1 == s2 is false, s1 == s3 is true\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "翁恺",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "947425819394007040",
+      "description": "Given code below:\n```Java\nString s1 = \"Hello\";\nString s2 = \"Hell\"+\"o\";\nString s3 = \"Hell\";\ns3 = s3+\"o\";\n```\nWhich one below is correct?",
+      "problemPoolIndex": 21,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "1"
+    },
+    {
+      "id": "1972112083697065988",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "A.B\t",
+            "A.A",
+            "AB.AB",
+            "AB.B"
+          ],
+          "maxDisplayChoicesPerLine": 4
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "请选择下面程序正确的输出结果（）   ",
+      "content": "请选择下面程序正确的输出结果（\t）   \n```\npublic class Main{\n\t\tpublic static void main(String args[ ]){\n\t\t\tString a = new String(\"A\");\n\t\t\tString b = new String(\"B\");\n\t\t\tmb_operate(a,b);\n\t\t\tSystem.out.println(a + \".\" + b);\n}\nstatic void mb_operate(String x,String y){\n\tx.concat(y);\n\ty=x;\n}\n}\n```\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1249175979030130688",
+      "description": "请选择下面程序正确的输出结果（\t）   \n```\npublic class Main{\n\t\tpublic static void main(String args[ ]){\n\t\t\tString a = new String(\"A\");\n\t\t\tString b = new String(\"B\");\n\t\t\tmb_operate(a,b);\n\t\t\tSystem.out.println(a + \".\" + b);\n}\nstatic void mb_operate(String x,String y){\n\tx.concat(y);\n\ty=x;\n}\n}\n```\n",
+      "problemPoolIndex": 22,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1972112083697065989",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "Java",
+            "Java and HTML",
+            "and HTML",
+            "什么都不显示"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "如下程序输出（   ）   ",
+      "content": "如下程序输出（   ）   @[](2)\n```\npublic class Test {  \n  public static void main(String[] args) {\n    String s = \"Java\";\n    StringBuilder buffer = new StringBuilder(s);\n    change(s);\n    System.out.println(s);\n  }\n  \n  private static void change(String s) {\n    s = s + \" and HTML\";\n  }\n}\n```\nA. Java\nB. Java and HTML\nC. and HTML\nD. 什么都不显示\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "REVIEWED",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1247868797454036992",
+      "description": "如下程序输出（   ）   \n```\npublic class Test {  \n  public static void main(String[] args) {\n    String s = \"Java\";\n    StringBuilder buffer = new StringBuilder(s);\n    change(s);\n    System.out.println(s);\n  }\n  \n  private static void change(String s) {\n    s = s + \" and HTML\";\n  }\n}\n```\n",
+      "problemPoolIndex": 23,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1972112083697065990",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "行4与行7都将执行",
+            "行4执行，行7不执行",
+            "行7执行，行4不执行",
+            "行4、行7都不执行"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "关于以下程序段，正确的说法是（   ）。   ",
+      "content": "关于以下程序段，正确的说法是（   ）。   @[](2)\n```\n1. String s1 = \"abc\"+\"def\";\n2. String s2 = new String(s1);\n3. if (s1==s2) {\n4.    System.out.println(\"==succeeded\");\n5. }\n6. if (s1.equals(s2)) {\n7.    System.out.println(\".equals() succeeded\");\n8. }\n```\n\nA. 行4与行7都将执行\nB. 行4执行，行7不执行\nC. 行7执行，行4不执行\nD. 行4、行7都不执行\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "殷伟凤",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1230397830597857280",
+      "description": "关于以下程序段，正确的说法是（   ）。\n```\n1. String s1 = \"abc\"+\"def\";\n2. String s2 = new String(s1);\n3. if (s1==s2) {\n4.    System.out.println(\"==succeeded\");\n5. }\n6. if (s1.equals(s2)) {\n7.    System.out.println(\".equals() succeeded\");\n8. }\n```",
+      "problemPoolIndex": 24,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "17"
+    },
+    {
+      "id": "1972112083697065991",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "true false\n",
+            "true true\n",
+            "false false\n",
+            "false true\n\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "==与equals--有如下程序代码， 程序运行的结果是（     ）。",
+      "content": "有如下程序代码， 程序运行的结果是（     ）。\n```\nString s1 = \"sdut\";\nString s2 = \"I love \" + s1;\nString s3 = \"I love \" + s1;\nSystem.out.print(s2 == s3);\nSytem.out.println(\" \"+s2.equals(s3));\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1408044345920421888",
+      "description": "有如下程序代码， 程序运行的结果是（     ）。\n```\nString s1 = \"sdut\";\nString s2 = \"I love \" + s1;\nString s3 = \"I love \" + s1;\nSystem.out.print(s2 == s3);\nSytem.out.println(\" \"+s2.equals(s3));\n```",
+      "problemPoolIndex": 25,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083697065992",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "`sd, t@sd, t.ed, .cn`\n",
+            "\n`[sd, t@sd, t.ed, .cn]`\n\n",
+            "\n`[sdu, t@sdu, t.edu, .cn]`\n",
+            "`sdu, t@sdu, t.edu, .cn`\n"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有如下代码，程序执行的结果是（      ）。",
+      "content": "有如下代码，程序执行的结果是（      ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString[] strings = str1.split(\"u\");\nSystem.out.println(Arrays.toString(strings));\n```\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1408047988590018560",
+      "description": "有如下代码，程序执行的结果是（      ）。\n```\nString str1 = \"sdut@sdut.edu.cn\";\nString[] strings = str1.split(\"u\");\nSystem.out.println(Arrays.toString(strings));\n```\n\n",
+      "problemPoolIndex": 26,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083697065993",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "sdut@sdut.edu.cn\n",
+            " \\tsdut@sdut.edu.cn",
+            "替换为正确项",
+            "替换为错误项"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有如下程序代码，程序执行的结果是（     ）。",
+      "content": "有如下程序代码，程序执行的结果是（     ）。\n```\nString str1 = \"\\t sdut@sdut.edu.cn \\t \";\nSystem.out.println(str1.trim());\n```\n\n",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1408048571162087424",
+      "description": "有如下程序代码，程序执行的结果是（     ）。\n```\nString str1 = \"\\t sdut@sdut.edu.cn \\t \";\nSystem.out.println(str1.trim());\n```\n\n",
+      "problemPoolIndex": 27,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083697065994",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "1102lucky\n",
+            "112lucky",
+            "lucky1102",
+            "lucky112"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "有如下程序代码，程序执行的结果是（ ）。",
+      "content": "有如下程序代码，程序执行的结果是（ ）。\n```\nint i= 110; \nString str2=i+2+\"lucky\";\nSystem.out.println(str2);\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1408049366393257984",
+      "description": "有如下程序代码，程序执行的结果是（ ）。\n```\nint i= 110; \nString str2=i+2+\"lucky\";\nSystem.out.println(str2);\n```",
+      "problemPoolIndex": 28,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083697065995",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "lucky1102\n",
+            "lucky112",
+            "1102lucky",
+            "112lucky"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串+--有如下代码，程序执行的结果是（      ）。",
+      "content": "有如下代码，程序执行的结果是（      ）。\n```\nint i= 110;\t\nString str2=\"lucky\"+i+2;\t\nSystem.out.println(str2);\t\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1408050115277848576",
+      "description": "有如下代码，程序执行的结果是（      ）。\n```\nint i= 110;\t\nString str2=\"lucky\"+i+2;\t\nSystem.out.println(str2);\t\n```",
+      "problemPoolIndex": 29,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    },
+    {
+      "id": "1972112083697065996",
+      "label": "",
+      "score": 1,
+      "problemConfig": {
+        "solutionVisible": false,
+        "answerVisible": false,
+        "multipleChoiceProblemConfig": {
+          "choices": [
+            "```\n456\n123\n```",
+            "```\n456\n456\n```",
+            "```\n123\n456\n```",
+            "```\n123\n123\n```"
+          ],
+          "maxDisplayChoicesPerLine": 1
+        }
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "字符串对象的不变性--在下面的代码中，程序执行的结果将是：（     ）。 public class Test {   public ",
+      "content": "在下面的代码中，程序执行的结果将是：（     ）。\n```\npublic class Test {\n  public static void main(String[] args) {\n         String str = \"123\";\n         System.out.println(str);\n         change(str);\n         System.out.println(str);\n     }\n    public static void change(String str){\n      str = \"456\";\n    }\n}\n```",
+      "type": "MULTIPLE_CHOICE",
+      "author": "周雪芹",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PENDING_REVIEW",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1972112083655122944",
+      "problemId": "1424195648709918720",
+      "description": "在下面的代码中，程序执行的结果将是：（     ）。\n```\npublic class Test {\n  public static void main(String[] args) {\n         String str = \"123\";\n         System.out.println(str);\n         change(str);\n         System.out.println(str);\n     }\n    public static void change(String str){\n      str = \"456\";\n    }\n}\n```",
+      "problemPoolIndex": 30,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "77"
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1972112083688677376": "2-1",
+    "1972112083688677377": "2-2",
+    "1972112083688677378": "2-3",
+    "1972112083692871680": "2-4",
+    "1972112083692871681": "2-5",
+    "1972112083692871682": "2-6",
+    "1972112083692871683": "2-7",
+    "1972112083692871684": "2-8",
+    "1972112083692871685": "2-9",
+    "1972112083692871686": "2-10",
+    "1972112083692871687": "2-11",
+    "1972112083692871688": "2-12",
+    "1972112083692871689": "2-13",
+    "1972112083692871690": "2-14",
+    "1972112083692871691": "2-15",
+    "1972112083692871692": "2-16",
+    "1972112083692871693": "2-17",
+    "1972112083697065984": "2-18",
+    "1972112083697065985": "2-19",
+    "1972112083697065986": "2-20",
+    "1972112083697065987": "2-21",
+    "1972112083697065988": "2-22",
+    "1972112083697065989": "2-23",
+    "1972112083697065990": "2-24",
+    "1972112083697065991": "2-25",
+    "1972112083697065992": "2-26",
+    "1972112083697065993": "2-27",
+    "1972112083697065994": "2-28",
+    "1972112083697065995": "2-29",
+    "1972112083697065996": "2-30"
+  }
+}

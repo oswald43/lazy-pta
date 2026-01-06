@@ -1,0 +1,75 @@
+{
+  "total": 4,
+  "problemSetProblems": [
+    {
+      "id": "1972112083701260288",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 324,
+      "submitCount": 789,
+      "title": "sdut-JAVA判断合法标识符",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1972112083655122944",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1972112083701260289",
+      "label": "",
+      "score": 12,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 264,
+      "submitCount": 1162,
+      "title": "jmu-Java-01入门-格式化输入输出与字符串",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1972112083655122944",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1972112083701260290",
+      "label": "",
+      "score": 16,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 285,
+      "submitCount": 550,
+      "title": "sdut-String-5 图书价格汇总（II）",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1972112083655122944",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1972112083701260291",
+      "label": "",
+      "score": 20,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 289,
+      "submitCount": 403,
+      "title": "sdut-String-1  识蛟龙号载人深潜，立科技报国志（1）",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1972112083655122944",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1972112083701260288": "7-1",
+    "1972112083701260289": "7-2",
+    "1972112083701260290": "7-3",
+    "1972112083701260291": "7-4"
+  }
+}

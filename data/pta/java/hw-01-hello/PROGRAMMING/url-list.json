@@ -1,0 +1,92 @@
+{
+  "total": 5,
+  "problemSetProblems": [
+    {
+      "id": "1970095484400439331",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 298,
+      "submitCount": 788,
+      "title": "Hello Java",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1970095484354301952",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1970095484400439332",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 280,
+      "submitCount": 454,
+      "title": "模仿练习",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1970095484354301952",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1970095484400439333",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 320,
+      "submitCount": 731,
+      "title": "jmu-Java-01入门-第一个PTA上Java程序",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1970095484354301952",
+      "problemPoolIndex": 3,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1970095484400439334",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 324,
+      "submitCount": 1095,
+      "title": "古埃及探秘-金字塔",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1970095484354301952",
+      "problemPoolIndex": 4,
+      "indexInProblemPool": 1
+    },
+    {
+      "id": "1970095484400439335",
+      "label": "",
+      "score": 10,
+      "deadline": "1970-01-01T00:00:00Z",
+      "acceptCount": 324,
+      "submitCount": 603,
+      "title": "输出社会主义核心价值观的基本内容",
+      "type": "PROGRAMMING",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "NO_PROBLEM_STATUS",
+      "problemSetId": "1970095484354301952",
+      "problemPoolIndex": 5,
+      "indexInProblemPool": 1
+    }
+  ],
+  "examLabelByProblemSetProblemId": {
+    "1970095484400439331": "7-1",
+    "1970095484400439332": "7-2",
+    "1970095484400439333": "7-3",
+    "1970095484400439334": "7-4",
+    "1970095484400439335": "7-5"
+  }
+}

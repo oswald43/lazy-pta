@@ -1,0 +1,104 @@
+{
+  "submission": {
+    "id": "1988207926400196608",
+    "userId": "1970285532932608000",
+    "problemType": "MULTIPLE_CHOICE_MORE_THAN_ONE_ANSWER",
+    "problemSetProblemId": "0",
+    "submitAt": "2025-11-11T11:31:23Z",
+    "status": "ACCEPTED",
+    "score": 20,
+    "compiler": "NO_COMPILER",
+    "time": 0,
+    "memory": 0,
+    "submissionDetails": [
+      {
+        "problemSetProblemId": "1983701703734988806",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1983701703734988807",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1983701703734988808",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1983701703734988809",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "1983701703734988810",
+        "multipleChoiceMoreThanOneAnswerSubmissionDetail": {
+          "answers": [
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        "problemId": "0"
+      }
+    ],
+    "judgeResponseContents": [
+      {
+        "status": "ACCEPTED",
+        "score": 4,
+        "problemSetProblemId": "1983701703734988806"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 4,
+        "problemSetProblemId": "1983701703734988807"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 4,
+        "problemSetProblemId": "1983701703734988808"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 4,
+        "problemSetProblemId": "1983701703734988809"
+      },
+      {
+        "status": "ACCEPTED",
+        "score": 4,
+        "problemSetProblemId": "1983701703734988810"
+      }
+    ],
+    "hints": {},
+    "problemSetId": "1983701703705628672",
+    "previewSubmission": false,
+    "cause": "",
+    "judgeAt": "2025-11-29T16:00:01Z"
+  }
+}
