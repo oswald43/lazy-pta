@@ -83,7 +83,7 @@ export async function ansSingleMd(
   queMdData: string[]
 ) {
   const ans = ansGetCleanData.map((a) => {
-    const status = statusMap[a.status];
+    const status = statusMap[a.status] ?? statusMap["UNKNOWN"];
     return `### Answer ${status}\n\n${a.answer}\n\n`;
   });
   const ansMdaData = ans.map((a, index) => `## ${index + 1}.\n\n${a}`);
@@ -96,7 +96,7 @@ export async function ansMultipleMd(
   queMdData: string[]
 ) {
   const ans = ansGetCleanData.map((a) => {
-    const status = statusMap[a.status];
+    const status = statusMap[a.status] ?? statusMap["UNKNOWN"];
     return `### Answer ${status}\n\n${a.answers.join("\n")}\n\n`;
   });
   const ansMdaData = ans.map((a, index) => `## ${index + 1}.\n\n${a}`);
@@ -109,7 +109,7 @@ export async function ansProgrammingMd(
   queMdData: string[]
 ) {
   const ans = ansGetCleanData.map((a) => {
-    const status = statusMap[a.status];
+    const status = statusMap[a.status] ?? statusMap["UNKNOWN"];
     const code = `\`\`\`${a.lang}\n${a.program}\n\`\`\``;
     return `### Answer ${status}\n\n${code}\n\n`;
   });
