@@ -14,7 +14,7 @@ C.
 D.
 不受限制
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -35,7 +35,7 @@ C.
 D.
 System.out.println();    可以输出一个空行
 
-### Answer undefined
+### Answer ❓
 
 B
 C
@@ -67,7 +67,7 @@ C.
 D.
 注释的作用是增加程序的可读性。
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -90,7 +90,7 @@ Java文档生成工具
 D.
 Java打包工具
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -125,7 +125,7 @@ D.
 **/
 ```
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -147,7 +147,7 @@ JVM 就是Java virtual machine，即：Java虚拟机，是由软代码组成的�
 D.
 Java是编译型语言
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -169,7 +169,7 @@ out.println("hello");
 D.
 DatagramSocket a = new DatagramSocket()；
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -190,7 +190,7 @@ String s[]=new String[]{"Zero","One","Two","Three","Four"};
 D.
 String s[]=new String(){"Zero","One","Two","Three","Four"};
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -214,7 +214,7 @@ String str4="abc"+"123";
 E.
 String str5=str1.toUpperCase();
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -252,7 +252,7 @@ String s = "home directory";
 String t = s - "directory";
 ```
 
-### Answer undefined
+### Answer ❓
 
 B
 D
@@ -273,7 +273,7 @@ C.
 D.
 引用型数据类型
 
-### Answer undefined
+### Answer ❓
 
 A
 D
@@ -294,7 +294,7 @@ char ch2="abc".charAt(0);
 D.
 String str1="a";
 
-### Answer undefined
+### Answer ❓
 
 C
 D
@@ -323,7 +323,7 @@ int a=3++;
 
 a的值是3。
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -344,7 +344,7 @@ long l=-2;
 D.
 double d=0.9239d;
 
-### Answer undefined
+### Answer ❓
 
 C
 D
@@ -371,7 +371,7 @@ float f2=100L;
 F.
 char ch=100;
 
-### Answer undefined
+### Answer ❓
 
 A
 D
@@ -392,7 +392,7 @@ switch-case语句用于等值判断
 D.
 if语句可用于等值判断，也可用于区间判断，有时要用结构比较复杂的嵌套
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -414,7 +414,7 @@ true
 D.
 false
 
-### Answer undefined
+### Answer ❓
 
 C
 D
@@ -459,7 +459,7 @@ else
 {  }	
 ```
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -488,7 +488,7 @@ testA2.a=100;
 D.
 以上都不对
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -510,7 +510,7 @@ C.
 D.
 当定义了带参数的构造方法，系统默认的不带参数的构造方法依然存在
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -531,7 +531,7 @@ C.
 D.
 局部变量在使用前必须被初始化
 
-### Answer undefined
+### Answer ❓
 
 C
 A
@@ -566,7 +566,7 @@ D.
 import cn.sdut.cs.*;
 ```
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -587,7 +587,7 @@ protected
 D.
 public
 
-### Answer undefined
+### Answer ❓
 
 C
 D
@@ -608,7 +608,7 @@ C.
 D.
 引用数据类型的数组，其数组元素默认值为null
 
-### Answer undefined
+### Answer ❓
 
 C
 B
@@ -649,7 +649,7 @@ while (it.hasNext())
 }
 ```
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -672,7 +672,7 @@ remove()
 D.
 nextElement()
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -712,7 +712,7 @@ while (it.hasNext())
 }
 ```
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -737,7 +737,7 @@ LinkedList
 E.
 LinkedHashMap
 
-### Answer undefined
+### Answer ❓
 
 C
 E
@@ -759,7 +759,7 @@ C.
 D.
 接口中的方法可以有方法体
 
-### Answer undefined
+### Answer ❓
 
 B
 C
@@ -780,7 +780,7 @@ final
 D.
 void
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -802,7 +802,7 @@ C.
 D.
 Scanner类位于java.util包中。
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -824,7 +824,7 @@ Float是一个类
 D.
 Float a= new Float(1.0); 是正确的赋值方法
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -855,7 +855,7 @@ ceil()
 G.
 floor()
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -881,7 +881,7 @@ C.
 D.
 从封装类类型到基本数据类型能自动转换，称为自动拆箱
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -903,7 +903,7 @@ C.
 D.
 自动装箱和自动拆箱是从jdk 1.0开始的。
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -925,7 +925,7 @@ String str3=Integer.toString(i);
 D.
 String str4=String.format("%d", i);
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -948,7 +948,7 @@ throw只能用于抛出一种异常，而throws可以抛出多个异常
 D.
 当调用抛出异常的方法时，需要进行捕获处理或者继续利用thows向上抛出。
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -971,7 +971,7 @@ Java程序利用try-catch或者try-catch-finally结构处理异常。
 D.
 Java程序利用throw和throws来处理异常。
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -993,7 +993,7 @@ C.
 D.
 catch语句块必须和try语句块配合使用，不能独立存在
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -1015,7 +1015,7 @@ finally语句块通常用于一些收尾性的工作，如数据库断开连接�
 D.
 finally语句块必须和try-catch结构一起配合来进行处理异常
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -1062,7 +1062,7 @@ C.
 D.
 程序将输出第15和18行的异常信息
 
-### Answer undefined
+### Answer ❓
 
 C
 D

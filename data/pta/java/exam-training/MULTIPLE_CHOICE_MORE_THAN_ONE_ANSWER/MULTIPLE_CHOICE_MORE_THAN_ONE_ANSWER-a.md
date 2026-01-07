@@ -1,13 +1,13 @@
 ## 1.
 
-### Answer undefined
+### Answer ❓
 
 A
 B
 
 ## 2.
 
-### Answer undefined
+### Answer ❓
 
 B
 C
@@ -15,7 +15,7 @@ D
 
 ## 3.
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -24,7 +24,7 @@ D
 
 ## 4.
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -33,7 +33,7 @@ D
 
 ## 5.
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -41,7 +41,7 @@ C
 
 ## 6.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -49,21 +49,21 @@ B
 
 ## 7.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
 
 ## 8.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
 
 ## 9.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -73,49 +73,49 @@ E
 
 ## 10.
 
-### Answer undefined
+### Answer ❓
 
 B
 D
 
 ## 11.
 
-### Answer undefined
+### Answer ❓
 
 A
 D
 
 ## 12.
 
-### Answer undefined
+### Answer ❓
 
 C
 D
 
 ## 13.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
 
 ## 14.
 
-### Answer undefined
+### Answer ❓
 
 C
 D
 
 ## 15.
 
-### Answer undefined
+### Answer ❓
 
 A
 D
 
 ## 16.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -123,14 +123,14 @@ D
 
 ## 17.
 
-### Answer undefined
+### Answer ❓
 
 C
 D
 
 ## 18.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -139,7 +139,7 @@ D
 
 ## 19.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -147,14 +147,14 @@ B
 
 ## 20.
 
-### Answer undefined
+### Answer ❓
 
 A
 B
 
 ## 21.
 
-### Answer undefined
+### Answer ❓
 
 C
 A
@@ -162,21 +162,21 @@ D
 
 ## 22.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
 
 ## 23.
 
-### Answer undefined
+### Answer ❓
 
 C
 D
 
 ## 24.
 
-### Answer undefined
+### Answer ❓
 
 C
 B
@@ -184,7 +184,7 @@ D
 
 ## 25.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -193,7 +193,7 @@ D
 
 ## 26.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -201,7 +201,7 @@ B
 
 ## 27.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -209,7 +209,7 @@ D
 
 ## 28.
 
-### Answer undefined
+### Answer ❓
 
 C
 E
@@ -217,14 +217,14 @@ D
 
 ## 29.
 
-### Answer undefined
+### Answer ❓
 
 B
 C
 
 ## 30.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -232,7 +232,7 @@ B
 
 ## 31.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -240,7 +240,7 @@ D
 
 ## 32.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -248,7 +248,7 @@ D
 
 ## 33.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -260,7 +260,7 @@ G
 
 ## 34.
 
-### Answer undefined
+### Answer ❓
 
 A
 B
@@ -268,7 +268,7 @@ D
 
 ## 35.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -276,7 +276,7 @@ B
 
 ## 36.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -285,7 +285,7 @@ D
 
 ## 37.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -294,7 +294,7 @@ B
 
 ## 38.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -302,7 +302,7 @@ B
 
 ## 39.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -310,7 +310,7 @@ D
 
 ## 40.
 
-### Answer undefined
+### Answer ❓
 
 A
 C
@@ -319,7 +319,7 @@ D
 
 ## 41.
 
-### Answer undefined
+### Answer ❓
 
 C
 D

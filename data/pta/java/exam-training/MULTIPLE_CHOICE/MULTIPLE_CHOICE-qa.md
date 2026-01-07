@@ -14,7 +14,7 @@ Eclipse
 D.
 javac.exe
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -34,7 +34,7 @@ Java源代码编译后产生的.class是字节码文件
 D.
 .class文件在JVM上运行
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -54,7 +54,7 @@ Name123
 D.
 100Book
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -74,7 +74,7 @@ Java源文件的文件名必须与public类名完全相同
 D.
 Java应用程序由若干个类所构成，这些类可以在一个源文件中，也可以分布在若干个源文件中，其中每个源文件必须含有主类。
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -94,7 +94,7 @@ $change
 D.
 Class
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -114,7 +114,7 @@ exe
 D.
 html
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -134,7 +134,7 @@ exe
 D.
 html
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -154,7 +154,7 @@ C.
 D.
 .exe可执行代码
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -174,7 +174,7 @@ jad.exe和java.exe
 D.
 javac.exe和java.exe
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -194,7 +194,7 @@ public static void main(String args[ ]){ }
 D.
 public static void main(String message[ ]){ }
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -214,7 +214,7 @@ C.
 D.
 不受限制
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -234,7 +234,7 @@ C.
 D.
 一个java源程序可以编译成多个class文件。
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -267,7 +267,7 @@ C.
 D.
 不确定
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -300,7 +300,7 @@ C.
 D.
 后缀是.java，文件名可以任意取，符合标识符规范即可。
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -320,7 +320,7 @@ main  公共类
 D.
 Main  公共类
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -340,7 +340,7 @@ C.
 D.
 .class
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -360,7 +360,7 @@ C.
 D.
 以上都不对
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -380,7 +380,7 @@ JDK本身也是平台无关的，不同的操作系统安装的JDK是一样的
 D.
 JDK的全称是 Java Development Kit
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -400,7 +400,7 @@ C.
 D.
 新建系统环境变量path，其值为：分号“;”，然后再连上JDK安装路径下的lib目录
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -420,7 +420,7 @@ private static void main(String args[ ])
 D.
 void main()
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -440,7 +440,7 @@ C.
 D.
 /**/
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -460,7 +460,7 @@ C.
 D.
 $number
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -480,7 +480,7 @@ void
 D.
 main
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -500,7 +500,7 @@ MyClass必须定义在MyClass包中
 D.
 MyClass类必须被导入
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -520,7 +520,7 @@ Main
 D.
 class
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -540,7 +540,7 @@ C.
 D.
 .exe
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -560,7 +560,7 @@ String args[]
 D.
 String args
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -580,7 +580,7 @@ C.
 D.
 过程调用
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -616,7 +616,7 @@ Changed and Hello
 D.
 Changed and Cello
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -640,7 +640,7 @@ C.
 D.
 12
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -664,7 +664,7 @@ C.
 D.
 3
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -689,7 +689,7 @@ AB
 D.
 BC
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -732,7 +732,7 @@ SDUT@SDUT.EDU.CN
 false
 ```
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -757,7 +757,7 @@ C.
 D.
 -1
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -782,7 +782,7 @@ C.
 D.
 1
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -808,7 +808,7 @@ ABCD123
 D.
 `ABCD123`
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -847,7 +847,7 @@ true
 false
 ```
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -867,7 +867,7 @@ C.
 D.
 字符序列   字符序列
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -891,7 +891,7 @@ C.
 D.
 4
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -918,7 +918,7 @@ C.
 D.
 `s1 == s2` is false, `s1 == s3` is true
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -950,7 +950,7 @@ str1==str3
 F.
 str1.equals(str4)
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -970,7 +970,7 @@ toBytes()
 D.
 toChars()
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -990,7 +990,7 @@ getChars()
 D.
 getBytes()
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1015,7 +1015,7 @@ cdeabc
 D.
 edccba
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1035,7 +1035,7 @@ String str=1234;
 D.
 String str='good';
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1060,7 +1060,7 @@ false false
 D.
 false true
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1090,7 +1090,7 @@ Hello World!
 D.
 无输出
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1114,7 +1114,7 @@ C.
 D.
 1
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1141,7 +1141,7 @@ s1 == s2 is false, s1 == s3 is false
 D.
 s1 == s2 is false, s1 == s3 is true
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1175,7 +1175,7 @@ AB.AB
 D.
 AB.B
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1209,7 +1209,7 @@ and HTML
 D.
 什么都不显示
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1239,7 +1239,7 @@ C.
 D.
 行4、行7都不执行
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1266,7 +1266,7 @@ false false
 D.
 false true
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1291,7 +1291,7 @@ C.
 D.
 `sdu, t@sdu, t.edu, .cn`
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1315,7 +1315,7 @@ C.
 D.
 替换为错误项
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1340,7 +1340,7 @@ lucky1102
 D.
 lucky112
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1365,7 +1365,7 @@ C.
 D.
 112lucky
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1410,7 +1410,7 @@ D.
 123
 ```
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1430,7 +1430,7 @@ C.
 D.
 $0
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1452,7 +1452,7 @@ C.
 D.
 2,3,3
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1474,7 +1474,7 @@ C.
 D.
 2
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1494,7 +1494,7 @@ boolean
 D.
 String
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1524,7 +1524,7 @@ D
 D.
 a
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1550,7 +1550,7 @@ C.
 D.
 123+4+5
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1570,7 +1570,7 @@ byte
 D.
 double
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1590,7 +1590,7 @@ C.
 D.
 11.25
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1610,7 +1610,7 @@ C.
 D.
 11111111 11111111 11111111 11111111 11111111 11111111 11111111 11111111
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1630,7 +1630,7 @@ byte-short- int(char)-long-float-double
 D.
 byte(char)-short- int-long-float-double
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1650,7 +1650,7 @@ C.
 D.
 e-mail
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1670,7 +1670,7 @@ C.
 D.
 $
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1690,7 +1690,7 @@ byte  b=257;
 D.
 int  i=10;
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1710,7 +1710,7 @@ toString()
 D.
 ==
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1730,7 +1730,7 @@ System.out.println("我是一个Java程序员了！");
 D.
 System.Out.Println("我是一个Java程序员了！");
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1750,7 +1750,7 @@ C.
 D.
 发布
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1770,7 +1770,7 @@ C.
 D.
 变量的作用域不受代码块的限制。
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1790,7 +1790,7 @@ class
 D.
 login_1
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1810,7 +1810,7 @@ Final
 D.
 try
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1830,7 +1830,7 @@ true
 D.
 null
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -1850,7 +1850,7 @@ int c='a';
 D.
 long d=8888888888888888;
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -1870,7 +1870,7 @@ float f = '1';
 D.
 float f = "1";
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1890,7 +1890,7 @@ C.
 D.
 3
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1910,7 +1910,7 @@ C.
 D.
 <=
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1939,7 +1939,7 @@ C.
 D.
 1.0,1.0
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -1959,7 +1959,7 @@ C.
 D.
 3
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -1986,7 +1986,7 @@ c=true; result=false;
 D.
 c=false; result=true;
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2006,7 +2006,7 @@ int len = s.length;
 D.
 String t = s.toLowerCase();
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2026,7 +2026,7 @@ C.
 D.
 "apple"
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2060,7 +2060,7 @@ C.
 D.
 10
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2096,7 +2096,7 @@ C.
 D.
 以上答案都不正确
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2125,7 +2125,7 @@ C.
 D.
 54
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2167,7 +2167,7 @@ do{
 }while  (j<10);
 </pre>
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2199,7 +2199,7 @@ C.
 D.
 0 3 6 9
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -2225,7 +2225,7 @@ C.
 D.
 1
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -2257,7 +2257,7 @@ C.
 D.
 2
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2288,7 +2288,7 @@ The end
 D.
 The value of i is 0
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2323,7 +2323,7 @@ C.
 D.
 21
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2343,7 +2343,7 @@ C.
 D.
 类是引用型数据类型。
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2377,7 +2377,7 @@ C.
 D.
 编译通过，运行时输出“I am a char"
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2397,7 +2397,7 @@ C.
 D.
 一个类的构造方法可以定义多个，多个构造方法的参数有明显区别。
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2417,7 +2417,7 @@ C.
 D.
 构造方法可以和类同名，也可以和类名不同
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2464,7 +2464,7 @@ x=8
 x=8
 ```
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2484,7 +2484,7 @@ protected < 默认 < private < public
 D.
 protected < private< 默认  < public
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2504,7 +2504,7 @@ C.
 D.
 private
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2524,7 +2524,7 @@ abstract方法必须在abstract类中
 D.
 static方法中能访问非static的属性
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2544,7 +2544,7 @@ static
 D.
 public
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2579,7 +2579,7 @@ C处
 D.
 D处
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2599,7 +2599,7 @@ x[25]为0
 D.
 x[0]没有数值存在
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2637,7 +2637,7 @@ C.
 D.
 4
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -2657,7 +2657,7 @@ C.
 D.
 4
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2681,7 +2681,7 @@ C.
 D.
 null
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2705,7 +2705,7 @@ C.
 D.
 null
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -2728,7 +2728,7 @@ int i=1;
 a[i]=0;
 ```
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2749,7 +2749,7 @@ arr.length
 D.
 arr.size
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2769,7 +2769,7 @@ x[0]为空
 D.
 x[24]未定义
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -2802,7 +2802,7 @@ C.
 D.
 4
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -2822,7 +2822,7 @@ ArrayList myList=new List()；
 D.
 List myList=new List();
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -2867,7 +2867,7 @@ false
 D.
 出现语法编译错误，程序不能执行
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -2931,7 +2931,7 @@ D.
 100 300 400
 ```
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3003,7 +3003,7 @@ D.
 300
 ```
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3039,7 +3039,7 @@ eat something
 D.
 运行错误
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3076,7 +3076,7 @@ eat something
 D.
 运行时错误
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3096,7 +3096,7 @@ C.
 D.
 通过super可以调用父类的构造函数
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -3116,7 +3116,7 @@ C.
 D.
 在Java中，接口也具有单继承性
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -3136,7 +3136,7 @@ C.
 D.
 接口不允许多继承
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3156,7 +3156,7 @@ abstract 可以修饰变量
 D.
 abstract修饰的类，其子类也可以是abstract修饰的
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3176,7 +3176,7 @@ C.
 D.
 子类可以通过super关键字调用父类的属性
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -3202,7 +3202,7 @@ Director d= new Employee();
 D.
 Manager m=new Director();
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -3222,7 +3222,7 @@ extends
 D.
 modifies
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3282,7 +3282,7 @@ D.
 20 12
 ```
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3302,7 +3302,7 @@ C.
 D.
 抽象类中可以没有抽象方法
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3322,7 +3322,7 @@ C.
 D.
 接口中所有的方法都是public abstract修订的
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3342,7 +3342,7 @@ C.
 D.
 抽象类在实现接口时，必须实现该接口中声明的所有方法
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3376,7 +3376,7 @@ C.
 D.
 运行出错
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3396,7 +3396,7 @@ super（）和this（）不一定要放在构造方法内第一行
 D.
 this（）和super（）可以在static环境中使用，包括static方法和static语句块
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -3416,7 +3416,7 @@ C.
 D.
 抽象类可以通过new关键字直接实例化
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3436,7 +3436,7 @@ HashMap
 D.
 LinkedList
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3456,7 +3456,7 @@ C.
 D.
 对抛出的异常的处理应放在try块中
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3476,7 +3476,7 @@ Error
 D.
 Throwable
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3512,7 +3512,7 @@ C.
 D.
 替换为错误项
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -3541,7 +3541,7 @@ public void MyMethod() throw TimeOutException
 D.
 public throws TimedOutException void MyMethod()
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -3575,7 +3575,7 @@ Test 2
 D.
 Test 1
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -3609,7 +3609,7 @@ condition3
 D.
 condition4
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -3643,7 +3643,7 @@ C.
 D.
 情况3finally
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3663,7 +3663,7 @@ C.
 D.
 可以置之不理
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -3683,7 +3683,7 @@ C.
 D.
 异常是可以捕获和处理的
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3703,7 +3703,7 @@ C.
 D.
 以上说法都不对
 
-### Answer undefined
+### Answer ❓
 
 A
 
@@ -3723,7 +3723,7 @@ throw和throws
 D.
 finally
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3743,7 +3743,7 @@ try、finally、exception
 D.
 exception、try、finally
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -3763,7 +3763,7 @@ C.
 D.
 先后顺序无所谓
 
-### Answer undefined
+### Answer ❓
 
 B
 
@@ -3783,7 +3783,7 @@ finally子句
 D.
 throw子句
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3803,7 +3803,7 @@ finally块可以省略
 D.
 catch块和finally块可以同时省略
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3823,7 +3823,7 @@ C.
 D.
 程序中已经提供了丰富的异常类，使用自定义异常没有意义
 
-### Answer undefined
+### Answer ❓
 
 C
 
@@ -3843,7 +3843,7 @@ BorderLayout
 D.
 BagLayout
 
-### Answer undefined
+### Answer ❓
 
 D
 
@@ -3863,7 +3863,7 @@ Button b=new b( );
 D.
 b.setLabel(“确定”);
 
-### Answer undefined
+### Answer ❓
 
 A
 

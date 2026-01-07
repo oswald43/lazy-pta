@@ -1,924 +1,924 @@
 ## 1.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 2.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 3.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 4.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 5.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 6.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 7.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 8.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 9.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 10.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 11.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 12.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 13.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 14.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 15.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 16.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 17.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 18.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 19.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 20.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 21.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 22.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 23.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 24.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 25.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 26.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 27.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 28.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 29.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 30.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 31.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 32.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 33.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 34.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 35.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 36.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 37.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 38.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 39.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 40.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 41.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 42.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 43.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 44.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 45.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 46.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 47.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 48.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 49.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 50.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 51.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 52.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 53.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 54.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 55.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 56.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 57.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 58.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 59.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 60.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 61.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 62.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 63.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 64.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 65.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 66.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 67.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 68.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 69.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 70.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 71.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 72.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 73.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 74.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 75.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 76.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 77.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 78.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 79.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 80.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 81.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 82.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 83.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 84.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 85.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 86.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 87.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 88.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 89.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 90.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 91.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 92.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 93.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 94.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 95.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 96.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 97.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 98.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 99.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 100.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 101.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 102.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 103.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 104.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 105.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 106.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 107.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 108.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 109.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 110.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 111.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 112.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 113.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 114.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 115.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 116.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 117.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 118.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 119.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 120.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 121.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 122.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 123.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 124.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 125.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 126.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 127.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 128.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 129.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 130.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 131.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 132.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 133.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 134.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 135.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 136.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 137.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 138.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 139.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 140.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 141.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 142.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 143.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 144.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 145.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 146.
 
-### Answer undefined
+### Answer ❓
 
 A
 
 ## 147.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 148.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 149.
 
-### Answer undefined
+### Answer ❓
 
 B
 
 ## 150.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 151.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 152.
 
-### Answer undefined
+### Answer ❓
 
 C
 
 ## 153.
 
-### Answer undefined
+### Answer ❓
 
 D
 
 ## 154.
 
-### Answer undefined
+### Answer ❓
 
 A
 
