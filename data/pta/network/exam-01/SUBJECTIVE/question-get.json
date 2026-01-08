@@ -1,0 +1,78 @@
+[
+  {
+    "problemSetProblem": {
+      "id": "1982960530183553035",
+      "label": "",
+      "score": 20,
+      "problemConfig": {
+        "subjectiveProblemConfig": {
+          "allowFileUpload": false
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "综合应用题",
+      "content": "**DNS服务器的配置与管理**\n\n（1）安装DNS服务器，设置正向查找区域名为自己的姓名拼音如：（zxdDNS.com）与反向查找区域，反响查找区域的地址为192.168.1。\n\n（2）域名解析测试，测试客服端为XP计算机，XP计算机IP地址为192.168.1.（自己学号后两位），请用name server lookup命令进程解析测试。\n\n（3）为本地DNS的添加转发器（福建DNS：*218\\.85*.*157\\.99*），让内部的DNS能够解析外部的域名，从测试客户端XP进行解析测试网址：www.163.com。测试结果如图：<br>![image.png](~/df2e5c2c-aea9-4d96-88bc-fe8de016e025.png \"image.png\")\n\n得分说明：\n\n   1）正反向查找区域创建成功。（1分 截配置一幅图）\n\n   2）XP客户端解析成功。（3分 截域名测试一幅图）。\n\n   3）正确配置外部转发器（3分 转发器配置截一图），XP计算机成功解析163域名（3分 测试结果靠近右下角包含时间戳 截一图）",
+      "type": "SUBJECTIVE",
+      "author": "ZXD",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1982960530166775808",
+      "problemId": "1668101930931314688",
+      "description": "**DNS服务器的配置与管理**\n\n（1）安装DNS服务器，设置正向查找区域名为自己的姓名拼音如：（zxdDNS.com）与反向查找区域，反响查找区域的地址为192.168.1。\n\n（2）域名解析测试，测试客服端为XP计算机，XP计算机IP地址为192.168.1.（自己学号后两位），请用name server lookup命令进程解析测试。\n\n（3）为本地DNS的添加转发器（DNS：*8\\.8.8.8*），让内部的DNS能够解析外部的域名，从测试客户端XP进行解析测试网址：www.163.com。测试结果如图：<br>![image.png](~/df2e5c2c-aea9-4d96-88bc-fe8de016e025.png \"image.png\")\n\n得分说明：\n\n   1）正反向查找区域创建成功。（1分 截配置一幅图）\n\n   2）XP客户端解析成功。（3分 截域名测试一幅图）。\n\n   3）正确配置外部转发器（3分 转发器配置截一图），XP计算机成功解析163域名（3分 测试结果靠近右下角包含时间戳 截一图）",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    "organization": {
+      "id": "4",
+      "name": "Google",
+      "code": "gg",
+      "type": "COMPANY",
+      "logo": ""
+    },
+    "examLabel": "2-1"
+  },
+  {
+    "problemSetProblem": {
+      "id": "1982960530183553036",
+      "label": "",
+      "score": 20,
+      "problemConfig": {
+        "subjectiveProblemConfig": {
+          "allowFileUpload": false
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "综合应用题",
+      "content": "**IIS服务器的配置与管理**\n\n1）安装IIS服务器，并添加站点，该服务器的IP地址为192.168.1.（你学号后两位）。（2分）\n\n2）配置网站，并设置该站点不允许匿名访问，仅允许使用（自己姓名拼音首字母）的本地用户登录连接。（2分）\n\n3）配置网站，限制拒绝192.168.1.100IP地址访问（配置位置截图1）。（3分）\n\n4）客户端使用192.168.1.100IP地址测试进行访问（访问界面截图1）。(3分)",
+      "type": "SUBJECTIVE",
+      "author": "ZXD",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1982960530166775808",
+      "problemId": "1668119695700381696",
+      "description": "**IIS服务器的配置与管理**\n\n1）安装IIS服务器，并添加站点，该服务器的IP地址为192.168.1.（你学号后两位）。（2分）\n\n2）配置网站，并设置该站点不允许匿名访问，仅允许使用（自己姓名拼音首字母）的本地用户登录连接。（2分）\n\n3）配置网站，限制拒绝192.168.1.100IP地址访问（配置位置截图1）。（3分）\n\n4）客户端使用192.168.1.100IP地址测试进行访问（访问界面截图1）。(3分)",
+      "problemPoolIndex": 2,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    "organization": {
+      "id": "4",
+      "name": "Google",
+      "code": "gg",
+      "type": "COMPANY",
+      "logo": ""
+    },
+    "examLabel": "2-2"
+  }
+]

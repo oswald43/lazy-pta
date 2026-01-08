@@ -1,0 +1,40 @@
+[
+  {
+    "problemSetProblem": {
+      "id": "1998182865096241243",
+      "label": "",
+      "score": 50,
+      "problemConfig": {
+        "subjectiveProblemConfig": {
+          "allowFileUpload": false
+        },
+        "solutionVisible": false,
+        "answerVisible": false
+      },
+      "deadline": "1970-01-01T00:00:00Z",
+      "title": "综合应用题",
+      "content": "**路由器设置**\n\n1）为08服务器设置两张：内网网卡 VMNET1 ： IP地址分别为192.168.1.1/24     外网网卡 VMNET8 ： 自动获取IP地址。\n\n2）08服务器安装并配置启用 NAT 路由。\n\n3）XP客户端采用内网网卡 VMNET1，配置XP IP地址为192.168.1.（自己学号后两位）、 网关、DNS，并 PING WWW.163.COM。\n\n得分说明：\n\n   1、为08服务器正确配置双网卡并能够正常访问内外部网络（截图1-2图）2分。\n\n   2、08服务器正确配置并启用NAT路由（截图1）2分。\n\n   3、XP客服端正确配置IP地址与网关，DNS地址必须用218.85.157.99（3分），在XP的DOS界面下输入route print   然后在ping  www.163.com（截图1）3分。",
+      "type": "SUBJECTIVE",
+      "author": "ZXD",
+      "difficulty": 0,
+      "compiler": "NO_COMPILER",
+      "problemStatus": "PRIVATE",
+      "lastSubmissionId": "0",
+      "solution": "",
+      "problemSetId": "1998182864991383552",
+      "problemId": "1668119077086679040",
+      "description": "**路由器设置**\n\n1）为08服务器设置两张：内网网卡 VMNET1 ： IP地址分别为192.168.1.1/24     外网网卡 VMNET8 ： 自动获取IP地址。\n\n2）08服务器安装并配置启用 NAT 路由。\n\n3）XP客户端采用内网网卡 VMNET1，配置XP IP地址为192.168.1.（自己学号后两位）、 网关、DNS，并 PING WWW.163.COM。\n\n得分说明：\n\n   1、为08服务器正确配置双网卡并能够正常访问内外部网络（截图1-2图）2分。\n\n   2、08服务器正确配置并启用NAT路由（截图1）2分。\n\n   3、XP客服端正确配置IP地址与网关，DNS地址必须用8.8.8.8（3分），在XP的DOS界面下输入route print   然后在ping  www.163.com（截图1）3分。",
+      "problemPoolIndex": 1,
+      "indexInProblemPool": 1,
+      "authorOrganizationId": "4"
+    },
+    "organization": {
+      "id": "4",
+      "name": "Google",
+      "code": "gg",
+      "type": "COMPANY",
+      "logo": ""
+    },
+    "examLabel": "R2-1"
+  }
+]
