@@ -1,0 +1,92 @@
+{
+  "submission": {
+    "id": "2009184466333200384",
+    "userId": "1970285532932608000",
+    "problemType": "TRUE_OR_FALSE",
+    "problemSetProblemId": "0",
+    "submitAt": "2026-01-08T08:44:40Z",
+    "status": "WAITING",
+    "score": 0,
+    "compiler": "NO_COMPILER",
+    "time": 0,
+    "memory": 0,
+    "submissionDetails": [
+      {
+        "problemSetProblemId": "2005568343123853333",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853316",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343119659008",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853326",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853313",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853334",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853318",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853335",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853315",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "TRUE"
+        },
+        "problemId": "0"
+      },
+      {
+        "problemSetProblemId": "2005568343123853322",
+        "trueOrFalseSubmissionDetail": {
+          "answer": "FALSE"
+        },
+        "problemId": "0"
+      }
+    ],
+    "judgeResponseContents": [],
+    "hints": {},
+    "problemSetId": "2005568342876389376",
+    "previewSubmission": false,
+    "cause": "",
+    "judgeAt": "1970-01-01T00:00:00Z"
+  }
+}
