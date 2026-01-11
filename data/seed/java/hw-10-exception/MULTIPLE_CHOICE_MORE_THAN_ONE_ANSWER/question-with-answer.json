@@ -1,0 +1,71 @@
+[
+  {
+    "description": "在程序中利用throw或throws抛出异常，下列说法正确的是：（    ）。",
+    "choices": [
+      "throw代表动作，表示抛出一个异常的动作；throws代表一种状态，代表方法可能有异常抛出",
+      "throw用在方法实现中，而throws用在方法声明中",
+      "throw只能用于抛出一种异常，而throws可以抛出多个异常",
+      "当调用抛出异常的方法时，需要进行捕获处理或者继续利用thows向上抛出。"
+    ],
+    "answers": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  {
+    "description": "这是一个多选题的样例。答案为AC，分值为2分。",
+    "choices": [
+      "异常是程序中出现的不正常情况，而不是指Java虚拟机本身比较严重的错误。",
+      "程序中出现异常不进行处理，则程序中断执行。",
+      "Java程序利用try-catch或者try-catch-finally结构处理异常。",
+      "Java程序利用throw和throws来处理异常。"
+    ],
+    "answers": [
+      "A",
+      "C"
+    ]
+  },
+  {
+    "description": "关于Java异常的处理的catch语句块，哪些说法是正确的？（     ）",
+    "choices": [
+      "catch语句块可以有一个，也可以有多个",
+      "多个catch语句块所捕获的异常类型如果有父子类关系，则父类在前，子类在后",
+      "多个catch语句块可能有0个或1个执行到",
+      "catch语句块必须和try语句块配合使用，不能独立存在"
+    ],
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "description": "关于Java异常的处理的finally语句块，哪些说法是正确的？（     ）",
+    "choices": [
+      "finally语句块可有可无。",
+      "如果finally语句块存在，它一定会执行。",
+      "finally语句块通常用于一些收尾性的工作，如数据库断开连接、关闭系统资源等等。",
+      "finally语句块必须和try-catch结构一起配合来进行处理异常"
+    ],
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  {
+    "description": "利用命令：`java MultiCatch`  执行下面的程序，说法**错误**的是 (      )。\n\n```\npublic class MultiCatch\n\t{\n\t      public static void main(String args[])\n\t     {\n\t           try\n\t           {\n\t               int a=args.length;\n\t               int b=42/a;\n\t               int c[]={1};\n\t               c[42]=99;     //第10行\n\t               System.out.println(“b=”+b);\n\t            }\n\t           catch(ArithmeticException e)\n\t           {\n\t                 System.out.println(“除0异常：”+e);       //第15行\n\t           }\n\t           catch(ArrayIndexOutOfBoundsException e) {\n\t                System.out.println(“数组超越边界异常：”+e);     //第18行\n\t           }\n\t     }\n\t}\n```",
+    "choices": [
+      "程序将输出第15行的异常信息",
+      "程序第10行出错",
+      "程序将输出b=42",
+      "程序将输出第15和18行的异常信息"
+    ],
+    "answers": [
+      "B",
+      "C",
+      "D"
+    ]
+  }
+]
